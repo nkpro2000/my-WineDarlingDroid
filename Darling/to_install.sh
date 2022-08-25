@@ -43,6 +43,7 @@ cmake .. -DCMAKE_INSTALL_PREFIX=/mnt/Extended/LinuxExtRoot/tusr/darling
 cat <<EOF > ~/init.sh
 export HOME="/mnt/Extended/LinuxExtRoot/thome/\${USER}_darling"
 export PATH="/mnt/Extended/LinuxExtRoot/tusr/darling/bin:\${PATH}"
+export DPREFIX="/mnt/Extended/LinuxExtRoot/thome/${USER}_darling/.darling"
 echo now : HOME="\$HOME"
 echo now : PATH="\$PATH"
 echo Envs: DPREFIX="\$DPREFIX"

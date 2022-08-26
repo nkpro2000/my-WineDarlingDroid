@@ -1,0 +1,44 @@
+Script started on 2022-08-24 13:10:42+05:30 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="167" LINES="38"]
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling[?2004h[01;32m[nkpro@len0Gv[01;37m nkpro_darling[01;32m]$[00m darling shellsource init.sh 
+[?2004lnow : HOME=/mnt/Extended/LinuxExtRoot/thome/nkpro_darling
+now : PATH=/mnt/Extended/LinuxExtRoot/tusr/nkpro_darling/bin:/home/nkpro/nk/Dev/VSCode-linux-x64/bin:/home/nkpro/nk/Dev/bin/flutter:/home/nkpro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+Envs: DPREFIX=/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling
+'$ darling shell' to start darling
+]0;nkpro@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m source init.sh [2Pdarling shell
+[?2004l
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hDarling [/Volumes/SystemRoot/mnt/Extended/LinuxExtRoot/thome/nkpro_darling]$ cd
+Darling [~]$ xcode-select -p
+/Applications/Xcode.app/Contents/Developer/
+Darling [~]$ softwareupdate -l
+Software Update Tool
+
+Finding available software
+No new software available.
+Darling [~]$ softwareupdate -l
+Software Update Tool
+
+Finding available software
+No new software available.
+Darling [~]$ softwareupdate -l
+Software Update Tool
+
+Finding available software
+No new software available.
+Darling [~]$ softwareupdate -l
+Software Update Tool
+
+Finding available software
+No new software available.
+Darling [~]$ softwareupdate -l
+Software Update Tool
+
+Finding available software
+No new software available.
+Darling [~]$ logout
+]0;nkpro@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m [?2004l
+exit
+
+Script done on 2022-08-24 13:12:08+05:30 [COMMAND_EXIT_CODE="0"]

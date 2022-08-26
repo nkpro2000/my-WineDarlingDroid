@@ -1,0 +1,89 @@
+Script started on 2022-08-23 21:30:22+05:30 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="167" LINES="38"]
+]0;nkpro@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m sudo mount /dev/sda7 /mnt/Extended/[K
+[?2004l[sudo] password for nkpro: 
+]0;nkpro@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m cd /mnt/Extended/th[K[KLinuxExtRoot/thome/nkpro_darling/
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling[?2004h[01;32m[nkpro@len0Gv[01;37m nkpro_darling[01;32m]$[00m source init.sh 
+[?2004lnow : HOME=/mnt/Extended/LinuxExtRoot/thome/nkpro_darling
+now : PATH=/mnt/Extended/LinuxExtRoot/tusr/nkpro_darling/bin:/home/nkpro/nk/Dev/VSCode-linux-x64/bin:/home/nkpro/nk/Dev/bin/flutter:/home/nkpro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+Envs: DPREFIX=/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling
+$ darling shell to start darling
+]0;nkpro@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m sudo rm -rf .darling
+[?2004l]0;nkpro@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m sudo rm -rf .darling.workdir/
+[?2004l]0;nkpro@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m ls -a
+[?2004l[0m[01;34m.[0m  [30;42m..[0m  .bash_history  [01;34m.cache[0m  [01;34m.config[0m  [01;34mdarling_src_repo[0m  init.sh  [01;34m.local[0m  old_darling.conf  [01;34m.terminallog[0m
+]0;nkpro@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m which darling
+[?2004l/mnt/Extended/LinuxExtRoot/tusr/nkpro_darling/bin/darling
+]0;nkpro@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m darling shell
+[?2004lSetting up a new Darling prefix at /mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling
+Bootstrapping the container with launchd...
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hDarling [/Volumes/SystemRoot/mnt/Extended/LinuxExtRoot/thome/nkpro_darling]$ cd
+Darling [~]$ l  s -l
+total 72
+lrwxrwxrwx   1 nkpro  nkpro    73 Aug 23 21:32 [35mDesktop[39;49m[0m -> /Volumes/SystemRoot/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/Desktop
+lrwxrwxrwx   1 nkpro  nkpro    65 Aug 23 21:32 [35mDocuments[39;49m[0m -> /Volumes/SystemRoot/mnt/Extended/LinuxExtRoot/thome/nkpro_darling
+lrwxrwxrwx   1 nkpro  nkpro    65 Aug 23 21:32 [35mDownloads[39;49m[0m -> /Volumes/SystemRoot/mnt/Extended/LinuxExtRoot/thome/nkpro_darling
+drwxr-xr-x  23 nkpro  nkpro  4096 Aug 23 21:32 [34mLibrary[39;49m[0m
+lrwxrwxrwx   1 nkpro  nkpro    65 Aug 23 21:32 [35mLinuxHome[39;49m[0m -> /Volumes/SystemRoot/mnt/Extended/LinuxExtRoot/thome/nkpro_darling
+lrwxrwxrwx   1 nkpro  nkpro    65 Aug 23 21:32 [35mMovies[39;49m[0m -> /Volumes/SystemRoot/mnt/Extended/LinuxExtRoot/thome/nkpro_darling
+lrwxrwxrwx   1 nkpro  nkpro    65 Aug 23 21:32 [35mMusic[39;49m[0m -> /Volumes/SystemRoot/mnt/Extended/LinuxExtRoot/thome/nkpro_darling
+lrwxrwxrwx   1 nkpro  nkpro    65 Aug 23 21:32 [35mPictures[39;49m[0m -> /Volumes/SystemRoot/mnt/Extended/LinuxExtRoot/thome/nkpro_darling
+lrwxrwxrwx   1 nkpro  nkpro    65 Aug 23 21:32 [35mPublic[39;49m[0m -> /Volumes/SystemRoot/mnt/Extended/LinuxExtRoot/thome/nkpro_darling
+Darling [~]$ uname
+Darwin
+Darling [~]$ echo Hello DArling      arling
+Hello Darling
+Darling [~]$ sw_vers 
+ProductName:    Mac OS X
+ProductVersion: 10.15
+BuildVersion:   Darling
+Darling [~]$ curl -s https://raw.githubusercontent.com/dylanaraps/neofetch/master/neofetch > neofetch.sh
+Darling [~]$ chmod +x ./neofetch.sh 
+Darling [~]$ ./neofetch.sh 
+[?25l[?7l[0m[32m[1m                    c.'
+                 ,xNMM.
+               .OMMMMo
+               lMM"
+     .;loddo:.  .olloddol;.
+   cKMMMMMMMMMMNWMMMMMMMMMM0:
+[0m[33m[1m .KMMMMMMMMMMMMMMMMMMMMMMMWd.
+ XMMMMMMMMMMMMMMMMMMMMMMMX.
+[0m[31m[1m;MMMMMMMMMMMMMMMMMMMMMMMM:
+:MMMMMMMMMMMMMMMMMMMMMMMM:
+[0m[31m[1m.MMMMMMMMMMMMMMMMMMMMMMMMX.
+ kMMMMMMMMMMMMMMMMMMMMMMMMWd.
+ [0m[35m[1m'XMMMMMMMMMMMMMMMMMMMMMMMMMMk
+  'XMMMMMMMMMMMMMMMMMMMMMMMMK.
+    [0m[34m[1mkMMMMMMMMMMMMMMMMMMMMMMd
+     ;KMMMMMMMWXXWMMMMMMMk.
+       "cooc*"    "*coo'"[0m
+[17A[9999999D[33C[0m[1m[32m[1mnkpro[0m@[32m[1mlen0Gv[0m 
+[33C[0m------------[0m 
+[33C[0m[33m[1mOS[0m[0m:[0m macOS Catalina 10.15 Darling x86_64[0m 
+[33C[0m[33m[1mKernel[0m[0m:[0m 19.6.0[0m 
+[33C[0m[33m[1mUptime[0m[0m:[0m 16 mins[0m 
+[33C[0m[33m[1mShell[0m[0m:[0m bash 3.2.57[0m 
+[33C[0m[33m[1mDE[0m[0m:[0m Aqua (Wayland)[0m 
+[33C[0m[33m[1mWM[0m[0m:[0m Quartz Compositor[0m 
+[33C[0m[33m[1mWM Theme[0m[0m:[0m Blue (Print: Entry, AppleInterfaceStyle, Does Not Exist)[0m 
+[33C[0m[33m[1mTerminal[0m[0m:[0m shellspawn[0m 
+[33C[0m[33m[1mMemory[0m[0m:[0m 1682MiB / 3770MiB[0m 
+
+[33C[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   [36m[46m   [37m[47m   [m
+[33C[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   [38;5;13m[48;5;13m   [38;5;14m[48;5;14m   [38;5;15m[48;5;15m   [m
+
+
+
+
+[?25h[?7hDarling [~]$ # successfully tested  
+Darling [~]$ # with all files and l      , libs, bins, etc,.  in Extended partitionDarling [~]$ #[1@#
+Darling [~]$ 
+Darling [~]$ # we can test futher in other logs
+Darling [~]$ logout
+]0;nkpro@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m [?2004l
+exit
+
+Script done on 2022-08-23 21:34:48+05:30 [COMMAND_EXIT_CODE="0"]

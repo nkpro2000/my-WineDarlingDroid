@@ -1,0 +1,2981 @@
+Script started on 2022-08-23 13:20:43+05:30 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="81" LINES="38"]
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling[?2004h[01;32m[nkpro@len0Gv[01;37m nkpro_darling[01;32m]$[00m HOMEless PKGBUILD pwd[Kcat PKGBUILD ls[Kcleard ../../../../../.local/share/pikaur/aur_repos/darling/[A[01;32m[nkpro@len0Gv[01;37m nkpro_darling[01;32m]$[00m pwd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Plsgit remote get-url --all origin[15Pcd ../../darlinggit remote get-url --all origin[15Pcd ../../darlinggit remote get-url --all originls[Kpwdcd ../../../../../.local/share/pikaur/aur_repos/darling/[A[01;32m[nkpro@len0Gv[01;37m nkpro_darling[01;32m]$[00m [Clear[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Plscat PKGBUILD pwd[Kless PKGBUILD HOME[K=/mnt/Extended/nk[K[KLinuxExtRoot/thome/nkpro_darling/
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling[?2004h[01;32m[nkpro@len0Gv[01;37m nkpro_darling[01;32m]$[00m HOME=/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kg
+[?2004l]0;nkpro@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m darling shell
+[?2004l
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hDarling [/Volumes/SystemRoot/mnt/Extended/LinuxExtRoot/thome/nkpro_darling]$ HOME [ADarling [/Volumes/SystemRoot/mnt/Extended/LinuxExtRoot/thome/nkpro_darling]$ HOM[K
+[K[ADarling [/Volumes/SystemRoot/mnt/Extended/LinuxExtRoot/thome/nkpro_darling]$ HOME =/Volumes/SystemRoot/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/ 
+Darling [~]$ echo Hello World
+Hello World
+Darling [~]$ uname
+Darwin
+Darling [~]$ sw_vers 
+ProductName:    Mac OS X
+ProductVersion: 10.15
+BuildVersion:   Darling
+Darling [~]$ ls -l /
+total 120
+drwxr-xr-x    2 nkpro  nkpro  4096 Aug 23 13:09 [34mApplications[39;49m[0m
+drwxr-xr-x    1 nkpro  nkpro  4096 Aug 23 13:06 [34mLibrary[39;49m[0m
+drwxr-xr-x    1 nkpro  nkpro  4096 Aug 23 13:03 [34mSystem[39;49m[0m
+drwxr-xr-x    4 nkpro  nkpro  4096 Aug 23 13:09 [34mUsers[39;49m[0m
+drwxr-xr-x    1 nkpro  nkpro  4096 Aug 23 13:09 [34mVolumes[39;49m[0m
+drwxr-xr-x    1 nkpro  nkpro  4096 Aug 23 13:06 [34mbin[39;49m[0m
+lrwxrwxrwx    1 nkpro  nkpro    23 Aug 23 13:03 [35mdev[39;49m[0m -> /Volumes/SystemRoot/dev
+lrwxrwxrwx    1 nkpro  nkpro    11 Aug 23 13:03 [35metc[39;49m[0m -> private/etc
+drwxr-xr-x    1 nkpro  nkpro  4096 Aug 23 13:09 [34mprivate[39;49m[0m
+dr-xr-xr-x  253 nkpro  nkpro     0 Aug 23 13:09 [34mproc[39;49m[0m
+drwxr-xr-x    1 nkpro  nkpro  4096 Aug 23 13:05 [34msbin[39;49m[0m
+lrwxrwxrwx    1 nkpro  nkpro    11 Aug 23 13:03 [35mtmp[39;49m[0m -> private/tmp
+drwxr-xr-x    1 nkpro  nkpro  4096 Aug 23 13:09 [34musr[39;49m[0m
+drwxr-xr-x    5 nkpro  nkpro  4096 Aug 23 13:09 [34mvar[39;49m[0m
+Darling [~]$ ls /Volumes/
+[35mDarlingEmulatedDrive[39;49m[0m [34mSystemRoot[39;49m[0m
+Darling [~]$ ls /Volumes/        pr
+private/ proc/    
+Darling [~]$ ls /private/
+[34metc[39;49m[0m [34mtmp[39;49m[0m [34mvar[39;49m[0m
+Darling [~]$ ls /Users/
+[34mShared[39;49m[0m [34mnkpro[39;49m[0m
+Darling [~]$ ls /Applications/
+Darling [~]$ ls /Applications/Darling [~]$ [Kls /System/Library/
+[34mComponents[39;49m[0m        [34mFrameworks[39;49m[0m        [34mOpenSSL[39;49m[0m           [34mSecurity[39;49m[0m
+[34mCoreServices[39;49m[0m      [34mLaunchAgents[39;49m[0m      [34mPerl[39;49m[0m              [34mUser Template[39;49m[0m
+[34mDirectoryServices[39;49m[0m [34mLaunchDaemons[39;49m[0m     [34mPrivateFrameworks[39;49m[0m
+Darling [~]$ zsh
+[1m[7m%[27m[1m[0m                                                                                 [0m[27m[24m[Jnkpro@len0Gv ~ % [K[?2004hppwd[?2004l
+/Volumes/SystemRoot/mnt/Extended/LinuxExtRoot/thome/nkpro_darling
+[1m[7m%[27m[1m[0m                                                                                 [0m[27m[24m[Jnkpro@len0Gv ~ % [K[?2004h[?2004l
+Darling [~]$ logout
+]0;nkpro@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m darling shell
+[?2004l
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hDarling [/Volumes/SystemRoot/mnt/Extended/LinuxExtRoot/thome/nkpro_darling]$ cd
+Darling [~]$ pwd
+/Users/nkpro
+Darling [~]$ nm
+Invoked with: /Library/Developer/DarlingCLT/usr/bin/xcrun nm
+Executing /Library/Developer/DarlingCLT/usr/bin/nm
+error: /Library/Developer/DarlingCLT/usr/bin/nm: can't open file: a.out (No such file or directory)
+Darling [~]$ otto  ool 
+Invoked with: /Library/Developer/DarlingCLT/usr/bin/xcrun otool
+Executing /Library/Developer/DarlingCLT/usr/bin/otool
+Usage: /Library/Developer/DarlingCLT/usr/bin/otool [-arch arch_type] [-fahlLDtdorSTMRIHGvVcXmqQjCP] [-mcpu=arg] [--version] <object file> ...
+	-f print the fat headers
+	-a print the archive header
+	-h print the mach header
+	-l print the load commands
+	-L print shared libraries used
+	-D print shared library id name
+	-t print the text section (disassemble with -v)
+	-x print all text sections (disassemble with -v)
+	-p <routine name>  start dissassemble from routine name
+	-s <segname> <sectname> print contents of section
+	-d print the data section
+	-o print the Objective-C segment
+	-r print the relocation entries
+	-S print the table of contents of a library
+	-T print the table of contents of a dynamic shared library
+	-M print the module table of a dynamic shared library
+	-R print the reference table of a dynamic shared library
+	-I print the indirect symbol table
+	-H print the two-level hints table
+	-G print the data in code table
+	-v print verbosely (symbolically) when possible
+	-V print disassembled operands symbolically
+	-c print argument strings of a core file
+	-X print no leading addresses or headers
+	-m don't use archive(member) syntax
+	-B force Thumb disassembly (ARM objects only)
+	-q use llvm's disassembler (the default)
+	-Q use otool(1)'s disassembler
+	-mcpu=arg use `arg' as the cpu for disassembly
+	-j print opcode bytes
+	-P print the info plist section as strings
+	-C print linker optimization hints
+	--version print the version of /Library/Developer/DarlingCLT/usr/bin/otool
+Darling [~]$ nm /usr/lib
+lib/     libexec/ 
+Darling [~]$ nm /usr/lib/lib
+Display all 150 possibilities? (y or n)
+Darling [~]$ nm /usr/lib/libobjc
+libobjc-trampolines.dylib  libobjc.dylib
+libobjc.A.dylib            
+Darling [~]$ nm /usr/lib/libobjc.A.dylib 
+Invoked with: /Library/Developer/DarlingCLT/usr/bin/xcrun nm /usr/lib/libobjc.A.dylib
+Executing /Library/Developer/DarlingCLT/usr/bin/nm
+0000000000043210 S $ld$hide$os10.5$_OBJC_CLASS_$_NSObject
+0000000000043216 S $ld$hide$os10.5$_OBJC_IVAR_$_NSObject.isa
+0000000000043213 S $ld$hide$os10.5$_OBJC_METACLASS_$_NSObject
+0000000000043211 S $ld$hide$os10.6$_OBJC_CLASS_$_NSObject
+0000000000043217 S $ld$hide$os10.6$_OBJC_IVAR_$_NSObject.isa
+0000000000043214 S $ld$hide$os10.6$_OBJC_METACLASS_$_NSObject
+0000000000043212 S $ld$hide$os10.7$_OBJC_CLASS_$_NSObject
+0000000000043218 S $ld$hide$os10.7$_OBJC_IVAR_$_NSObject.isa
+0000000000043215 S $ld$hide$os10.7$_OBJC_METACLASS_$_NSObject
+0000000000008830 t +[NSObject _isDeallocating]
+0000000000008750 t +[NSObject _tryRetain]
+0000000000008a20 t +[NSObject allocWithZone:]
+00000000000089f0 t +[NSObject alloc]
+0000000000008910 t +[NSObject allowsWeakReference]
+0000000000008990 t +[NSObject autorelease]
+0000000000007f40 t +[NSObject class]
+0000000000008140 t +[NSObject conformsToProtocol:]
+0000000000008b30 t +[NSObject copyWithZone:]
+0000000000008b20 t +[NSObject copy]
+0000000000008a50 t +[NSObject dealloc]
+00000000000086b0 t +[NSObject debugDescription]
+0000000000008690 t +[NSObject description]
+0000000000008350 t +[NSObject doesNotRecognizeSelector:]
+00000000000085f0 t +[NSObject forwardInvocation:]
+0000000000008670 t +[NSObject forwardingTargetForSelector:]
+00000000000081f0 t +[NSObject hash]
+0000000000008a30 t +[NSObject init]
+0000000000007f10 t +[NSObject initialize]
+0000000000008270 t +[NSObject instanceMethodForSelector:]
+0000000000008590 t +[NSObject instanceMethodSignatureForSelector:]
+00000000000080d0 t +[NSObject instancesRespondToSelector:]
+0000000000008090 t +[NSObject isAncestorOfObject:]
+0000000000008210 t +[NSObject isEqual:]
+0000000000008230 t +[NSObject isFault]
+0000000000007fe0 t +[NSObject isKindOfClass:]
+0000000000007f90 t +[NSObject isMemberOfClass:]
+0000000000008250 t +[NSObject isProxy]
+0000000000008060 t +[NSObject isSubclassOfClass:]
+00000000000082b0 t +[NSObject methodForSelector:]
+00000000000085b0 t +[NSObject methodSignatureForSelector:]
+0000000000008b70 t +[NSObject mutableCopyWithZone:]
+0000000000008b60 t +[NSObject mutableCopy]
+00000000000086f0 t +[NSObject new]
+00000000000083d0 t +[NSObject performSelector:]
+0000000000008410 t +[NSObject performSelector:withObject:]
+0000000000008460 t +[NSObject performSelector:withObject:withObject:]
+0000000000008970 t +[NSObject release]
+0000000000008330 t +[NSObject resolveClassMethod:]
+0000000000008340 t +[NSObject resolveInstanceMethod:]
+00000000000080f0 t +[NSObject respondsToSelector:]
+00000000000089b0 t +[NSObject retainCount]
+0000000000008920 t +[NSObject retainWeakReference]
+0000000000008730 t +[NSObject retain]
+0000000000007f20 t +[NSObject self]
+0000000000007f60 t +[NSObject superclass]
+0000000000008b00 t +[NSObject zone]
+0000000000036d00 t +[Object autorelease]
+0000000000036ca0 t +[Object class]
+0000000000036c90 t +[Object initialize]
+0000000000036cf0 t +[Object release]
+0000000000036ce0 t +[Object retain]
+0000000000008840 t -[NSObject _isDeallocating]
+0000000000008760 t -[NSObject _tryRetain]
+0000000000008930 t -[NSObject allowsWeakReference]
+00000000000089a0 t -[NSObject autorelease]
+0000000000007f50 t -[NSObject class]
+0000000000008190 t -[NSObject conformsToProtocol:]
+0000000000008b40 t -[NSObject copy]
+0000000000008a60 t -[NSObject dealloc]
+00000000000086d0 t -[NSObject debugDescription]
+00000000000086a0 t -[NSObject description]
+0000000000008390 t -[NSObject doesNotRecognizeSelector:]
+0000000000008af0 t -[NSObject finalize]
+0000000000008630 t -[NSObject forwardInvocation:]
+0000000000008680 t -[NSObject forwardingTargetForSelector:]
+0000000000008200 t -[NSObject hash]
+0000000000008a40 t -[NSObject init]
+0000000000008220 t -[NSObject isEqual:]
+0000000000008240 t -[NSObject isFault]
+0000000000008020 t -[NSObject isKindOfClass:]
+0000000000007fb0 t -[NSObject isMemberOfClass:]
+0000000000008260 t -[NSObject isProxy]
+00000000000082f0 t -[NSObject methodForSelector:]
+00000000000085d0 t -[NSObject methodSignatureForSelector:]
+0000000000008b80 t -[NSObject mutableCopy]
+00000000000084b0 t -[NSObject performSelector:]
+00000000000084f0 t -[NSObject performSelector:withObject:]
+0000000000008540 t -[NSObject performSelector:withObject:withObject:]
+0000000000008980 t -[NSObject release]
+0000000000008110 t -[NSObject respondsToSelector:]
+00000000000089c0 t -[NSObject retainCount]
+0000000000008950 t -[NSObject retainWeakReference]
+0000000000008740 t -[NSObject retain]
+0000000000007f30 t -[NSObject self]
+0000000000007f70 t -[NSObject superclass]
+0000000000008b10 t -[NSObject zone]
+0000000000036cd0 t -[Object autorelease]
+0000000000036cc0 t -[Object release]
+0000000000036cb0 t -[Object retain]
+0000000000036d10 t -[Protocol conformsTo:]
+0000000000036d50 t -[Protocol descriptionForClassMethod:]
+0000000000036d20 t -[Protocol descriptionForInstanceMethod:]
+0000000000036e00 t -[Protocol hash]
+0000000000036d90 t -[Protocol isEqual:]
+0000000000036d80 t -[Protocol name]
+0000000000007f00 t -[__NSUnrecognizedTaggedPointer autorelease]
+0000000000007ef0 t -[__NSUnrecognizedTaggedPointer release]
+0000000000007ee0 t -[__NSUnrecognizedTaggedPointer retain]
+00000000000430b4 s GCC_except_table0
+0000000000042518 s GCC_except_table1
+0000000000042788 s GCC_except_table1
+0000000000042840 s GCC_except_table10
+0000000000042c0c s GCC_except_table100
+0000000000042c20 s GCC_except_table101
+0000000000042c3c s GCC_except_table106
+0000000000042c58 s GCC_except_table109
+0000000000042c78 s GCC_except_table110
+0000000000042c9c s GCC_except_table112
+0000000000042cc8 s GCC_except_table113
+0000000000042ce4 s GCC_except_table114
+0000000000042d00 s GCC_except_table118
+0000000000042d14 s GCC_except_table119
+00000000000426d4 s GCC_except_table12
+0000000000042d38 s GCC_except_table122
+0000000000042d58 s GCC_except_table123
+0000000000042d6c s GCC_except_table124
+0000000000042d88 s GCC_except_table127
+0000000000042da4 s GCC_except_table136
+0000000000042dcc s GCC_except_table138
+0000000000042df4 s GCC_except_table140
+0000000000042e08 s GCC_except_table142
+0000000000042e30 s GCC_except_table143
+0000000000042e44 s GCC_except_table145
+0000000000042e58 s GCC_except_table146
+0000000000042e6c s GCC_except_table147
+0000000000042e84 s GCC_except_table148
+0000000000042e98 s GCC_except_table149
+0000000000042eec s GCC_except_table151
+0000000000042f0c s GCC_except_table153
+0000000000042f44 s GCC_except_table158
+0000000000042f9c s GCC_except_table162
+0000000000042fb8 s GCC_except_table164
+0000000000042fd4 s GCC_except_table165
+000000000004300c s GCC_except_table166
+000000000004302c s GCC_except_table167
+0000000000042860 s GCC_except_table17
+00000000000424ac s GCC_except_table179
+000000000004304c s GCC_except_table181
+00000000000424c4 s GCC_except_table182
+00000000000424d4 s GCC_except_table183
+0000000000042580 s GCC_except_table19
+00000000000424e4 s GCC_except_table191
+00000000000424f4 s GCC_except_table192
+000000000004306c s GCC_except_table196
+000000000004250c s GCC_except_table199
+00000000000426f4 s GCC_except_table2
+00000000000425e8 s GCC_except_table2
+0000000000042870 s GCC_except_table22
+0000000000043090 s GCC_except_table238
+00000000000425cc s GCC_except_table25
+0000000000042598 s GCC_except_table25
+0000000000042740 s GCC_except_table27
+0000000000042890 s GCC_except_table29
+000000000004252c s GCC_except_table3
+0000000000042770 s GCC_except_table3
+0000000000042718 s GCC_except_table3
+00000000000427ac s GCC_except_table3
+0000000000042750 s GCC_except_table31
+00000000000428bc s GCC_except_table33
+00000000000428d8 s GCC_except_table35
+0000000000042760 s GCC_except_table36
+00000000000428ec s GCC_except_table36
+0000000000042920 s GCC_except_table39
+00000000000430cc s GCC_except_table4
+0000000000042938 s GCC_except_table41
+000000000004295c s GCC_except_table46
+0000000000042728 s GCC_except_table5
+0000000000042540 s GCC_except_table5
+00000000000427f4 s GCC_except_table5
+00000000000429a8 s GCC_except_table54
+00000000000429bc s GCC_except_table55
+0000000000042560 s GCC_except_table6
+00000000000429dc s GCC_except_table62
+00000000000429f0 s GCC_except_table63
+0000000000042a04 s GCC_except_table64
+0000000000042a18 s GCC_except_table65
+0000000000042a2c s GCC_except_table68
+0000000000042610 s GCC_except_table7
+00000000000430e0 s GCC_except_table7
+0000000000042a40 s GCC_except_table73
+0000000000042a54 s GCC_except_table77
+000000000004263c s GCC_except_table8
+0000000000042a68 s GCC_except_table81
+0000000000042a80 s GCC_except_table82
+0000000000042a98 s GCC_except_table84
+0000000000042ac4 s GCC_except_table86
+0000000000042ae4 s GCC_except_table87
+0000000000042b04 s GCC_except_table89
+0000000000042820 s GCC_except_table9
+0000000000042b24 s GCC_except_table91
+0000000000042b38 s GCC_except_table92
+0000000000042490 s GCC_except_table93
+0000000000042b4c s GCC_except_table93
+0000000000042b60 s GCC_except_table94
+0000000000042b74 s GCC_except_table95
+0000000000042be0 s GCC_except_table96
+0000000000042bf0 s GCC_except_table97
+000000000004df4c S _AltHandlerDebugLock
+000000000004dfc0 S _AssociationsManagerLock
+0000000000010ad0 t _CALLING_SOME_+initialize_METHOD
+000000000004cf40 S _CppObjectLocks
+000000000004dffc S _DebugAltHandlers
+000000000004e000 S _DebugDontCrash
+000000000004dfff S _DebugDuplicateClasses
+000000000004dff9 S _DebugFragileSuperclasses
+000000000004dffd S _DebugMissingPools
+000000000004dffa S _DebugNilSync
+000000000004dffb S _DebugNonFragileIvars
+000000000004dffe S _DebugPoolAllocation
+000000000004dff8 S _DebugUnload
+000000000004e078 S _DemangleCacheLock
+000000000004e006 S _DisableInitializeForkSafety
+000000000004e005 S _DisableNonpointerIsa
+000000000004e002 S _DisablePreopt
+000000000004e004 S _DisableTaggedPointerObfuscation
+000000000004e003 S _DisableTaggedPointers
+000000000004e001 S _DisableVtables
+000000000004e028 S _FirstHeader
+000000000004e030 S _LastHeader
+000000000004e038 S _MultithreadedForkChild
+0000000000003950 T _NXCompareHashTables
+0000000000002390 T _NXCompareMapTables
+0000000000003c90 T _NXCopyHashTable
+0000000000003b00 T _NXCountHashTable
+00000000000024a0 T _NXCountMapTable
+0000000000003100 T _NXCreateHashTable
+0000000000003130 T _NXCreateHashTableFromZone
+0000000000002270 T _NXCreateMapTable
+0000000000002040 T _NXCreateMapTableFromZone
+0000000000003800 T _NXEmptyHashTable
+0000000000003720 T _NXFreeHashTable
+0000000000002290 T _NXFreeMapTable
+0000000000003490 T _NXHashGet
+0000000000003550 T _NXHashInsert
+0000000000003f20 T _NXHashInsertIfAbsent
+0000000000003bb0 T _NXHashMember
+00000000000040e0 T _NXHashRemove
+0000000000003b10 T _NXInitHashState
+0000000000002420 T _NXInitMapState
+00000000000025b0 T _NXMapGet
+00000000000025e0 T _NXMapInsert
+0000000000002cc0 T _NXMapKeyCopyingInsert
+0000000000002d50 T _NXMapKeyFreeingRemove
+0000000000002490 T _NXMapMember
+00000000000029a0 T _NXMapRemove
+0000000000003b20 T _NXNextHashState
+0000000000002430 T _NXNextMapState
+00000000000030e0 T _NXNoEffectFree
+0000000000003480 T _NXPtrHash
+00000000000030f0 T _NXPtrIsEqual
+00000000000465a0 S _NXPtrPrototype
+00000000000465e0 S _NXPtrStructKeyPrototype
+0000000000046560 S _NXPtrValueMapPrototype
+0000000000004430 T _NXReallyFree
+0000000000003870 T _NXResetHashTable
+0000000000002320 T _NXResetMapTable
+0000000000004380 T _NXStrHash
+00000000000043f0 T _NXStrIsEqual
+00000000000465c0 S _NXStrPrototype
+0000000000046600 S _NXStrStructKeyPrototype
+0000000000046580 S _NXStrValueMapPrototype
+0000000000048050 S _OBJC_CLASS_$_NSObject
+00000000000480a0 S _OBJC_CLASS_$_Object
+0000000000048168 S _OBJC_CLASS_$_Protocol
+0000000000048118 S _OBJC_CLASS_$___IncompleteProtocol
+0000000000048078 S _OBJC_CLASS_$___NSUnrecognizedTaggedPointer
+0000000000046620 S _OBJC_EHTYPE_id
+0000000000047fd0 S _OBJC_IVAR_$_NSObject.isa
+0000000000047fd8 S _OBJC_IVAR_$_Object.isa
+0000000000048000 S _OBJC_METACLASS_$_NSObject
+00000000000480c8 S _OBJC_METACLASS_$_Object
+0000000000048140 S _OBJC_METACLASS_$_Protocol
+00000000000480f0 S _OBJC_METACLASS_$___IncompleteProtocol
+0000000000048028 S _OBJC_METACLASS_$___NSUnrecognizedTaggedPointer
+                 U _OSAtomicCompareAndSwap32Barrier
+                 U _OSAtomicCompareAndSwapPtr
+                 U _OSAtomicCompareAndSwapPtrBarrier
+                 U _OSAtomicDecrement32Barrier
+                 U _OSAtomicIncrement32Barrier
+000000000004dff0 S _PrintAltHandlers
+000000000004dfea S _PrintCaches
+000000000004dfe5 S _PrintConnecting
+000000000004dff6 S _PrintCustomAWZ
+000000000004dff4 S _PrintCustomCore
+000000000004dff5 S _PrintCustomRR
+000000000004dfed S _PrintCxxCtors
+000000000004dff2 S _PrintDeprecation
+000000000004dfef S _PrintExceptionThrow
+000000000004dfee S _PrintExceptions
+000000000004dfeb S _PrintFuture
+000000000004dfe1 S _PrintImageTimes
+000000000004dfe0 S _PrintImages
+000000000004dfe3 S _PrintInitializing
+000000000004dfe7 S _PrintIvars
+000000000004dfe2 S _PrintLoading
+000000000004dff3 S _PrintPoolHiwat
+000000000004dfec S _PrintPreopt
+000000000004dfe6 S _PrintProtocols
+000000000004dff7 S _PrintRawIsa
+000000000004dff1 S _PrintReplacedMethods
+000000000004dfe4 S _PrintResolving
+000000000004dfe9 S _PrintVtableImages
+000000000004dfe8 S _PrintVtables
+000000000004af40 S _PropertyLocks
+000000000004e008 S _SEL_cxx_construct
+000000000004e010 S _SEL_cxx_destruct
+000000000004bf40 S _StructLocks
+0000000000010920 t _WAITING_FOR_ANOTHER_THREAD_TO_FINISH_CALLING_+initialize
+                 U __Block_copy
+                 U __Block_has_signature
+                 U __Block_release
+                 U __Block_use_stret
+                 U __DefaultRuneLocale
+                 U __Exit
+000000000000a370 t __GLOBAL__sub_I_objc_accessors.mm
+000000000000de70 t __GLOBAL__sub_I_objc_class.mm
+000000000000dfd0 t __GLOBAL__sub_I_objc_errors.mm
+000000000000f6e0 t __GLOBAL__sub_I_objc_exception.mm
+00000000000120c0 t __GLOBAL__sub_I_objc_initialize.mm
+0000000000017c20 t __GLOBAL__sub_I_objc_lockdebug.mm
+000000000001bb40 t __GLOBAL__sub_I_objc_references.mm
+0000000000034a70 t __GLOBAL__sub_I_objc_runtime_new.mm
+                 U __NSConcreteStackBlock
+                 U __NSGetEnviron
+0000000000003d90 T __NXHashCapacity
+0000000000003da0 T __NXHashRehashToCapacity
+0000000000047008 s __OBJC_$_CLASS_METHODS_NSObject
+0000000000047bb8 s __OBJC_$_CLASS_METHODS_Object
+00000000000477b0 s __OBJC_$_INSTANCE_METHODS_NSObject
+0000000000047c80 s __OBJC_$_INSTANCE_METHODS_Object
+0000000000047e18 s __OBJC_$_INSTANCE_METHODS_Protocol
+0000000000046f70 s __OBJC_$_INSTANCE_METHODS___NSUnrecognizedTaggedPointer
+0000000000047b00 s __OBJC_$_INSTANCE_VARIABLES_NSObject
+0000000000047cd0 s __OBJC_$_INSTANCE_VARIABLES_Object
+0000000000047668 s __OBJC_$_PROP_LIST_NSObject
+0000000000047b28 s __OBJC_$_PROP_LIST_NSObject.106
+0000000000047478 s __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+0000000000047648 s __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+00000000000476b0 s __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+0000000000047750 s __OBJC_CLASS_PROTOCOLS_$_NSObject
+0000000000047b70 s __OBJC_CLASS_RO_$_NSObject
+0000000000047cf8 s __OBJC_CLASS_RO_$_Object
+0000000000047eb0 s __OBJC_CLASS_RO_$_Protocol
+0000000000047d88 s __OBJC_CLASS_RO_$___IncompleteProtocol
+0000000000046fc0 s __OBJC_CLASS_RO_$___NSUnrecognizedTaggedPointer
+0000000000046f18 s __OBJC_LABEL_PROTOCOL_$_NSObject
+0000000000047768 s __OBJC_METACLASS_RO_$_NSObject
+0000000000047c38 s __OBJC_METACLASS_RO_$_Object
+0000000000047dd0 s __OBJC_METACLASS_RO_$_Protocol
+0000000000047d40 s __OBJC_METACLASS_RO_$___IncompleteProtocol
+0000000000046f28 s __OBJC_METACLASS_RO_$___NSUnrecognizedTaggedPointer
+00000000000481b8 d __OBJC_PROTOCOL_$_NSObject
+                 U __Unwind_GetCFA
+                 U __Unwind_GetIP
+                 U __Unwind_Resume
+000000000003a880 T __Z11_objc_errorP11objc_objectPKcP13__va_list_tag
+000000000003a8b6 T __Z11_objc_fatalPKcz
+000000000001a5d0 T __Z11secure_openPKcij
+000000000001cb30 T __Z13sadd_overflowIiEbT_S0_PS0_
+000000000001cb40 T __Z13sadd_overflowIlEbT_S0_PS0_
+000000000001cb50 T __Z13sadd_overflowIxEbT_S0_PS0_
+000000000001cb90 T __Z13smul_overflowIiEbT_S0_PS0_
+000000000001cba0 T __Z13smul_overflowIlEbT_S0_PS0_
+000000000001cbb0 T __Z13smul_overflowIxEbT_S0_PS0_
+000000000001cb60 T __Z13ssub_overflowIiEbT_S0_PS0_
+000000000001cb70 T __Z13ssub_overflowIlEbT_S0_PS0_
+000000000001cb80 T __Z13ssub_overflowIxEbT_S0_PS0_
+000000000001ca70 T __Z13uadd_overflowIjEbT_S0_PS0_
+000000000001ca80 T __Z13uadd_overflowImEbT_S0_PS0_
+000000000001ca90 T __Z13uadd_overflowIyEbT_S0_PS0_
+000000000001cad0 T __Z13umul_overflowIjEbT_S0_PS0_
+000000000001caf0 T __Z13umul_overflowImEbT_S0_PS0_
+000000000001cb10 T __Z13umul_overflowIyEbT_S0_PS0_
+000000000001caa0 T __Z13usub_overflowIjEbT_S0_PS0_
+000000000001cab0 T __Z13usub_overflowImEbT_S0_PS0_
+000000000001cac0 T __Z13usub_overflowIyEbT_S0_PS0_
+0000000000021630 T __Z14hasLoadMethodsPK14mach_header_64
+0000000000018f00 T __Z14linksToLibraryPK11header_infoPKc
+000000000000b3e0 T __Z15allocateBucketsj
+0000000000021890 T __Z15mustReadClassesP11header_infob
+00000000000045e0 T __Z16SideTableLockAllv
+000000000002c530 T __Z16verifySuperclassP10objc_classb
+000000000000f1b0 T __Z17alt_handler_errorm
+0000000000004650 T __Z18SideTableUnlockAllv
+000000000000fc10 T __Z18_getObjc2ClassListPK11header_infoPm
+000000000000fb80 T __Z18_getObjc2ClassListPK14mach_header_64Pm
+000000000000f9d0 T __Z18_getObjc2ClassRefsPK11header_infoPm
+000000000000f940 T __Z18_getObjc2ClassRefsPK14mach_header_64Pm
+000000000000faf0 T __Z18_getObjc2SuperRefsPK11header_infoPm
+000000000000fa60 T __Z18_getObjc2SuperRefsPK14mach_header_64Pm
+00000000000247a0 T __Z18protocol_getMethodP10protocol_tP13objc_selectorbbb
+000000000000f8b0 T __Z20_getObjc2MessageRefsPK11header_infoPm
+000000000000f820 T __Z20_getObjc2MessageRefsPK14mach_header_64Pm
+00000000000150d0 T __Z20lockdebug_mutex_lockP8mutex_ttILb1EE
+0000000000021680 T __Z20prepare_load_methodsPK14mach_header_64
+000000000000fe50 T __Z21_getObjc2CategoryListPK11header_infoPm
+000000000000fdc0 T __Z21_getObjc2CategoryListPK14mach_header_64Pm
+00000000000101b0 T __Z21_getObjc2ProtocolListPK11header_infoPm
+0000000000010120 T __Z21_getObjc2ProtocolListPK14mach_header_64Pm
+00000000000102d0 T __Z21_getObjc2ProtocolRefsPK11header_infoPm
+0000000000010240 T __Z21_getObjc2ProtocolRefsPK14mach_header_64Pm
+000000000000f790 T __Z21_getObjc2SelectorRefsPK11header_infoPm
+000000000000f700 T __Z21_getObjc2SelectorRefsPK14mach_header_64Pm
+00000000000046b0 T __Z22SideTableForceResetAllv
+000000000000ff70 T __Z22_getObjc2CategoryList2PK11header_infoPm
+000000000000fee0 T __Z22_getObjc2CategoryList2PK14mach_header_64Pm
+00000000000103f0 T __Z22getLibobjcInitializersPK11header_infoPm
+0000000000010360 T __Z22getLibobjcInitializersPK14mach_header_64Pm
+0000000000016100 T __Z22lockdebug_monitor_waitP10monitor_ttILb1EE
+0000000000015290 T __Z22lockdebug_mutex_unlockP8mutex_ttILb1EE
+000000000003a9a6 T __Z23_objc_fatal_with_reasonyyPKcz
+000000000000b490 T __Z23emptyBucketsForCapacityjb
+0000000000015dd0 T __Z23lockdebug_monitor_enterP10monitor_ttILb1EE
+0000000000015f60 T __Z23lockdebug_monitor_leaveP10monitor_ttILb1EE
+00000000000046f0 T __Z24SideTableDefineLockOrderv
+0000000000014010 T __Z24lockdebug_remember_mutexP8mutex_ttILb1EE
+0000000000004730 T __Z25SideTableLocksPrecedeLockPKv
+0000000000004750 T __Z25SideTableLocksSucceedLockPKv
+000000000000fd30 T __Z25_getObjc2NonlazyClassListPK11header_infoPm
+000000000000fca0 T __Z25_getObjc2NonlazyClassListPK14mach_header_64Pm
+0000000000020b50 T __Z25_objc_allocateFutureClassPKc
+0000000000004770 T __Z26SideTableLocksPrecedeLocksR10StripedMapI8mutex_ttILb1EEE
+00000000000047c0 T __Z26SideTableLocksSucceedLocksR10StripedMapI8mutex_ttILb1EEE
+0000000000014b70 T __Z26lockdebug_remember_monitorP10monitor_ttILb1EE
+00000000000134a0 T __Z26lockdebug_setInForkPrepareb
+000000000003af16 T __Z26objc_defaultForwardHandlerP11objc_objectP13objc_selector
+0000000000010b00 T __Z26performForkChildInitializeP10objc_classS0_
+0000000000010090 T __Z28_getObjc2NonlazyCategoryListPK11header_infoPm
+0000000000010000 T __Z28_getObjc2NonlazyCategoryListPK14mach_header_64Pm
+0000000000013570 T __Z28lockdebug_lock_precedes_lockPKvS0_
+000000000001c870 T __Z29_objc_pthread_destroyspecificPv
+0000000000028050 T __Z29copyClassNamesForImage_nolockP11header_infoPj
+00000000000155e0 T __Z29lockdebug_mutex_assert_lockedP8mutex_ttILb1EE
+00000000000158f0 T __Z30lockdebug_recursive_mutex_lockP18recursive_mutex_ttILb1EE
+0000000000016290 T __Z31lockdebug_monitor_assert_lockedP10monitor_ttILb1EE
+0000000000015770 T __Z31lockdebug_mutex_assert_unlockedP8mutex_ttILb1EE
+000000000003af70 T __Z31objc_defaultForwardStretHandlerP11objc_objectP13objc_selector
+0000000000014ec0 T __Z32lockdebug_assert_no_locks_lockedv
+0000000000015260 T __Z32lockdebug_mutex_try_lock_successP8mutex_ttILb1EE
+0000000000015920 T __Z32lockdebug_recursive_mutex_unlockP18recursive_mutex_ttILb1EE
+0000000000014bf0 T __Z33lockdebug_assert_all_locks_lockedv
+0000000000016420 T __Z33lockdebug_monitor_assert_unlockedP10monitor_ttILb1EE
+0000000000014af0 T __Z34lockdebug_remember_recursive_mutexP18recursive_mutex_ttILb1EE
+0000000000024ae0 T __Z37protocol_getMethodTypeEncoding_nolockP10protocol_tP13objc_selectorbb
+0000000000015ac0 T __Z39lockdebug_recursive_mutex_assert_lockedP18recursive_mutex_ttILb1EE
+0000000000015c50 T __Z41lockdebug_recursive_mutex_assert_unlockedP18recursive_mutex_ttILb1EE
+000000000000b2d0 T __Z8getCacheP10objc_class
+0000000000018ed0 T __Z9bad_magicPK14mach_header_64
+0000000000049d28 b __ZL10DebugLists
+0000000000002dd0 t __ZL10_mapNoFreeP11_NXMapTablePvS1_
+000000000002ad40 t __ZL10addMethodsP10objc_classPKP13objc_selectorPKPFvvEPPKcjbPj
+0000000000023c20 t __ZL10free_classP10objc_class
+0000000000014e10 t __ZL10ownedLocksv
+0000000000048c40 b __ZL10prototypes
+0000000000048c48 b __ZL10prototypes
+000000000001f080 t __ZL10remapClassP10objc_class
+0000000000049f40 b __ZL10sDataLists
+0000000000049c88 b __ZL11Trampolines
+00000000000432a4 s __ZL11UnsetLayout
+0000000000002db0 t __ZL11_mapPtrHashP11_NXMapTablePKv
+0000000000002de0 t __ZL11_mapStrHashP11_NXMapTablePKv
+000000000002c250 t __ZL11addSubclassP10objc_classS0_
+00000000000211a0 t __ZL11flushCachesP10objc_class
+0000000000049d18 b __ZL11garbage_max
+00000000000259d0 t __ZL11getProtocolPKc
+0000000000002f20 t __ZL11validateKeyP11_NXMapTableP8_MapPairjj
+0000000000036a00 t __ZL11weak_resizeP12weak_table_tm
+0000000000049d30 b __ZL12DebugCounter
+0000000000049e80 b __ZL12GetClassHook
+0000000000048258 d __ZL12SetAssocHook
+00000000000024b0 t __ZL12_NXMapMemberP11_NXMapTablePKvPPv
+00000000000027f0 t __ZL12_NXMapRehashP11_NXMapTable
+000000000003aa10 t __ZL12_objc_fatalvyyPKcP13__va_list_tag
+000000000000de90 t __ZL12_objc_syslogPKc
+0000000000049cd0 b __ZL12cache_counts
+00000000000172f0 t __ZL12destroyLocksPv
+00000000000239d0 t __ZL12detach_classP10objc_classb
+0000000000049cc0 b __ZL12garbage_refs
+000000000004821c d __ZL12objcMsgLogFD
+0000000000049dd8 b __ZL12preoptimized
+000000000000f4d0 t __ZL12read_addressPmPK14dwarf_eh_basesh
+0000000000049e78 b __ZL13DemangleCache
+0000000000049c80 b __ZL13HeadPageGroup
+0000000000035770 t __ZL13SkipFirstTypePKc
+000000000001f940 t __ZL13addNamedClassP10objc_classPKcS0_
+0000000000031690 t __ZL13fixupProtocolP10protocol_t
+0000000000049cb8 b __ZL13garbage_count
+0000000000004530 t __ZL13hashPrototypePKvS0_
+0000000000002e90 t __ZL13hashPrototypePKvS0_
+0000000000049d98 b __ZL13lockOrderList
+0000000000049dc0 b __ZL13lockOrderLock
+0000000000049d40 b __ZL13old_terminate
+0000000000002dc0 t __ZL14_mapPtrIsEqualP11_NXMapTablePKvS2_
+0000000000002e50 t __ZL14_mapStrIsEqualP11_NXMapTablePKvS2_
+000000000000df20 t __ZL14_objc_crashlogPKc
+000000000002bb40 t __ZL14empty_getClassPKcPP10objc_class
+0000000000049de0 b __ZL14loadImageFuncs
+0000000000049f18 b __ZL14namedSelectors
+0000000000048190 d __ZL14protoPrototype
+0000000000046540 s __ZL14protoPrototype
+0000000000033120 t __ZL14removeSubclassP10objc_classS0_
+000000000000f3d0 t __ZL15_objc_terminatev
+0000000000036160 t __ZL15append_referrerP12weak_entry_tPP11objc_object
+00000000000123a0 t __ZL15compress_layoutPKhmb
+00000000000199a0 t __ZL15defineLockOrderv
+000000000002f160 t __ZL15fixupMethodListP13method_list_tbb
+0000000000034e70 t __ZL15search_builtinsPKc
+000000000001ce40 t __ZL15sliceRequiresGCI6Arch32EiNT_4mh_tE9FileSlice
+000000000001d2b0 t __ZL15sliceRequiresGCI6Arch64EiNT_4mh_tE9FileSlice
+0000000000048250 d __ZL16GetImageNameHook
+000000000001f590 t __ZL16addRemappedClassP10objc_classS0_
+0000000000030600 t __ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+000000000000dd20 t __ZL16copyOneAttributejPvS_PKcmS1_m
+000000000000dde0 t __ZL16findOneAttributejPvS_PKcmS1_m
+0000000000049d90 b __ZL16fork_prepare_tls
+0000000000004440 t __ZL16hashPtrStructKeyPKvS0_
+0000000000004480 t __ZL16hashStrStructKeyPKvS0_
+0000000000002ee0 t __ZL16isEqualPrototypePKvS0_S0_
+0000000000004570 t __ZL16isEqualPrototypePKvS0_S0_
+0000000000049d70 b __ZL16loadable_classes
+00000000000165a0 t __ZL16lockPrecedesLockPK9lockorderS1_
+0000000000013cc0 t __ZL16lockPrecedesLockPKvS0_
+0000000000048230 d __ZL16uncaught_handler
+000000000000c5a0 t __ZL17_class_lookUpIvarP10objc_classP6ivar_tRlR29objc_ivar_memory_management_t
+0000000000049cb0 b __ZL17cache_allocations
+0000000000049ca8 b __ZL17cache_collections
+0000000000048228 d __ZL17exception_matcher
+0000000000049e20 b __ZL17fixed_up_protocol
+0000000000049ca0 b __ZL17garbage_byte_size
+0000000000029fc0 t __ZL17make_ro_writeableP10class_rw_t
+0000000000049ed8 b __ZL17nonmeta_class_map
+000000000003b114 t __ZL17printReplacementsP10objc_classPK21locstamped_category_tj
+00000000000232d0 t __ZL17realizeAllClassesv
+0000000000034f50 t __ZL18__sel_registerNamePKcbb
+000000000002b8f0 t __ZL18_class_addPropertyP10objc_classPKcPK25objc_property_attribute_tjb
+000000000001f7a0 t __ZL18addClassTableEntryP10objc_classb
+000000000000bc90 t __ZL18cache_collect_freeP8bucket_tj
+0000000000049e24 b __ZL18canonical_protocol
+000000000000ef80 t __ZL18fetch_handler_listb
+000000000002eba0 t __ZL18prepareMethodListsP10objc_classPP13method_list_tibb
+0000000000031ac0 t __ZL18search_method_listPK13method_list_tP13objc_selector
+0000000000049e09 b __ZL19ForkIsMultithreaded
+00000000000118a0 t __ZL19_finishInitializingP10objc_classS0_
+0000000000049ef0 b __ZL19_firstRealizedClass
+000000000002eb50 t __ZL19dataSegmentsContainP10objc_class
+0000000000004460 t __ZL19isEqualPtrStructKeyPKvS0_S0_
+00000000000044f0 t __ZL19isEqualStrStructKeyPKvS0_S0_
+0000000000049d80 b __ZL19loadable_categories
+0000000000023410 t __ZL19schedule_class_loadP10objc_class
+0000000000049e1c b __ZL19uniqued_method_list
+0000000000049d48 b __ZL19willInitializeFuncs
+000000000002d7f0 t __ZL20_object_copyFromZoneP11objc_objectmPv
+0000000000049e18 b __ZL20fixed_up_method_list
+0000000000036040 t __ZL20grow_refs_and_insertP12weak_entry_tPP11objc_object
+0000000000049d60 b __ZL20pendingInitializeMap
+0000000000028f20 t __ZL20resolveMethod_lockedP11objc_objectP13objc_selectorP10objc_classi
+0000000000024870 t __ZL21fixupProtocolIfNeededP10protocol_t
+0000000000049d68 b __ZL21loadable_classes_used
+0000000000007d50 t __ZL21objc_releaseAndReturnP11objc_object
+0000000000049f08 b __ZL21useDyldSelectorLookup
+0000000000049e28 b __ZL22classCopyFixupHandlers
+0000000000031ba0 t __ZL22copySwiftV1MangledNamePKcb
+00000000000045b0 t __ZL22defaultBadAllocHandlerP10objc_class
+0000000000048220 d __ZL22exception_preprocessor
+0000000000031ce0 t __ZL22foreach_realized_classU13block_pointerFbP10objc_classE
+0000000000049ee8 b __ZL22future_named_class_map
+000000000000c050 t __ZL23_collecting_in_criticalv
+00000000000317f0 t __ZL23fixupProtocolMethodListP10protocol_tP13method_list_tbb
+000000000002bb70 t __ZL23getClassExceptSomeSwiftPKc
+0000000000028d60 t __ZL23getMethodNoSuper_nolockP10objc_classP13objc_selector
+000000000002c120 t __ZL24alloc_class_for_subclassP10objc_classm
+0000000000024e40 t __ZL24copySwiftV1DemangledNamePKcb
+000000000001f210 t __ZL24initializeAndMaybeRelockP10objc_classP11objc_objectR8mutex_ttILb1EEb
+0000000000049d78 b __ZL24loadable_categories_used
+000000000001fb40 t __ZL24realizeClassWithoutSwiftP10objc_classS0_
+0000000000049e58 b __ZL25UnfixedProtocolReferences
+000000000000db30 t __ZL25iteratePropertyAttributesPKcPFbjPvS1_S0_mS0_mES1_S1_
+0000000000010c40 t __ZL25lockAndFinishInitializingP10objc_classS0_
+0000000000030200 t __ZL25method_lists_contains_anyPKP13method_list_tS2_PP13objc_selectorm
+0000000000026160 t __ZL25protocol_addMethod_nolockRP13method_list_tP13objc_selectorPKc
+0000000000024950 t __ZL25protocol_getMethod_nolockP10protocol_tP13objc_selectorbbb
+000000000000e420 t __ZL26_objc_exception_destructorPv
+0000000000049e38 b __ZL26didInitialAttachCategories
+0000000000049e10 b __ZL26enumerationMutationHandler
+0000000000049d6c b __ZL26loadable_classes_allocated
+000000000001c940 t __ZL27internal_class_getImageNameP10objc_classPPKc
+000000000000cb30 t __ZL27object_cxxDestructFromClassP11objc_objectP10objc_class
+0000000000026440 t __ZL27protocol_addProperty_nolockRP15property_list_tPKcPK25objc_property_attribute_tj
+0000000000025490 t __ZL27protocol_getProperty_nolockP10protocol_tPKcbb
+0000000000049d7c b __ZL29loadable_categories_allocated
+000000000001ca10 t __ZL30_base_objc_setAssociatedObjectP11objc_objectPKvS0_22objc_AssociationPolicy
+000000000002e1a0 t __ZL30getMaybeUnrealizedNonMetaClassP10objc_classP11objc_object
+000000000000f480 t __ZL31_objc_default_exception_matcherP10objc_classP11objc_object
+0000000000007cc0 t __ZL31objc_retainAutoreleaseAndReturnP11objc_object
+0000000000024460 t __ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+00000000000319d0 t __ZL32getExtendedTypesIndexesForMethodP10protocol_tPK8method_tbbRjS4_
+0000000000011510 t __ZL33_setThisThreadIsInitializingClassP10objc_class
+000000000002c680 t __ZL33objc_initializeClassPair_internalP10objc_classPKcS0_S0_
+0000000000031ee0 t __ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb1EEb
+0000000000025150 t __ZL34protocol_conformsToProtocol_nolockP10protocol_tS0_
+0000000000029bf0 t __ZL35foreach_realized_class_and_subclassP10objc_classU13block_pointerFbS0_E
+000000000000f470 t __ZL36_objc_default_exception_preprocessorP11objc_object
+0000000000048238 d __ZL3opt
+0000000000016e60 t __ZL3symPKv
+000000000000f4c0 t __ZL40_objc_default_uncaught_exception_handlerP11objc_object
+000000000002a430 t __ZL7getIvarP10objc_classPKc
+0000000000035200 t __ZL7id2dataP11objc_object5usage
+0000000000014090 t __ZL7setLockRNSt3__113unordered_mapIPKv9lockcountNS_4hashIS2_EENS_8equal_toIS2_EENS_9allocatorINS_4pairIKS2_S3_EEEEEES2_8lockkind
+0000000000046750 s __ZL8Settings
+0000000000049f10 b __ZL8builtins
+0000000000049dd0 b __ZL8lock_tls
+000000000002a8f0 t __ZL9addMethodP10objc_classP13objc_selectorPFvvEPKcb
+0000000000015430 t __ZL9clearLockRNSt3__113unordered_mapIPKv9lockcountNS_4hashIS2_EENS_8equal_toIS2_EENS_9allocatorINS_4pairIKS2_S3_EEEEEES2_8lockkind
+0000000000020780 t __ZL9readClassP10objc_classbb
+0000000000009cd0 t __ZN10StripedMapIN12_GLOBAL__N_19SideTableEE7PaddedTD1Ev
+0000000000027ad0 T __ZN10category_t17propertiesForMetaEbP11header_info
+000000000001eb30 T __ZN10class_rw_t8extAllocEPK10class_ro_tb
+00000000000076e0 t __ZN10objc_class11isMetaClassEv
+000000000001faf0 t __ZN10objc_class11mangledNameEv
+0000000000028140 T __ZN10objc_class13demangledNameEb
+00000000000277a0 T __ZN10objc_class13getLoadMethodEv
+0000000000023130 T __ZN10objc_class14nameForLoggingEv
+0000000000029950 T __ZN10objc_class14setInitializedEv
+0000000000011450 t __ZN10objc_class15setInitializingEv
+000000000002b6a0 t __ZN10objc_class15setInstanceSizeEj
+0000000000029d70 T __ZN10objc_class21chooseClassArrayIndexEv
+0000000000029b00 T __ZN10objc_class27printInstancesRequireRawIsaEb
+0000000000023260 T __ZN10objc_class36setInstancesRequireRawIsaRecursivelyEb
+000000000001e7c0 T __ZN10protocol_t10setFixedUpEv
+0000000000024db0 T __ZN10protocol_t13demangledNameEv
+000000000001e850 T __ZN10protocol_t16clearIsCanonicalEv
+0000000000018de0 t __ZN11header_info15getHeaderInfoRWEv
+0000000000006150 T __ZN11objc_object14sidetable_lockEv
+00000000000071f0 t __ZN11objc_object15rootRetainCountEv
+0000000000005f30 T __ZN11objc_object16rootAutorelease2Ev
+0000000000006690 T __ZN11objc_object16sidetable_retainEv
+00000000000061c0 T __ZN11objc_object16sidetable_unlockEv
+0000000000006010 T __ZN11objc_object17overrelease_errorEv
+0000000000006040 T __ZN11objc_object17sidetable_presentEv
+0000000000006b80 T __ZN11objc_object17sidetable_releaseEb
+0000000000005a50 T __ZN11objc_object19rootRetain_overflowEb
+00000000000067a0 T __ZN11objc_object19sidetable_tryRetainEv
+0000000000005bb0 T __ZN11objc_object21rootRelease_underflowEb
+0000000000006860 T __ZN11objc_object21sidetable_retainCountEv
+0000000000005d90 T __ZN11objc_object22clearDeallocating_slowEv
+0000000000006950 T __ZN11objc_object24sidetable_isDeallocatingEv
+0000000000006360 T __ZN11objc_object27sidetable_addExtraRC_nolockEm
+0000000000006cc0 T __ZN11objc_object27sidetable_clearDeallocatingEv
+00000000000065d0 T __ZN11objc_object27sidetable_getExtraRC_nolockEv
+0000000000006490 T __ZN11objc_object27sidetable_subExtraRC_nolockEm
+00000000000069e0 T __ZN11objc_object28sidetable_isWeaklyReferencedEv
+0000000000006220 T __ZN11objc_object28sidetable_moveExtraRC_nolockEmbb
+0000000000006ad0 T __ZN11objc_object36sidetable_setWeaklyReferenced_nolockEv
+000000000000c270 t __ZN11objc_object9changeIsaEP10objc_class
+0000000000048c80 b __ZN12_GLOBAL__N_113SideTablesMapE
+000000000001eda0 t __ZN13list_array_ttI10property_t15property_list_tE11attachListsEPKPS1_j
+00000000000338c0 t __ZN13list_array_ttI10property_t15property_list_tE7tryFreeEv
+000000000001ec80 t __ZN13list_array_ttI8method_t13method_list_tE11attachListsEPKPS1_j
+0000000000033820 t __ZN13list_array_ttI8method_t13method_list_tE7tryFreeEv
+00000000000271f0 t __ZN13list_array_ttI8method_t13method_list_tE8iteratorppEv
+0000000000032f90 t __ZN13list_array_ttI8method_t13method_list_tE9duplicateI14method_array_tEET_v
+000000000001eec0 t __ZN13list_array_ttIm15protocol_list_tE11attachListsEPKPS0_j
+0000000000033960 t __ZN13list_array_ttIm15protocol_list_tE7tryFreeEv
+000000000001e730 T __ZN13method_list_t10setFixedUpEv
+0000000000010a90 t __ZN16monitor_locker_tD1Ev
+000000000003a392 t __ZN19AutoreleasePoolPage10printHiwatEv
+0000000000009710 t __ZN19AutoreleasePoolPage11tls_deallocEPv
+000000000003a386 t __ZN19AutoreleasePoolPage12popPageDebugEPvPS_PP11objc_object
+0000000000009480 t __ZN19AutoreleasePoolPage12releaseUntilEPP11objc_object
+0000000000008d40 t __ZN19AutoreleasePoolPage17autoreleaseNoPageEP11objc_object
+0000000000009100 t __ZN19AutoreleasePoolPage18autoreleaseNewPageEP11objc_object
+0000000000008ba0 t __ZN19AutoreleasePoolPage19autoreleaseFullPageEP11objc_objectPS_
+00000000000079c0 t __ZN19AutoreleasePoolPage3popEPv
+00000000000078d0 t __ZN19AutoreleasePoolPage4pushEv
+000000000003a4ec t __ZN19AutoreleasePoolPage5printEv
+000000000003a2ec t __ZN19AutoreleasePoolPage6badPopEPv
+0000000000009160 t __ZN19AutoreleasePoolPage7popPageILb0EEEvPvPS_PP11objc_object
+0000000000009240 t __ZN19AutoreleasePoolPage7popPageILb1EEEvPvPS_PP11objc_object
+000000000003a0ea t __ZN19AutoreleasePoolPage8printAllEv
+0000000000009010 t __ZN19AutoreleasePoolPageC2EPS_
+0000000000009640 t __ZN19AutoreleasePoolPageD2Ev
+000000000000a680 t __ZN24TrampolinePointerWrapper10InitializeEv
+000000000000b220 t __ZN24TrampolinePointerWrapper18TrampolinePointers17TrampolineAddressC2EPvPKc
+000000000000b000 t __ZN24TrampolinePointerWrapper18TrampolinePointers5checkEv
+000000000000af40 t __ZN24TrampolinePointerWrapper18TrampolinePointersC2EPv
+000000000001bce0 T __ZN4objc10SafeRanges3addEmm
+000000000001bc50 T __ZN4objc10SafeRanges4findEmRj
+000000000001bd70 T __ZN4objc10SafeRanges6removeEmm
+0000000000036c00 T __ZN4objc11AtomicQueue3popEv
+0000000000036c50 T __ZN4objc11AtomicQueue9push_listEPvS1_
+000000000001b420 t __ZN4objc12DenseMapBaseINS_8DenseMapI12DisguisedPtrI11objc_objectENS1_IPKvNS_15ObjcAssociationENS_17DenseMapValueInfoIS7_EENS_12DenseMapInfoIS6_EENS_6detail12DenseMapPairIS6_S7_EEEENS8_ISF_EENSA_IS4_EENSD_IS4_SF_EEEES4_SF_SG_SH_SI_E18moveFromOldBucketsEPSI_SL_
+000000000001b260 t __ZN4objc12DenseMapBaseINS_8DenseMapI12DisguisedPtrI11objc_objectENS1_IPKvNS_15ObjcAssociationENS_17DenseMapValueInfoIS7_EENS_12DenseMapInfoIS6_EENS_6detail12DenseMapPairIS6_S7_EEEENS8_ISF_EENSA_IS4_EENSD_IS4_SF_EEEES4_SF_SG_SH_SI_E20InsertIntoBucketImplIS4_EEPSI_RKS4_RKT_SM_
+000000000001ae10 t __ZN4objc12DenseMapBaseINS_8DenseMapI12DisguisedPtrI11objc_objectENS1_IPKvNS_15ObjcAssociationENS_17DenseMapValueInfoIS7_EENS_12DenseMapInfoIS6_EENS_6detail12DenseMapPairIS6_S7_EEEENS8_ISF_EENSA_IS4_EENSD_IS4_SF_EEEES4_SF_SG_SH_SI_E5eraseENS_16DenseMapIteratorIS4_SF_SG_SH_SI_Lb0EEE
+0000000000009960 t __ZN4objc12DenseMapBaseINS_8DenseMapI12DisguisedPtrI11objc_objectEmN12_GLOBAL__N_125RefcountMapValuePurgeableENS_12DenseMapInfoIS4_EENS_6detail12DenseMapPairIS4_mEEEES4_mS6_S8_SB_E15LookupBucketForIS4_EEbRKT_RPSB_
+0000000000009c00 t __ZN4objc12DenseMapBaseINS_8DenseMapI12DisguisedPtrI11objc_objectEmN12_GLOBAL__N_125RefcountMapValuePurgeableENS_12DenseMapInfoIS4_EENS_6detail12DenseMapPairIS4_mEEEES4_mS6_S8_SB_E20InsertIntoBucketImplIS4_EEPSB_RKS4_RKT_SF_
+0000000000009a70 t __ZN4objc12DenseMapBaseINS_8DenseMapI12DisguisedPtrI11objc_objectEmN12_GLOBAL__N_125RefcountMapValuePurgeableENS_12DenseMapInfoIS4_EENS_6detail12DenseMapPairIS4_mEEEES4_mS6_S8_SB_E4growEj
+0000000000030f10 t __ZN4objc12DenseMapBaseINS_8DenseMapIP10objc_classNS_13category_listENS_17DenseMapValueInfoIS4_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S4_EEEES3_S4_S6_S8_SB_E18moveFromOldBucketsEPSB_SE_
+00000000000315c0 t __ZN4objc12DenseMapBaseINS_8DenseMapIP10objc_classNS_13category_listENS_17DenseMapValueInfoIS4_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S4_EEEES3_S4_S6_S8_SB_E20InsertIntoBucketImplIS3_EEPSB_RKS3_RKT_SF_
+0000000000033260 t __ZN4objc12DenseMapBaseINS_8DenseMapIP10objc_classNS_13category_listENS_17DenseMapValueInfoIS4_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S4_EEEES3_S4_S6_S8_SB_E5eraseERKS3_
+0000000000033a00 t __ZN4objc12DenseMapBaseINS_8DenseMapIP10objc_classNS_6detail13DenseSetEmptyENS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS4_12DenseSetPairIS3_EEEES3_S5_S7_S9_SB_E11try_emplaceIJRS5_EEENSt3__14pairINS_16DenseMapIteratorIS3_S5_S7_S9_SB_Lb0EEEbEERKS3_DpOT_
+00000000000333d0 t __ZN4objc12DenseMapBaseINS_8DenseMapIP10objc_classNS_6detail13DenseSetEmptyENS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS4_12DenseSetPairIS3_EEEES3_S5_S7_S9_SB_E15LookupBucketForIS3_EEbRKT_RPSB_
+00000000000336e0 t __ZN4objc12DenseMapBaseINS_8DenseMapIP10objc_classNS_6detail13DenseSetEmptyENS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS4_12DenseSetPairIS3_EEEES3_S5_S7_S9_SB_E18moveFromOldBucketsEPSB_SE_
+0000000000033b20 t __ZN4objc12DenseMapBaseINS_8DenseMapIP10objc_classNS_6detail13DenseSetEmptyENS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS4_12DenseSetPairIS3_EEEES3_S5_S7_S9_SB_E20InsertIntoBucketImplIS3_EEPSB_RKS3_RKT_SF_
+00000000000332e0 t __ZN4objc12DenseMapBaseINS_8DenseMapIP10objc_classNS_6detail13DenseSetEmptyENS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS4_12DenseSetPairIS3_EEEES3_S5_S7_S9_SB_E5eraseERKS3_
+0000000000011e10 t __ZN4objc12DenseMapBaseINS_8DenseMapIP10objc_classP17PendingInitializeNS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S5_EEEES3_S5_S7_S9_SC_E18moveFromOldBucketsEPSC_SF_
+0000000000011ff0 t __ZN4objc12DenseMapBaseINS_8DenseMapIP10objc_classP17PendingInitializeNS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S5_EEEES3_S5_S7_S9_SC_E20InsertIntoBucketImplIS3_EEPSC_RKS3_RKT_SG_
+000000000002e9a0 t __ZN4objc12DenseMapBaseINS_8DenseMapIP10objc_classS3_NS_17DenseMapValueInfoIS3_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S3_EEEES3_S3_S5_S7_SA_E18moveFromOldBucketsEPSA_SD_
+000000000002e7e0 t __ZN4objc12DenseMapBaseINS_8DenseMapIP10objc_classS3_NS_17DenseMapValueInfoIS3_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S3_EEEES3_S3_S5_S7_SA_E20InsertIntoBucketImplIS3_EEPSA_RKS3_RKT_SE_
+0000000000034400 t __ZN4objc12DenseMapBaseINS_8DenseMapIPKcNS_6detail13DenseSetEmptyENS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS4_12DenseSetPairIS3_EEEES3_S5_S7_S9_SB_E18moveFromOldBucketsEPSB_SE_
+0000000000034250 t __ZN4objc12DenseMapBaseINS_8DenseMapIPKcNS_6detail13DenseSetEmptyENS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS4_12DenseSetPairIS3_EEEES3_S5_S7_S9_SB_E20InsertIntoBucketImplIS3_EEPSB_RKS3_RKT_SF_
+0000000000033fb0 t __ZN4objc12DenseMapBaseINS_8DenseMapIPKcP8ProtocolNS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S5_EEEES3_S5_S7_S9_SC_E18moveFromOldBucketsEPSC_SF_
+0000000000033df0 t __ZN4objc12DenseMapBaseINS_8DenseMapIPKcP8ProtocolNS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S5_EEEES3_S5_S7_S9_SC_E20InsertIntoBucketImplIS3_EEPSC_RKS3_RKT_SG_
+000000000001b710 t __ZN4objc12DenseMapBaseINS_8DenseMapIPKvNS_15ObjcAssociationENS_17DenseMapValueInfoIS4_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S4_EEEES3_S4_S6_S8_SB_E18moveFromOldBucketsEPSB_SE_
+000000000001b550 t __ZN4objc12DenseMapBaseINS_8DenseMapIPKvNS_15ObjcAssociationENS_17DenseMapValueInfoIS4_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S4_EEEES3_S4_S6_S8_SB_E20InsertIntoBucketImplIS3_EEPSB_RKS3_RKT_SF_
+0000000000033bf0 t __ZN4objc12DenseMapInfoIPKcE7isEqualERKS2_S5_
+00000000000314d0 t __ZN4objc13category_list6appendE21locstamped_category_t
+000000000004dfc8 S __ZN4objc19AssociationsManager11_mapStorageE
+000000000001a970 t __ZN4objc19AssociationsManagerD1Ev
+0000000000031340 t __ZN4objc20UnattachedCategories11addForClassE21locstamped_category_tP10objc_class
+000000000002ef30 t __ZN4objc20UnattachedCategories13attachToClassEP10objc_classS2_i
+0000000000023800 t __ZN4objc20UnattachedCategories21eraseCategoryForClassEP10category_tP10objc_class
+0000000000036bc0 T __ZN4objc4ZoneI10class_rw_tLb1EE4freeEPS1_
+0000000000036ba0 T __ZN4objc4ZoneI10class_rw_tLb1EE5allocEv
+0000000000036bf0 T __ZN4objc4ZoneI14class_rw_ext_tLb1EE4freeEPS1_
+0000000000036bd0 T __ZN4objc4ZoneI14class_rw_ext_tLb1EE5allocEv
+000000000002ea90 t __ZN4objc6detail12DenseSetImplIP10objc_classNS_8DenseMapIS3_NS0_13DenseSetEmptyENS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS0_12DenseSetPairIS3_EEEES9_E4findEPKS2_
+00000000000344d0 t __ZN4objc7scanner5MixinINS_10AWZScannerELNS_14SelectorBundleE0EL_Z14PrintCustomAWZELNS0_5ScopeE1EE18scanAddedClassImplEP10objc_classb
+0000000000032420 t __ZN4objc7scanner5MixinINS_10AWZScannerELNS_14SelectorBundleE0EL_Z14PrintCustomAWZELNS0_5ScopeE1EE32scanChangedMethodForUnknownClassEPK8method_t
+0000000000032370 t __ZN4objc7scanner5MixinINS_11CoreScannerELNS_14SelectorBundleE2EL_Z15PrintCustomCoreELNS0_5ScopeE2EE17scanChangedMethodEP10objc_classPK8method_t
+0000000000034890 t __ZN4objc7scanner5MixinINS_11CoreScannerELNS_14SelectorBundleE2EL_Z15PrintCustomCoreELNS0_5ScopeE2EE18scanAddedClassImplEP10objc_classb
+0000000000032af0 t __ZN4objc7scanner5MixinINS_11CoreScannerELNS_14SelectorBundleE2EL_Z15PrintCustomCoreELNS0_5ScopeE2EE19setNSObjectSwizzledEP10objc_classb
+0000000000032bb0 t __ZN4objc7scanner5MixinINS_11CoreScannerELNS_14SelectorBundleE2EL_Z15PrintCustomCoreELNS0_5ScopeE2EE32scanChangedMethodForUnknownClassEPK8method_t
+00000000000322b0 t __ZN4objc7scanner5MixinINS_9RRScannerELNS_14SelectorBundleE1EL_Z13PrintCustomRRELNS0_5ScopeE2EE17scanChangedMethodEP10objc_classPK8method_t
+0000000000034680 t __ZN4objc7scanner5MixinINS_9RRScannerELNS_14SelectorBundleE1EL_Z13PrintCustomRRELNS0_5ScopeE2EE18scanAddedClassImplEP10objc_classb
+0000000000032650 t __ZN4objc7scanner5MixinINS_9RRScannerELNS_14SelectorBundleE1EL_Z13PrintCustomRRELNS0_5ScopeE2EE19setNSObjectSwizzledEP10objc_classb
+0000000000032710 t __ZN4objc7scanner5MixinINS_9RRScannerELNS_14SelectorBundleE1EL_Z13PrintCustomRRELNS0_5ScopeE2EE32scanChangedMethodForUnknownClassEPK8method_t
+000000000003b044 t __ZN4objc7scannerL11printCustomEP10objc_classNS_14SelectorBundleEb
+0000000000049f00 b __ZN4objc7scannerL20NSObjectSwizzledMaskE
+000000000001b990 t __ZN4objc8DenseMapI12DisguisedPtrI11objc_objectENS0_IPKvNS_15ObjcAssociationENS_17DenseMapValueInfoIS6_EENS_12DenseMapInfoIS5_EENS_6detail12DenseMapPairIS5_S6_EEEENS7_ISE_EENS9_IS3_EENSC_IS3_SE_EEE16shrink_and_clearEv
+000000000001b330 t __ZN4objc8DenseMapI12DisguisedPtrI11objc_objectENS0_IPKvNS_15ObjcAssociationENS_17DenseMapValueInfoIS6_EENS_12DenseMapInfoIS5_EENS_6detail12DenseMapPairIS5_S6_EEEENS7_ISE_EENS9_IS3_EENSC_IS3_SE_EEE4growEj
+0000000000030c70 t __ZN4objc8DenseMapIP10objc_classNS_13category_listENS_17DenseMapValueInfoIS3_EENS_12DenseMapInfoIS2_EENS_6detail12DenseMapPairIS2_S3_EEE16shrink_and_clearEv
+0000000000030e20 t __ZN4objc8DenseMapIP10objc_classNS_13category_listENS_17DenseMapValueInfoIS3_EENS_12DenseMapInfoIS2_EENS_6detail12DenseMapPairIS2_S3_EEE4growEj
+00000000000334b0 t __ZN4objc8DenseMapIP10objc_classNS_6detail13DenseSetEmptyENS_17DenseMapValueInfoIS4_EENS_12DenseMapInfoIS2_EENS3_12DenseSetPairIS2_EEE16shrink_and_clearEv
+0000000000033600 t __ZN4objc8DenseMapIP10objc_classNS_6detail13DenseSetEmptyENS_17DenseMapValueInfoIS4_EENS_12DenseMapInfoIS2_EENS3_12DenseSetPairIS2_EEE4growEj
+0000000000011bb0 t __ZN4objc8DenseMapIP10objc_classP17PendingInitializeNS_17DenseMapValueInfoIS4_EENS_12DenseMapInfoIS2_EENS_6detail12DenseMapPairIS2_S4_EEE16shrink_and_clearEv
+0000000000011d20 t __ZN4objc8DenseMapIP10objc_classP17PendingInitializeNS_17DenseMapValueInfoIS4_EENS_12DenseMapInfoIS2_EENS_6detail12DenseMapPairIS2_S4_EEE4growEj
+000000000002e8b0 t __ZN4objc8DenseMapIP10objc_classS2_NS_17DenseMapValueInfoIS2_EENS_12DenseMapInfoIS2_EENS_6detail12DenseMapPairIS2_S2_EEE4growEj
+0000000000034320 t __ZN4objc8DenseMapIPKcNS_6detail13DenseSetEmptyENS_17DenseMapValueInfoIS4_EENS_12DenseMapInfoIS2_EENS3_12DenseSetPairIS2_EEE4growEj
+0000000000033ec0 t __ZN4objc8DenseMapIPKcP8ProtocolNS_17DenseMapValueInfoIS4_EENS_12DenseMapInfoIS2_EENS_6detail12DenseMapPairIS2_S4_EEE4growEj
+000000000001b820 t __ZN4objc8DenseMapIPKvNS_15ObjcAssociationENS_17DenseMapValueInfoIS3_EENS_12DenseMapInfoIS2_EENS_6detail12DenseMapPairIS2_S3_EEE16shrink_and_clearEv
+000000000001b620 t __ZN4objc8DenseMapIPKvNS_15ObjcAssociationENS_17DenseMapValueInfoIS3_EENS_12DenseMapInfoIS2_EENS_6detail12DenseMapPairIS2_S3_EEE4growEj
+0000000000049e88 b __ZN4objcL16allocatedClassesE
+0000000000049e60 b __ZN4objcL20unattachedCategoriesE
+000000000001d7d0 t __ZN6Arch3212countClassesE9FileSliceR7sectionRiS3_
+000000000001d890 t __ZN6Arch6412countClassesE9FileSliceR10section_64RiS3_
+000000000000b740 T __ZN7cache_t10canBeFreedEv
+000000000000b320 T __ZN7cache_t12emptyBucketsEv
+000000000000b3b0 T __ZN7cache_t16bytesForCapacityEj
+000000000000b380 T __ZN7cache_t17incrementOccupiedEv
+000000000000b350 T __ZN7cache_t17initializeToEmptyEv
+000000000000b300 T __ZN7cache_t17setBucketsAndMaskEP8bucket_tj
+000000000000b6b0 T __ZN7cache_t20isConstantEmptyCacheEv
+000000000000b340 T __ZN7cache_t4maskEv
+000000000000b330 T __ZN7cache_t7bucketsEv
+000000000000b390 T __ZN7cache_t8capacityEv
+000000000000b370 T __ZN7cache_t8occupiedEv
+000000000003a7a0 T __ZN7cache_t9bad_cacheEP11objc_objectP13objc_selectorP10objc_class
+000000000000b3c0 T __ZN7cache_t9endMarkerEP8bucket_tj
+0000000000035110 t __ZN8mutex_ttILb1EE18conditional_lockerD1Ev
+000000000000ab60 t __ZN8mutex_ttILb1EE6lockerD1Ev
+00000000000098b0 t __ZN8mutex_ttILb1EE7lockTwoEPS0_S1_
+000000000001eac0 t __ZNK10objc_class19alignedInstanceSizeEv
+000000000001e830 T __ZNK10protocol_t11isCanonicalEv
+000000000001e790 T __ZNK10protocol_t9isFixedUpEv
+0000000000017ca0 T __ZNK11header_info14isPreoptimizedEv
+0000000000017cf0 T __ZNK11header_info22hasPreoptimizedClassesEv
+0000000000017d20 T __ZNK11header_info24hasPreoptimizedProtocolsEv
+0000000000017cc0 T __ZNK11header_info24hasPreoptimizedSelectorsEv
+0000000000018900 t __ZNK11header_info5fnameEv
+0000000000027170 t __ZNK13list_array_ttI8method_t13method_list_tE5beginEv
+000000000001e710 T __ZNK13method_list_t9isFixedUpEv
+000000000001e6f0 T __ZNK13method_list_t9isUniquedEv
+000000000001e8c0 T __ZNK14method_array_t22endCategoryMethodListsEP10objc_class
+000000000003a2cc t __ZNK19AutoreleasePoolPage10busted_dieEv
+0000000000008f60 t __ZNK19AutoreleasePoolPage6bustedIPFvPKczEEEvT_
+000000000001b080 t __ZNK4objc12DenseMapBaseINS_8DenseMapI12DisguisedPtrI11objc_objectENS1_IPKvNS_15ObjcAssociationENS_17DenseMapValueInfoIS7_EENS_12DenseMapInfoIS6_EENS_6detail12DenseMapPairIS6_S7_EEEENS8_ISF_EENSA_IS4_EENSD_IS4_SF_EEEES4_SF_SG_SH_SI_E15LookupBucketForIS4_EEbRKT_RPKSI_
+000000000003ae54 t __ZNK4objc12DenseMapBaseINS_8DenseMapI12DisguisedPtrI11objc_objectENS1_IPKvNS_15ObjcAssociationENS_17DenseMapValueInfoIS7_EENS_12DenseMapInfoIS6_EENS_6detail12DenseMapPairIS6_S7_EEEENS8_ISF_EENSA_IS4_EENSD_IS4_SF_EEEES4_SF_SG_SH_SI_E22FatalCorruptHashTablesEPKSI_j
+000000000003a74c t __ZNK4objc12DenseMapBaseINS_8DenseMapI12DisguisedPtrI11objc_objectEmN12_GLOBAL__N_125RefcountMapValuePurgeableENS_12DenseMapInfoIS4_EENS_6detail12DenseMapPairIS4_mEEEES4_mS6_S8_SB_E22FatalCorruptHashTablesEPKSB_j
+0000000000031010 t __ZNK4objc12DenseMapBaseINS_8DenseMapIP10objc_classNS_13category_listENS_17DenseMapValueInfoIS4_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S4_EEEES3_S4_S6_S8_SB_E15LookupBucketForIS3_EEbRKT_RPKSB_
+000000000003b0c0 t __ZNK4objc12DenseMapBaseINS_8DenseMapIP10objc_classNS_13category_listENS_17DenseMapValueInfoIS4_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S4_EEEES3_S4_S6_S8_SB_E22FatalCorruptHashTablesEPKSB_j
+000000000003afe8 t __ZNK4objc12DenseMapBaseINS_8DenseMapIP10objc_classNS_6detail13DenseSetEmptyENS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS4_12DenseSetPairIS3_EEEES3_S5_S7_S9_SB_E22FatalCorruptHashTablesEPKSB_j
+0000000000011f00 t __ZNK4objc12DenseMapBaseINS_8DenseMapIP10objc_classP17PendingInitializeNS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S5_EEEES3_S5_S7_S9_SC_E15LookupBucketForIS3_EEbRKT_RPKSC_
+000000000003adf4 t __ZNK4objc12DenseMapBaseINS_8DenseMapIP10objc_classP17PendingInitializeNS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S5_EEEES3_S5_S7_S9_SC_E22FatalCorruptHashTablesEPKSC_j
+000000000002e6f0 t __ZNK4objc12DenseMapBaseINS_8DenseMapIP10objc_classS3_NS_17DenseMapValueInfoIS3_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S3_EEEES3_S3_S5_S7_SA_E15LookupBucketForIS3_EEbRKT_RPKSA_
+000000000003af88 t __ZNK4objc12DenseMapBaseINS_8DenseMapIP10objc_classS3_NS_17DenseMapValueInfoIS3_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S3_EEEES3_S3_S5_S7_SA_E22FatalCorruptHashTablesEPKSA_j
+00000000000340a0 t __ZNK4objc12DenseMapBaseINS_8DenseMapIPKcNS_6detail13DenseSetEmptyENS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS4_12DenseSetPairIS3_EEEES3_S5_S7_S9_SB_E15LookupBucketForIS3_EEbRKT_RPKSB_
+000000000003b3b4 t __ZNK4objc12DenseMapBaseINS_8DenseMapIPKcNS_6detail13DenseSetEmptyENS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS4_12DenseSetPairIS3_EEEES3_S5_S7_S9_SB_E22FatalCorruptHashTablesEPKSB_j
+0000000000033c30 t __ZNK4objc12DenseMapBaseINS_8DenseMapIPKcP8ProtocolNS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S5_EEEES3_S5_S7_S9_SC_E15LookupBucketForIS3_EEbRKT_RPKSC_
+000000000003b352 t __ZNK4objc12DenseMapBaseINS_8DenseMapIPKcP8ProtocolNS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S5_EEEES3_S5_S7_S9_SC_E22FatalCorruptHashTablesEPKSC_j
+000000000001b180 t __ZNK4objc12DenseMapBaseINS_8DenseMapIPKvNS_15ObjcAssociationENS_17DenseMapValueInfoIS4_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S4_EEEES3_S4_S6_S8_SB_E15LookupBucketForIS3_EEbRKT_RPKSB_
+000000000003aeb0 t __ZNK4objc12DenseMapBaseINS_8DenseMapIPKvNS_15ObjcAssociationENS_17DenseMapValueInfoIS4_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S4_EEEES3_S4_S6_S8_SB_E22FatalCorruptHashTablesEPKSB_j
+00000000000182b0 t __ZNK8objc_opt13objc_clsopt_t20getClassesAndHeadersEPKcPPvS4_
+00000000000189f0 t __ZNK8objc_opt17objc_stringhash_t4hashEPKcm
+000000000001e540 t __ZNKSt3__110__function6__funcIZ12appendHeaderE3$_1NS_9allocatorIS2_EEFvPK18segment_command_64lEE7__cloneEPNS0_6__baseIS8_EE
+000000000001e520 t __ZNKSt3__110__function6__funcIZ12appendHeaderE3$_1NS_9allocatorIS2_EEFvPK18segment_command_64lEE7__cloneEv
+000000000001e660 t __ZNKSt3__110__function6__funcIZ12removeHeaderE3$_2NS_9allocatorIS2_EEFvPK18segment_command_64lEE7__cloneEPNS0_6__baseIS8_EE
+000000000001e640 t __ZNKSt3__110__function6__funcIZ12removeHeaderE3$_2NS_9allocatorIS2_EEFvPK18segment_command_64lEE7__cloneEv
+0000000000010730 t __ZNKSt3__110__function6__funcIZ16_hasObjcContentsE3$_0NS_9allocatorIS2_EEFvPK18segment_command_64lEE7__cloneEPNS0_6__baseIS8_EE
+0000000000010700 t __ZNKSt3__110__function6__funcIZ16_hasObjcContentsE3$_0NS_9allocatorIS2_EEFvPK18segment_command_64lEE7__cloneEv
+                 U __ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv
+000000000001e560 t __ZNSt3__110__function6__funcIZ12appendHeaderE3$_1NS_9allocatorIS2_EEFvPK18segment_command_64lEE18destroy_deallocateEv
+000000000001e550 t __ZNSt3__110__function6__funcIZ12appendHeaderE3$_1NS_9allocatorIS2_EEFvPK18segment_command_64lEE7destroyEv
+000000000001e510 t __ZNSt3__110__function6__funcIZ12appendHeaderE3$_1NS_9allocatorIS2_EEFvPK18segment_command_64lEED0Ev
+000000000001e500 t __ZNSt3__110__function6__funcIZ12appendHeaderE3$_1NS_9allocatorIS2_EEFvPK18segment_command_64lEED1Ev
+000000000001e570 t __ZNSt3__110__function6__funcIZ12appendHeaderE3$_1NS_9allocatorIS2_EEFvPK18segment_command_64lEEclEOS7_Ol
+000000000001e680 t __ZNSt3__110__function6__funcIZ12removeHeaderE3$_2NS_9allocatorIS2_EEFvPK18segment_command_64lEE18destroy_deallocateEv
+000000000001e670 t __ZNSt3__110__function6__funcIZ12removeHeaderE3$_2NS_9allocatorIS2_EEFvPK18segment_command_64lEE7destroyEv
+000000000001e630 t __ZNSt3__110__function6__funcIZ12removeHeaderE3$_2NS_9allocatorIS2_EEFvPK18segment_command_64lEED0Ev
+000000000001e620 t __ZNSt3__110__function6__funcIZ12removeHeaderE3$_2NS_9allocatorIS2_EEFvPK18segment_command_64lEED1Ev
+000000000001e690 t __ZNSt3__110__function6__funcIZ12removeHeaderE3$_2NS_9allocatorIS2_EEFvPK18segment_command_64lEEclEOS7_Ol
+0000000000010760 t __ZNSt3__110__function6__funcIZ16_hasObjcContentsE3$_0NS_9allocatorIS2_EEFvPK18segment_command_64lEE18destroy_deallocateEv
+0000000000010750 t __ZNSt3__110__function6__funcIZ16_hasObjcContentsE3$_0NS_9allocatorIS2_EEFvPK18segment_command_64lEE7destroyEv
+00000000000106f0 t __ZNSt3__110__function6__funcIZ16_hasObjcContentsE3$_0NS_9allocatorIS2_EEFvPK18segment_command_64lEED0Ev
+00000000000106e0 t __ZNSt3__110__function6__funcIZ16_hasObjcContentsE3$_0NS_9allocatorIS2_EEFvPK18segment_command_64lEED1Ev
+0000000000010770 t __ZNSt3__110__function6__funcIZ16_hasObjcContentsE3$_0NS_9allocatorIS2_EEFvPK18segment_command_64lEEclEOS7_Ol
+00000000000167b0 t __ZNSt3__112__hash_tableINS_17__hash_value_typeIPK9lockorderbEENS_22__unordered_map_hasherIS4_S5_NS_4hashIS4_EELb1EEENS_21__unordered_map_equalIS4_S5_NS_8equal_toIS4_EELb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsIS4_JRKNS_21piecewise_construct_tENS_5tupleIJRKS4_EEENSL_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
+0000000000016ab0 t __ZNSt3__112__hash_tableINS_17__hash_value_typeIPK9lockorderbEENS_22__unordered_map_hasherIS4_S5_NS_4hashIS4_EELb1EEENS_21__unordered_map_equalIS4_S5_NS_8equal_toIS4_EELb1EEENS_9allocatorIS5_EEE6rehashEm
+0000000000016c00 t __ZNSt3__112__hash_tableINS_17__hash_value_typeIPK9lockorderbEENS_22__unordered_map_hasherIS4_S5_NS_4hashIS4_EELb1EEENS_21__unordered_map_equalIS4_S5_NS_8equal_toIS4_EELb1EEENS_9allocatorIS5_EEE8__rehashEm
+0000000000016e90 t __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKv9lockcountEENS_22__unordered_map_hasherIS3_S5_NS_4hashIS3_EELb1EEENS_21__unordered_map_equalIS3_S5_NS_8equal_toIS3_EELb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsIS3_JRKNS_21piecewise_construct_tENS_5tupleIJRKS3_EEENSL_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
+00000000000171a0 t __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKv9lockcountEENS_22__unordered_map_hasherIS3_S5_NS_4hashIS3_EELb1EEENS_21__unordered_map_equalIS3_S5_NS_8equal_toIS3_EELb1EEENS_9allocatorIS5_EEE6rehashEm
+0000000000017350 t __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKv9lockcountEENS_22__unordered_map_hasherIS3_S5_NS_4hashIS3_EELb1EEENS_21__unordered_map_equalIS3_S5_NS_8equal_toIS3_EELb1EEENS_9allocatorIS5_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS5_PvEEEE
+0000000000016c00 t __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKv9lockcountEENS_22__unordered_map_hasherIS3_S5_NS_4hashIS3_EELb1EEENS_21__unordered_map_equalIS3_S5_NS_8equal_toIS3_EELb1EEENS_9allocatorIS5_EEE8__rehashEm
+0000000000017560 t __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKvP9lockorderEENS_22__unordered_map_hasherIS3_S6_NS_4hashIS3_EELb1EEENS_21__unordered_map_equalIS3_S6_NS_8equal_toIS3_EELb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIS3_JRKNS_21piecewise_construct_tENS_5tupleIJRKS3_EEENSM_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS6_PvEEEEbEERKT_DpOT0_
+0000000000017870 t __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKvP9lockorderEENS_22__unordered_map_hasherIS3_S6_NS_4hashIS3_EELb1EEENS_21__unordered_map_equalIS3_S6_NS_8equal_toIS3_EELb1EEENS_9allocatorIS6_EEE6rehashEm
+00000000000179c0 t __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKvP9lockorderEENS_22__unordered_map_hasherIS3_S6_NS_4hashIS3_EELb1EEENS_21__unordered_map_equalIS3_S6_NS_8equal_toIS3_EELb1EEENS_9allocatorIS6_EEE8__rehashEm
+                 U __ZNSt3__112__next_primeEm
+0000000000030020 t __ZNSt3__112__rotate_gcdIN15entsize_list_ttI8method_t13method_list_tLj3EE8iteratorEEET_S6_S6_S6_
+000000000002f3c0 t __ZNSt3__113__stable_sortIRN8method_t16SortBySELAddressEN15entsize_list_ttIS1_13method_list_tLj3EE8iteratorEEEvT0_S8_T_NS_15iterator_traitsIS8_E15difference_typeEPNSB_10value_typeEl
+0000000000013520 t __ZNSt3__113unordered_mapIPKvP9lockorderNS_4hashIS2_EENS_8equal_toIS2_EENS_9allocatorINS_4pairIKS2_S4_EEEEED1Ev
+000000000002f930 t __ZNSt3__115__inplace_mergeIRN8method_t16SortBySELAddressEN15entsize_list_ttIS1_13method_list_tLj3EE8iteratorEEEvT0_S8_S8_T_NS_15iterator_traitsIS8_E15difference_typeESC_PNSB_10value_typeEl
+000000000002f6b0 t __ZNSt3__118__stable_sort_moveIRN8method_t16SortBySELAddressEN15entsize_list_ttIS1_13method_list_tLj3EE8iteratorEEEvT0_S8_T_NS_15iterator_traitsIS8_E15difference_typeEPNSB_10value_typeE
+00000000000106d0 t __ZNSt3__125__throw_bad_function_callEv
+000000000001e1a0 t __ZNSt3__127__insertion_sort_incompleteIRZN4objc10SafeRanges4findEmRjE3$_0PNS2_5RangeEEEbT0_S8_T_
+000000000001d8d0 t __ZNSt3__16__sortIRZN4objc10SafeRanges4findEmRjE3$_0PNS2_5RangeEEEvT0_S8_T_
+000000000001e090 t __ZNSt3__17__sort4IRZN4objc10SafeRanges4findEmRjE3$_0PNS2_5RangeEEEjT0_S8_S8_S8_T_
+00000000000431d4 s __ZNSt3__1L19piecewise_constructE
+                 U __ZSt13set_terminatePFvvE
+                 U __ZSt9terminatev
+0000000000046c30 s __ZTVNSt3__110__function6__funcIZ12appendHeaderE3$_1NS_9allocatorIS2_EEFvPK18segment_command_64lEEE
+0000000000046c78 s __ZTVNSt3__110__function6__funcIZ12removeHeaderE3$_2NS_9allocatorIS2_EEFvPK18segment_command_64lEEE
+00000000000466a0 s __ZTVNSt3__110__function6__funcIZ16_hasObjcContentsE3$_0NS_9allocatorIS2_EEFvPK18segment_command_64lEEE
+0000000000049e0a b __ZZ10_objc_initE11initialized
+0000000000049e40 b __ZZ12_read_imagesE16UnfixedSelectors
+0000000000049e50 b __ZZ12_read_imagesE18PreoptTotalClasses
+0000000000049e54 b __ZZ12_read_imagesE22PreoptOptimizedClasses
+0000000000049e48 b __ZZ12_read_imagesE22PreoptTotalMethodLists
+0000000000049e4c b __ZZ12_read_imagesE26PreoptOptimizedMethodLists
+0000000000049e39 b __ZZ12_read_imagesE8doneOnce
+0000000000049d88 b __ZZ17call_load_methodsE7loading
+0000000000049e08 b __ZZ17map_images_nolockE9firstTime
+0000000000049d24 b __ZZ18class_lookupMethodE6warned
+0000000000049d20 b __ZZ22class_respondsToMethodE6warned
+0000000000049c90 b __ZZ23emptyBucketsForCapacityjbE16emptyBucketsList
+0000000000049c98 b __ZZ23emptyBucketsForCapacityjbE21emptyBucketsListCount
+0000000000049d38 b __ZZ24objc_addExceptionHandlerE6warned
+0000000000049ea0 b __ZZL15remappedClassesbE18remapped_class_map
+0000000000049d10 b __ZZL18_garbage_make_roomvE5first
+0000000000031130 t __ZZL22load_categories_nolockP11header_infoENK3$_4clEPKP10category_t
+0000000000049ee0 b __ZZL24realizeClassWithoutSwiftP10objc_classS0_E14hackedDispatch
+0000000000049ecc b __ZZL30getMaybeUnrealizedNonMetaClassP10objc_classP11objc_objectE11sharedcache
+0000000000049ed0 b __ZZL30getMaybeUnrealizedNonMetaClassP10objc_classP11objc_objectE5dyld3
+0000000000049ec4 b __ZZL30getMaybeUnrealizedNonMetaClassP10objc_classP11objc_objectE5named
+0000000000049ec0 b __ZZL30getMaybeUnrealizedNonMetaClassP10objc_classP11objc_objectE5total
+0000000000049ec8 b __ZZL30getMaybeUnrealizedNonMetaClassP10objc_classP11objc_objectE9secondary
+0000000000049dc8 b __ZZL8AllLocksvE5locks
+00000000000431d8 s __ZZL9addHeaderPK14mach_header_64PKcRiS4_E9emptyInfo
+0000000000049ef8 b __ZZL9protocolsvE12protocol_map
+0000000000048218 d __ZZN19AutoreleasePoolPage6badPopEPvE10complained
+0000000000002000 t ___NXMAPTABLE_CORRUPTED__
+00000000000310f0 t ____ZL11flushCachesP10objc_class_block_invoke
+0000000000031110 t ____ZL11flushCachesP10objc_class_block_invoke.188
+000000000002e6b0 t ____ZL30getMaybeUnrealizedNonMetaClassP10objc_classP11objc_object_block_invoke
+0000000000031e20 t ____ZL32objc_getRealizedClassList_nolockPP10objc_classi_block_invoke
+0000000000031e70 t ____ZL32objc_getRealizedClassList_nolockPP10objc_classi_block_invoke.220
+0000000000031e90 t ____ZL33objc_copyRealizedClassList_nolockPj_block_invoke
+0000000000031eb0 t ____ZL33objc_copyRealizedClassList_nolockPj_block_invoke.223
+0000000000029cf0 t ____ZN10objc_class36setInstancesRequireRawIsaRecursivelyEb_block_invoke
+0000000000030330 t ____ZN4objc7scanner5MixinINS_10AWZScannerELNS_14SelectorBundleE0EL_Z14PrintCustomAWZELNS0_5ScopeE1EE20setCustomRecursivelyEP10objc_classb_block_invoke
+0000000000030510 t ____ZN4objc7scanner5MixinINS_11CoreScannerELNS_14SelectorBundleE2EL_Z15PrintCustomCoreELNS0_5ScopeE2EE20setCustomRecursivelyEP10objc_classb_block_invoke
+0000000000030420 t ____ZN4objc7scanner5MixinINS_9RRScannerELNS_14SelectorBundleE1EL_Z13PrintCustomRRELNS0_5ScopeE2EE20setCustomRecursivelyEP10objc_classb_block_invoke
+                 U ___assert_rtn
+0000000000046db0 s ___block_descriptor_33_e8_32c38_ZTSKZL11flushCachesP10objc_classE3$_2_e8_B16?0#8l
+0000000000046de0 s ___block_descriptor_33_e8_32c38_ZTSKZL11flushCachesP10objc_classE3$_3_e8_B16?0#8l
+0000000000046718 s ___block_descriptor_40_e8_32c33_ZTSKZ20getPreoptimizedClassE3$_2_e16_v28?0^v8B16^B20l
+00000000000466e8 s ___block_descriptor_40_e8_32c36_ZTSKZ23getPreoptimizedProtocolE3$_1_e16_v28?0^v8B16^B20l
+0000000000046e70 s ___block_descriptor_40_e8_32c49_ZTSKZL33objc_copyRealizedClassList_nolockPjE3$_7_e8_B16?0#8l
+0000000000046e40 s ___block_descriptor_40_e8_32c61_ZTSKZL32objc_getRealizedClassList_nolockPP10objc_classiE3$_6_e8_B16?0#8l
+0000000000046d50 s ___block_descriptor_48_e8_32c143_ZTSKZN4objc7scanner5MixinINS_9RRScannerELNS_14SelectorBundleE1EL_Z13PrintCustomRRELNS0_5ScopeE2EE20setCustomRecursivelyEP10objc_classbEUlS7_E__e8_B16?0#8l
+0000000000046d20 s ___block_descriptor_48_e8_32c146_ZTSKZN4objc7scanner5MixinINS_10AWZScannerELNS_14SelectorBundleE0EL_Z14PrintCustomAWZELNS0_5ScopeE1EE20setCustomRecursivelyEP10objc_classbEUlS7_E__e8_B16?0#8l
+0000000000046d80 s ___block_descriptor_48_e8_32c148_ZTSKZN4objc7scanner5MixinINS_11CoreScannerELNS_14SelectorBundleE2EL_Z15PrintCustomCoreELNS0_5ScopeE2EE20setCustomRecursivelyEP10objc_classbEUlS7_E__e8_B16?0#8l
+0000000000046ea0 s ___block_descriptor_48_e8_32c49_ZTSKZL33objc_copyRealizedClassList_nolockPjE3$_8_e8_B16?0#8l
+0000000000046cc0 s ___block_descriptor_48_e8_32c64_ZTSKZN10objc_class36setInstancesRequireRawIsaRecursivelyEbE3$_0_e8_B16?0#8l
+0000000000046cf0 s ___block_descriptor_48_e8_32c71_ZTSKZL30getMaybeUnrealizedNonMetaClassP10objc_classP11objc_objectE3$_1_e16_v28?0^v8B16^B20l
+0000000000046e10 s ___block_descriptor_64_e8_32c61_ZTSKZL32objc_getRealizedClassList_nolockPP10objc_classiE3$_5_e8_B16?0#8l
+                 U ___bzero
+000000000000f6d0 t ___clang_call_terminate
+00000000000304f0 t ___copy_helper_block_e8_32c143_ZTSKZN4objc7scanner5MixinINS_9RRScannerELNS_14SelectorBundleE1EL_Z13PrintCustomRRELNS0_5ScopeE2EE20setCustomRecursivelyEP10objc_classbEUlS7_E_
+0000000000030400 t ___copy_helper_block_e8_32c146_ZTSKZN4objc7scanner5MixinINS_10AWZScannerELNS_14SelectorBundleE0EL_Z14PrintCustomAWZELNS0_5ScopeE1EE20setCustomRecursivelyEP10objc_classbEUlS7_E_
+00000000000305e0 t ___copy_helper_block_e8_32c148_ZTSKZN4objc7scanner5MixinINS_11CoreScannerELNS_14SelectorBundleE2EL_Z15PrintCustomCoreELNS0_5ScopeE2EE20setCustomRecursivelyEP10objc_classbEUlS7_E_
+00000000000182a0 t ___copy_helper_block_e8_32c33_ZTSKZ20getPreoptimizedClassE3$_2
+0000000000018040 t ___copy_helper_block_e8_32c36_ZTSKZ23getPreoptimizedProtocolE3$_1
+0000000000031100 t ___copy_helper_block_e8_32c38_ZTSKZL11flushCachesP10objc_classE3$_2
+0000000000031120 t ___copy_helper_block_e8_32c38_ZTSKZL11flushCachesP10objc_classE3$_3
+0000000000031ea0 t ___copy_helper_block_e8_32c49_ZTSKZL33objc_copyRealizedClassList_nolockPjE3$_7
+0000000000031ed0 t ___copy_helper_block_e8_32c49_ZTSKZL33objc_copyRealizedClassList_nolockPjE3$_8
+0000000000031e50 t ___copy_helper_block_e8_32c61_ZTSKZL32objc_getRealizedClassList_nolockPP10objc_classiE3$_5
+0000000000031e80 t ___copy_helper_block_e8_32c61_ZTSKZL32objc_getRealizedClassList_nolockPP10objc_classiE3$_6
+0000000000029d50 t ___copy_helper_block_e8_32c64_ZTSKZN10objc_class36setInstancesRequireRawIsaRecursivelyEbE3$_0
+000000000002e6e0 t ___copy_helper_block_e8_32c71_ZTSKZL30getMaybeUnrealizedNonMetaClassP10objc_classP11objc_objectE3$_1
+                 U ___cxa_allocate_exception
+0000000000018ec0 T ___cxa_atexit
+                 U ___cxa_begin_catch
+                 U ___cxa_current_exception_type
+                 U ___cxa_end_catch
+                 U ___cxa_rethrow
+                 U ___cxa_throw
+0000000000018050 t ___destroy_helper_block_e8_32
+0000000000029d60 t ___destroy_helper_block_e8_32
+                 U ___error
+0000000000018280 t ___getPreoptimizedClass_block_invoke
+0000000000018020 t ___getPreoptimizedProtocol_block_invoke
+                 U ___gxx_personality_v0
+000000000003a938 T ___objc_error
+000000000000e0f0 T ___objc_personality_v0
+                 U ___progname
+                 U ___stack_chk_fail
+                 U ___stack_chk_guard
+                 U ___stderrp
+000000000000d2b0 T __calloc_class
+0000000000027960 T __category_getClass
+0000000000027930 T __category_getClassName
+0000000000027a40 T __category_getLoadMethod
+0000000000027920 T __category_getName
+000000000000d490 T __class_createInstancesFromZone
+000000000002a270 T __class_getClassForIvar
+000000000000c580 T __class_getIvarMemoryManagement
+000000000002a360 T __class_getVariable
+0000000000021050 T __class_isFutureClass
+000000000001efe0 T __class_remap
+000000000000e600 T __destroyAltHandlerList
+0000000000010820 T __destroyInitializingClassList
+0000000000035150 T __destroySyncCache
+                 U __dyld_for_each_objc_class
+                 U __dyld_for_each_objc_protocol
+                 U __dyld_get_objc_selector
+                 U __dyld_get_shared_cache_range
+                 U __dyld_is_memory_immutable
+                 U __dyld_objc_notify_register
+0000000000010480 T __getObjcImageInfo
+0000000000010510 T __hasObjcContents
+000000000001a4d0 T __headerForClass
+000000000000a720 T __imp_implementationWithBlockNoCopy
+000000000000a620 T __imp_implementationWithBlock_init
+000000000001c910 T __objcInit
+00000000000116b0 T __objc_addWillInitializeClassFunc
+000000000001a760 T __objc_associations_init
+000000000001a270 T __objc_atfork_child
+0000000000019ff0 T __objc_atfork_parent
+0000000000019d30 T __objc_atfork_prepare
+0000000000007b90 T __objc_autoreleasePoolPop
+0000000000007ba0 T __objc_autoreleasePoolPrint
+0000000000007b80 T __objc_autoreleasePoolPush
+0000000000037000 T __objc_blockTrampolineImpl
+0000000000038000 T __objc_blockTrampolineImpl_stret
+0000000000037ff8 T __objc_blockTrampolineLast
+0000000000038ff8 T __objc_blockTrampolineLast_stret
+0000000000037020 T __objc_blockTrampolineStart
+0000000000038020 T __objc_blockTrampolineStart_stret
+000000000003a0ca T __objc_callBadAllocHandler
+0000000000007d90 T __objc_deallocOnMainThreadHelper
+0000000000043120 S __objc_empty_cache
+0000000000000000 A __objc_empty_vtable
+000000000000e010 T __objc_exception_abort1
+000000000000e030 T __objc_exception_abort2
+000000000000e050 T __objc_exception_abort3
+000000000000e070 T __objc_exception_abort4
+000000000000e510 T __objc_exception_do_catch
+000000000000e000 T __objc_exception_false
+000000000000dff0 T __objc_exception_noop
+000000000001c820 T __objc_fetch_pthread_data
+0000000000021080 T __objc_flush_caches
+0000000000048240 D __objc_forward_handler
+0000000000048248 D __objc_forward_stret_handler
+000000000002df10 T __objc_getClassForTag
+000000000002dde0 T __objc_getFreedObjectClass
+000000000003aab3 T __objc_inform
+000000000003ada6 T __objc_inform_deprecated
+000000000003aca7 T __objc_inform_now_and_on_crash
+000000000003abb2 T __objc_inform_on_crash
+000000000001a430 T __objc_init
+000000000001bb70 T __objc_isDebugBuild
+0000000000039e40 T __objc_msgForward
+0000000000039e2c t __objc_msgForward_impcache
+0000000000039e80 T __objc_msgForward_stret
+0000000000039da4 t __objc_msgLookup_stret_uncached
+0000000000039d20 t __objc_msgLookup_uncached
+0000000000039000 t __objc_msgNil
+000000000003901c t __objc_msgNil_fp2ret
+000000000003900c t __objc_msgNil_fpret
+000000000003902c t __objc_msgNil_stret
+0000000000039c94 t __objc_msgSend_stret_uncached
+0000000000039c10 t __objc_msgSend_uncached
+00000000000432c0 s __objc_opt_data
+000000000001f3d0 T __objc_realizeClassFromSwift
+000000000002ddf0 T __objc_registerTaggedPointerClass
+00000000000074c0 T __objc_rootAlloc
+000000000002d590 T __objc_rootAllocWithZone
+0000000000007110 T __objc_rootAutorelease
+00000000000077c0 T __objc_rootDealloc
+0000000000007850 T __objc_rootFinalize
+00000000000078b0 T __objc_rootHash
+0000000000007890 T __objc_rootInit
+0000000000006ef0 T __objc_rootIsDeallocating
+00000000000073d0 T __objc_rootRelease
+0000000000007050 T __objc_rootReleaseWasZero
+0000000000007340 T __objc_rootRetain
+00000000000071c0 T __objc_rootRetainCount
+0000000000006e50 T __objc_rootTryRetain
+00000000000078a0 T __objc_rootZone
+00000000000045d0 T __objc_setBadAllocHandler
+000000000001e930 T __objc_setClassCopyFixupHandler
+000000000000dfc0 t __objc_warn_deprecated
+000000000001a780 T __object_get_associative_reference
+000000000001ae70 T __object_remove_assocations
+000000000001a9b0 T __object_set_associative_reference
+0000000000024ce0 T __protocol_getMethodTypeEncoding
+00000000000219b0 T __read_images
+                 U __simple_asl_log
+0000000000010850 T __thisThreadIsInitializingClass
+00000000000234d0 T __unload_image
+                 U _abort
+                 U _abort_with_reason
+0000000000012f10 T _add_category_to_loadable_list
+0000000000012e50 T _add_class_to_loadable_list
+000000000001be40 T _appendHeader
+                 U _arc4random_buf
+0000000000007de0 T _arr_init
+                 U _asprintf
+                 U _backtrace
+                 U _backtrace_symbols
+                 U _backtrace_symbols_fd
+00000000000481b0 D _badAllocHandler
+000000000000beb0 T _cache_collect
+000000000000bd90 T _cache_delete
+000000000000bbf0 T _cache_erase_nolock
+000000000000b7d0 T _cache_fill
+0000000000039030 t _cache_getImp
+000000000000bea0 T _cache_init
+0000000000013110 T _call_load_methods
+                 U _calloc
+000000000004df50 S _classInitLock
+000000000002b250 T _class_addIvar
+000000000002a820 T _class_addMethod
+000000000002ac40 T _class_addMethodsBulk
+000000000002b8d0 T _class_addProperty
+000000000002b780 T _class_addProtocol
+000000000002a520 T _class_conformsToProtocol
+0000000000026900 T _class_copyImpCache
+00000000000272c0 T _class_copyIvarList
+0000000000026eb0 T _class_copyMethodList
+0000000000027450 T _class_copyPropertyList
+0000000000027b00 T _class_copyProtocolList
+000000000002d370 T _class_createInstance
+000000000002da50 T _class_createInstanceFromZone
+000000000002d7a0 T _class_createInstances
+000000000000cf40 T _class_getClassMethod
+000000000000cfb0 T _class_getClassVariable
+000000000001c990 T _class_getImageName
+00000000000288c0 T _class_getInstanceMethod
+000000000000d350 T _class_getInstanceSize
+000000000000caf0 T _class_getInstanceVariable
+0000000000029d80 T _class_getIvarLayout
+000000000000c4c0 T _class_getMethodImplementation
+000000000000c540 T _class_getMethodImplementation_stret
+0000000000028690 T _class_getName
+0000000000029550 T _class_getProperty
+000000000000d2d0 T _class_getSuperclass
+0000000000028720 T _class_getVersion
+0000000000029dc0 T _class_getWeakIvarLayout
+000000000001f1c0 T _class_initialize
+000000000000d2f0 T _class_isMetaClass
+000000000000d070 T _class_lookupMethod
+000000000002ab70 T _class_replaceMethod
+000000000002b180 T _class_replaceMethodsBulk
+000000000002bb30 T _class_replaceProperty
+000000000000cff0 T _class_respondsToMethod
+000000000000d030 T _class_respondsToSelector
+000000000000d040 T _class_respondsToSelector_inst
+0000000000029e00 T _class_setIvarLayout
+000000000002df80 T _class_setSuperclass
+0000000000028790 T _class_setVersion
+000000000002a0b0 T _class_setWeakIvarLayout
+                 U _clock_gettime_nsec_np
+                 U _close
+0000000000018540 T _copyPreoptimizedClasses
+000000000000da00 T _copyPropertyAttributeList
+000000000000d7b0 T _copyPropertyAttributeString
+000000000000ddb0 T _copyPropertyAttributeValue
+000000000004df48 S _crashlog_lock
+000000000004e018 S _dataSegmentsRanges
+000000000004e060 S _didCallDyldNotifyRegister
+000000000001e6c0 T _disableSharedCacheOptimizations
+                 U _dispatch_queue_get_label
+                 U _dladdr
+                 U _dlerror
+                 U _dlopen
+                 U _dlsym
+                 U _dyld_get_program_sdk_version
+                 U _dyld_image_header_containing_address
+                 U _dyld_image_path_containing_address
+                 U _dyld_shared_cache_some_image_overridden
+0000000000035fc0 T _encoding_copyArgumentType
+0000000000035ed0 T _encoding_copyReturnType
+0000000000035ca0 T _encoding_getArgumentInfo
+0000000000035f20 T _encoding_getArgumentType
+00000000000356e0 T _encoding_getNumberOfArguments
+0000000000035e50 T _encoding_getReturnType
+0000000000035c60 T _encoding_getSizeOfArguments
+000000000001c3c0 T _environ_init
+000000000000f3b0 T _exception_init
+                 U _fileno
+000000000000cd60 T _fixupCopiedIvars
+                 U _fls
+                 U _free
+                 U _fstat$INODE64
+                 U _fsync
+                 U _ftruncate
+0000000000029860 T _gdb_class_getClass
+000000000000cfe0 t _gdb_objc_class_changed
+000000000004e068 S _gdb_objc_realized_classes
+00000000000298d0 T _gdb_object_getClass
+00000000000180a0 T _getPreoptimizedClass
+0000000000018060 T _getPreoptimizedClassUnreasonableCount
+0000000000018850 T _getPreoptimizedHeaderRW
+0000000000017fb0 T _getPreoptimizedProtocol
+0000000000017da0 T _getSharedCachePreoptimizedProtocol
+                 U _getenv
+                 U _geteuid
+                 U _getpid
+                 U _getsectiondata
+                 U _getsegmentdata
+000000000000aba0 T _imp_getBlock
+000000000000aab0 T _imp_implementationWithBlock
+000000000000ad50 T _imp_removeBlock
+000000000000d700 T _inform_duplicate
+0000000000010fa0 T _initializeNonMetaClass
+000000000000d270 T _instrumentObjcMessageSends
+0000000000017c60 T _isPreoptimized
+                 U _issetugid
+00000000000245d0 T _ivar_getName
+00000000000245b0 T _ivar_getOffset
+00000000000245f0 T _ivar_getTypeEncoding
+0000000000012da0 T _layout_bitmap_clear
+0000000000012130 T _layout_bitmap_create
+0000000000012270 T _layout_bitmap_create_empty
+00000000000122b0 T _layout_bitmap_free
+0000000000012900 T _layout_bitmap_grow
+0000000000012cf0 T _layout_bitmap_or
+0000000000012740 T _layout_bitmap_print
+00000000000127c0 T _layout_bitmap_set_ivar
+00000000000129a0 T _layout_bitmap_slide
+0000000000012bc0 T _layout_bitmap_slide_anywhere
+0000000000012c50 T _layout_bitmap_splat
+00000000000122d0 T _layout_string_create
+000000000004e048 S _loadMethodLock
+00000000000213c0 T _load_images
+000000000000d0f0 T _logMessageSend
+000000000001c730 T _logReplacedMethod
+0000000000028a10 T _lookUpImpOrForward
+0000000000020e20 T _look_up_class
+0000000000029430 T _lookupMethodInClassAndLoadCache
+                 U _lstat$INODE64
+                 U _mach_port_deallocate
+                 U _mach_task_self_
+                 U _malloc
+                 U _malloc_default_zone
+                 U _malloc_size
+                 U _malloc_zone_batch_malloc
+                 U _malloc_zone_calloc
+                 U _malloc_zone_from_ptr
+                 U _malloc_zone_malloc
+                 U _malloc_zone_memalign
+0000000000021310 T _map_images
+0000000000019110 T _map_images_nolock
+                 U _memcmp
+                 U _memcpy
+                 U _memmove
+                 U _memset
+000000000000d470 T _method_copyArgumentType
+000000000000d410 T _method_copyReturnType
+0000000000024250 T _method_exchangeImplementations
+000000000000d430 T _method_getArgumentType
+00000000000240d0 T _method_getDescription
+00000000000240e0 T _method_getImplementation
+0000000000024100 T _method_getName
+000000000000d3c0 T _method_getNumberOfArguments
+000000000000d3e0 T _method_getReturnType
+0000000000024160 T _method_getTypeEncoding
+000000000003a080 T _method_invoke
+000000000003a0c0 T _method_invoke_stret
+0000000000024180 T _method_setImplementation
+0000000000017c70 T _noMissingWeakSuperclasses
+000000000004df44 S _objcMsgLogEnabled
+000000000004df40 S _objcMsgLogLock
+00007ffffffffff8 A _objc_absolute_packed_isa_class_mask
+000000000000e720 T _objc_addExceptionHandler
+0000000000018fb0 T _objc_addLoadImageFunc
+00000000000074f0 T _objc_alloc
+0000000000007530 T _objc_allocWithZone
+0000000000007570 T _objc_alloc_init
+000000000002cac0 T _objc_allocateClassPair
+0000000000025880 T _objc_allocateProtocol
+000000000000a5a0 T _objc_allocate_object
+000000000000f3a0 t _objc_alt_handler_error
+000000000001cbc0 T _objc_appRequiresGC
+000000000000a5d0 T _objc_assertRegisteredThreadWithCollector
+000000000000a4d0 T _objc_assign_global
+000000000000a4f0 T _objc_assign_ivar
+000000000000a4c0 T _objc_assign_strongCast
+000000000000a4e0 T _objc_assign_threadlocal
+000000000000a510 T _objc_assign_weak
+000000000000a480 T _objc_atomicCompareAndSwapGlobal
+000000000000a490 T _objc_atomicCompareAndSwapGlobalBarrier
+000000000000a4a0 T _objc_atomicCompareAndSwapInstanceVariable
+000000000000a4b0 T _objc_atomicCompareAndSwapInstanceVariableBarrier
+000000000000a460 T _objc_atomicCompareAndSwapPtr
+000000000000a470 T _objc_atomicCompareAndSwapPtrBarrier
+0000000000004850 T _objc_autorelease
+0000000000005a30 t _objc_autoreleaseNoPool
+0000000000005a40 t _objc_autoreleasePoolInvalid
+00000000000079b0 T _objc_autoreleasePoolPop
+00000000000078c0 T _objc_autoreleasePoolPush
+0000000000007bb0 T _objc_autoreleaseReturnValue
+000000000000e4a0 T _objc_begin_catch
+000000000004311c S _objc_class_abi_version
+0000000000006fc0 T _objc_clear_deallocating
+000000000000a550 T _objc_clear_stack
+000000000000a410 T _objc_collect
+000000000000a5e0 T _objc_collect_init
+000000000000a5f0 T _objc_collectableZone
+000000000000a420 T _objc_collectingEnabled
+000000000000a560 T _objc_collecting_enabled
+000000000002d280 T _objc_constructInstance
+00000000000267b0 T _objc_copyClassList
+0000000000028460 T _objc_copyClassNamesForImage
+0000000000028580 T _objc_copyClassNamesForImageHeader
+000000000000a280 T _objc_copyCppObjectAtomic
+0000000000027eb0 T _objc_copyImageNames
+0000000000026a40 T _objc_copyProtocolList
+0000000000026660 T _objc_copyRealizedClassList
+000000000000a170 T _objc_copyStruct
+00000000000059b0 T _objc_copyWeak
+0000000000043110 S _objc_debug_autoreleasepoolpage_child_offset
+0000000000043114 S _objc_debug_autoreleasepoolpage_depth_offset
+0000000000043118 S _objc_debug_autoreleasepoolpage_hiwat_offset
+0000000000043100 S _objc_debug_autoreleasepoolpage_magic_offset
+0000000000043104 S _objc_debug_autoreleasepoolpage_next_offset
+000000000004310c S _objc_debug_autoreleasepoolpage_parent_offset
+0000000000043108 S _objc_debug_autoreleasepoolpage_thread_offset
+00000000000286b0 T _objc_debug_class_getNameRaw
+0000000000043250 S _objc_debug_class_rw_data_mask
+0000000000043268 S _objc_debug_indexed_isa_index_mask
+0000000000043270 S _objc_debug_indexed_isa_index_shift
+0000000000043258 S _objc_debug_indexed_isa_magic_mask
+0000000000043260 S _objc_debug_indexed_isa_magic_value
+0000000000043278 S _objc_debug_isa_class_mask
+0000000000043280 S _objc_debug_isa_magic_mask
+0000000000043288 S _objc_debug_isa_magic_value
+000000000004e070 S _objc_debug_realized_class_generation_count
+0000000000043290 S _objc_debug_swift_stable_abi_bit
+00000000000483a0 D _objc_debug_taggedpointer_classes
+0000000000048420 D _objc_debug_taggedpointer_ext_classes
+0000000000048278 D _objc_debug_taggedpointer_ext_mask
+000000000004e090 S _objc_debug_taggedpointer_ext_payload_lshift
+0000000000048290 D _objc_debug_taggedpointer_ext_payload_rshift
+0000000000048288 D _objc_debug_taggedpointer_ext_slot_mask
+0000000000048280 D _objc_debug_taggedpointer_ext_slot_shift
+0000000000048260 D _objc_debug_taggedpointer_mask
+000000000004e080 S _objc_debug_taggedpointer_obfuscator
+000000000004e08c S _objc_debug_taggedpointer_payload_lshift
+0000000000048270 D _objc_debug_taggedpointer_payload_rshift
+0000000000048268 D _objc_debug_taggedpointer_slot_mask
+000000000004e088 S _objc_debug_taggedpointer_slot_shift
+0000000000005610 T _objc_destroyWeak
+000000000002dcc0 T _objc_destructInstance
+000000000002cfc0 T _objc_disposeClassPair
+000000000000a610 T _objc_dumpHeap
+000000000002bc40 T _objc_duplicateClass
+0000000000046638 S _objc_ehtype_vtable
+000000000000e4e0 T _objc_end_catch
+000000000001c9c0 T _objc_enumerationMutation
+000000000000e470 T _objc_exception_rethrow
+000000000000e300 T _objc_exception_throw
+000000000000a530 T _objc_finalizeOnMainThread
+000000000001ca00 T _objc_getAssociatedObject
+000000000001bb80 T _objc_getClass
+0000000000026530 T _objc_getClassList
+0000000000020dc0 T _objc_getFutureClass
+000000000001bc00 T _objc_getMetaClass
+0000000000009d00 T _objc_getProperty
+0000000000026e10 T _objc_getProtocol
+000000000001bba0 T _objc_getRequiredClass
+000000000004e050 S _objc_indexed_classes
+000000000004e058 S _objc_indexed_classes_count
+00000000000051a0 T _objc_initWeak
+00000000000053d0 T _objc_initWeakOrNil
+0000000000010af0 t _objc_initializeAfterForkError
+000000000002c570 T _objc_initializeClassPair
+000000000000a600 T _objc_isAuto
+000000000000a540 T _objc_is_finalized
+000000000001f190 T _objc_loadClassref
+0000000000005990 T _objc_loadWeak
+00000000000056f0 T _objc_loadWeakRetained
+000000000001bbe0 T _objc_lookUpClass
+000000000000a520 T _objc_memmove_collectable
+00000000000059e0 T _objc_moveWeak
+00000000000391c0 T _objc_msgLookup
+00000000000393c0 T _objc_msgLookupSuper2
+0000000000039b80 T _objc_msgLookupSuper2_stret
+0000000000039780 T _objc_msgLookup_fp2ret
+0000000000039580 T _objc_msgLookup_fpret
+0000000000039980 T _objc_msgLookup_stret
+00000000000390c0 T _objc_msgSend
+00000000000392c0 T _objc_msgSendSuper
+0000000000039340 T _objc_msgSendSuper2
+0000000000039f00 T _objc_msgSendSuper2_debug
+0000000000039444 t _objc_msgSendSuper2_fixedup
+0000000000039440 T _objc_msgSendSuper2_fixup
+0000000000039b00 T _objc_msgSendSuper2_stret
+0000000000039f80 T _objc_msgSendSuper2_stret_debug
+0000000000039c04 t _objc_msgSendSuper2_stret_fixedup
+0000000000039c00 T _objc_msgSendSuper2_stret_fixup
+0000000000039a80 T _objc_msgSendSuper_stret
+0000000000039ec0 T _objc_msgSend_debug
+0000000000039284 t _objc_msgSend_fixedup
+0000000000039280 T _objc_msgSend_fixup
+0000000000039680 T _objc_msgSend_fp2ret
+000000000003a000 T _objc_msgSend_fp2ret_debug
+0000000000039844 t _objc_msgSend_fp2ret_fixedup
+0000000000039840 T _objc_msgSend_fp2ret_fixup
+0000000000039480 T _objc_msgSend_fpret
+0000000000039fc0 T _objc_msgSend_fpret_debug
+0000000000039644 t _objc_msgSend_fpret_fixedup
+0000000000039640 T _objc_msgSend_fpret_fixup
+000000000003a040 T _objc_msgSend_noarg
+0000000000039880 T _objc_msgSend_stret
+0000000000039f40 T _objc_msgSend_stret_debug
+0000000000039a44 t _objc_msgSend_stret_fixedup
+0000000000039a40 T _objc_msgSend_stret_fixup
+000000000001bb60 T _objc_noop_imp
+0000000000007660 T _objc_opt_class
+0000000000007730 T _objc_opt_isKindOfClass
+00000000000075c0 T _objc_opt_new
+0000000000007780 T _objc_opt_respondsToSelector
+0000000000007620 T _objc_opt_self
+0000000000006000 t _objc_overrelease_during_dealloc_error
+000000000002cea0 T _objc_readClassPair
+000000000000a500 T _objc_read_weak
+000000000002cbe0 T _objc_registerClassPair
+0000000000025b40 T _objc_registerProtocol
+000000000000a5b0 T _objc_registerThreadWithCollector
+00000000000049e0 T _objc_release
+000000000001ca50 T _objc_removeAssociatedObjects
+000000000000f060 T _objc_removeExceptionHandler
+00000000000482a0 d _objc_restartableRanges
+0000000000004910 T _objc_retain
+0000000000007d70 T _objc_retainAutorelease
+0000000000007c40 T _objc_retainAutoreleaseReturnValue
+0000000000007ce0 T _objc_retainAutoreleasedReturnValue
+0000000000004810 T _objc_retainBlock
+0000000000004830 T _objc_retain_autorelease
+0000000000007db0 T _objc_retainedObject
+000000000001ca40 T _objc_setAssociatedObject
+000000000000a440 T _objc_setCollectionRatio
+000000000000a430 T _objc_setCollectionThreshold
+000000000001c9f0 T _objc_setEnumerationMutationHandler
+000000000000e0b0 T _objc_setExceptionMatcher
+000000000000e090 T _objc_setExceptionPreprocessor
+000000000001c920 T _objc_setForwardHandler
+000000000002bb50 T _objc_setHook_getClass
+000000000001c970 T _objc_setHook_getImageName
+000000000001ca20 T _objc_setHook_setAssociatedObject
+0000000000009de0 T _objc_setProperty
+0000000000009f00 T _objc_setProperty_atomic
+000000000000a040 T _objc_setProperty_atomic_copy
+0000000000009ff0 T _objc_setProperty_nonatomic
+000000000000a120 T _objc_setProperty_nonatomic_copy
+000000000000e0d0 T _objc_setUncaughtExceptionHandler
+000000000000a580 T _objc_set_collection_ratio
+000000000000a570 T _objc_set_collection_threshold
+0000000000004820 T _objc_should_deallocate
+000000000000a450 T _objc_startCollectorThread
+000000000000a590 T _objc_start_collector_thread
+00000000000049a0 T _objc_storeStrong
+0000000000004ac0 T _objc_storeWeak
+0000000000004e30 T _objc_storeWeakOrNil
+0000000000035180 T _objc_sync_enter
+0000000000035690 T _objc_sync_exit
+0000000000035170 t _objc_sync_nil
+0000000000035600 T _objc_sync_try_enter
+000000000000e5f0 T _objc_terminate
+000000000000a5c0 T _objc_unregisterThreadWithCollector
+0000000000007dc0 T _objc_unretainedObject
+0000000000007dd0 T _objc_unretainedPointer
+0000000000007d10 T _objc_unsafeClaimAutoreleasedReturnValue
+0000000000036030 t _objc_weak_error
+000000000002d7c0 T _object_copy
+000000000002dcb0 T _object_copyFromZone
+000000000000cc00 T _object_cxxConstructFromClass
+000000000000cb10 T _object_cxxDestruct
+000000000002ddb0 T _object_dispose
+000000000000c1b0 T _object_getClass
+000000000000c450 T _object_getClassName
+000000000001ea20 T _object_getIndexedIvars
+000000000000ca50 T _object_getInstanceVariable
+000000000000c8a0 T _object_getIvar
+000000000000c480 T _object_getMethodImplementation
+000000000000c4f0 T _object_getMethodImplementation_stret
+000000000000c3f0 T _object_isClass
+000000000000c1d0 T _object_setClass
+000000000000c8f0 T _object_setInstanceVariable
+000000000000c9b0 T _object_setInstanceVariableWithStrongDefault
+000000000000c790 T _object_setIvar
+000000000000c820 T _object_setIvarWithStrongDefault
+                 U _open
+                 U _os_unfair_lock_lock_with_options
+                 U _os_unfair_lock_unlock
+                 U _os_unfair_recursive_lock_lock_with_options
+                 U _os_unfair_recursive_lock_trylock
+                 U _os_unfair_recursive_lock_tryunlock4objc
+                 U _os_unfair_recursive_lock_unlock
+                 U _posix_memalign
+                 U _pread
+0000000000018910 T _preopt_init
+0000000000018750 T _preoptimizedHinfoForHeader
+0000000000017d50 T _preoptimizedSelectors
+                 U _printf
+0000000000024630 T _property_copyAttributeList
+00000000000246e0 T _property_copyAttributeValue
+0000000000024620 T _property_getAttributes
+0000000000024610 T _property_getName
+0000000000025fb0 T _protocol_addMethodDescription
+00000000000262b0 T _protocol_addProperty
+0000000000025da0 T _protocol_addProtocol
+00000000000250b0 T _protocol_conformsToProtocol
+0000000000025280 T _protocol_copyMethodDescriptionList
+00000000000256e0 T _protocol_copyPropertyList
+00000000000255c0 T _protocol_copyPropertyList2
+0000000000025700 T _protocol_copyProtocolList
+0000000000025070 T _protocol_getMethodDescription
+0000000000024fd0 T _protocol_getName
+00000000000253c0 T _protocol_getProperty
+0000000000025230 T _protocol_isEqual
+                 U _pthread_cond_broadcast
+                 U _pthread_cond_wait
+                 U _pthread_getname_np
+                 U _pthread_getspecific
+                 U _pthread_is_threaded_np
+                 U _pthread_key_create
+                 U _pthread_key_init_np
+                 U _pthread_mach_thread_np
+                 U _pthread_mutex_lock
+                 U _pthread_mutex_unlock
+                 U _pthread_setspecific
+                 U _putchar
+                 U _realloc
+                 U _reallocf
+0000000000043298 s _reltable._ZN4objc7scannerL11printCustomEP10objc_classNS_14SelectorBundleEb
+000000000001c0f0 T _removeHeader
+0000000000013070 T _remove_category_from_loadable_list
+0000000000012fe0 T _remove_class_from_loadable_list
+000000000004e040 S _runtimeLock
+000000000002e120 T _runtime_init
+000000000004e044 S _selLock
+0000000000034d60 T _sel_getName
+00000000000350e0 T _sel_getUid
+0000000000034af0 T _sel_init
+0000000000035100 T _sel_isEqual
+0000000000034d80 T _sel_isMapped
+0000000000034f30 T _sel_registerName
+0000000000034d50 T _sel_registerNameNoLock
+0000000000017d80 T _sharedCacheSupportsProtocolRoots
+                 U _snprintf
+                 U _sprintf
+                 U _strcat
+                 U _strchr
+                 U _strcmp
+                 U _strcspn
+                 U _strdup
+                 U _strlcpy
+                 U _strlen
+                 U _strncmp
+                 U _strncpy
+                 U _strstr
+                 U _strtoul
+                 U _task_threads
+                 U _thread_get_state
+000000000001c8f0 T _tls_init
+00000000000217b0 T _unmap_image
+00000000000198a0 T _unmap_image_nolock
+                 U _unw_get_proc_info
+                 U _unw_get_reg
+                 U _unw_getcontext
+                 U _unw_init_local
+                 U _unw_step
+                 U _vasprintf
+                 U _vm_allocate
+                 U _vm_deallocate
+                 U _vm_remap
+0000000000036810 T _weak_clear_no_lock
+0000000000036760 T _weak_is_registered_no_lock
+0000000000036500 T _weak_register_no_lock
+00000000000362d0 T _weak_unregister_no_lock
+                 U _write
+                 U dyld_stub_binder
+Darling [~]$ otool -L /bin/bash 
+Invoked with: /Library/Developer/DarlingCLT/usr/bin/xcrun otool -L /bin/bash
+Executing /Library/Developer/DarlingCLT/usr/bin/otool
+/bin/bash:
+	/usr/lib/libncurses.5.4.dylib (compatibility version 5.4.0, current version 5.4.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1281.0.0)
+Darling [~]$ [KDarling [~]$ [KDarling [~]$ moun    /Volumes/SystemRoot/usr/bin/mou
+mount                   mount.ecryptfs_private  mount.fuse              mount.nfs               mount.sshfs             mouse-dpi-tool
+mount.cifs              mount.exfat             mount.fuse.sshfs        mount.nfs4              mountpoint              mouse-test
+mount.ecryptfs          mount.exfat-fuse        mount.fuse3             mount.smb3              mountstats              
+Darling [~]$ /Volumes/SystemRoot/usr/bin/mount | columnt -t
+bash: columnt: command not found
+Darling [~]$ /Volumes/SystemRoot/usr/bin/mount | columnt -tt[1P
+/dev/sda6    on  /                                                             type  ext4             (rw,noatime)
+dev          on  /dev                                                          type  devtmpfs         (rw,nosuid,relatime,size=1923156k,nr_inodes=480789,mode=755,inode64)
+devpts       on  /dev/pts                                                      type  devpts           (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+hugetlbfs    on  /dev/hugepages                                                type  hugetlbfs        (rw,relatime,pagesize=2M)
+mqueue       on  /dev/mqueue                                                   type  mqueue           (rw,nosuid,nodev,noexec,relatime)
+proc         on  /proc                                                         type  proc             (rw,nosuid,nodev,noexec,relatime)
+systemd-1    on  /proc/sys/fs/binfmt_misc                                      type  autofs           (rw,relatime,fd=30,pgrp=0,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=12663)
+binfmt_misc  on  /proc/sys/fs/binfmt_misc                                      type  binfmt_misc      (rw,nosuid,nodev,noexec,relatime)
+sys          on  /sys                                                          type  sysfs            (rw,nosuid,nodev,noexec,relatime)
+efivarfs     on  /sys/firmware/efi/efivars                                     type  efivarfs         (rw,nosuid,nodev,noexec,relatime)
+securityfs   on  /sys/kernel/security                                          type  securityfs       (rw,nosuid,nodev,noexec,relatime)
+cgroup2      on  /sys/fs/cgroup                                                type  cgroup2          (rw,nosuid,nodev,noexec,relatime,nsdelegate,memory_recursiveprot)
+pstore       on  /sys/fs/pstore                                                type  pstore           (rw,nosuid,nodev,noexec,relatime)
+none         on  /sys/fs/bpf                                                   type  bpf              (rw,nosuid,nodev,noexec,relatime,mode=700)
+tracefs      on  /sys/kernel/tracing                                           type  tracefs          (rw,nosuid,nodev,noexec,relatime)
+debugfs      on  /sys/kernel/debug                                             type  debugfs          (rw,nosuid,nodev,noexec,relatime)
+configfs     on  /sys/kernel/config                                            type  configfs         (rw,nosuid,nodev,noexec,relatime)
+fusectl      on  /sys/fs/fuse/connections                                      type  fusectl          (rw,nosuid,nodev,noexec,relatime)
+run          on  /run                                                          type  tmpfs            (rw,nosuid,nodev,relatime,mode=755,inode64)
+none         on  /run/credentials/systemd-sysusers.service                     type  ramfs            (ro,nosuid,nodev,noexec,relatime,mode=700)
+tmpfs        on  /run/user/1000                                                type  tmpfs            (rw,nosuid,nodev,relatime,size=386128k,nr_inodes=96532,mode=700,uid=1000,gid=1000,inode64)
+gvfsd-fuse   on  /run/user/1000/gvfs                                           type  fuse.gvfsd-fuse  (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)
+portal       on  /run/user/1000/doc                                            type  fuse.portal      (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)
+tmpfs        on  /tmp                                                          type  tmpfs            (rw,nosuid,nodev,nr_inodes=1048576,inode64)
+/dev/sda5    on  /boot/efi                                                     type  vfat             (rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro)
+/dev/sda7    on  /mnt/Extended                                                 type  ext4             (rw,relatime)
+tmpfs        on  /dev/shm                                                      type  tmpfs            (rw,nosuid,nodev,noexec,relatime,inode64)
+overlay      on  /mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling       type  overlay          (rw,relatime,lowerdir=/usr/libexec/darling,upperdir=/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling,workdir=/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling.workdir,index=off)
+proc         on  /mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/proc  type  proc             (rw,relatime)
+Darling [~]$ ps aux
+USER    PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+nkpro    68   0.0  0.3    35580  10272   ??  S     1Jan70   0:00.00 ps aux 
+nkpro     6   0.0  0.3    25412   9788   ??  S     1Jan70   0:00.00 /usr/sbin/memberd -x 
+nkpro     7   0.0  0.3   128308   9920   ??  S     1Jan70   0:00.00 /usr/libexec/opendirectoryd 
+nkpro     8   0.0  1.6   587528  60488   ??  S     1Jan70   0:00.00 /usr/sbin/iokitd 
+nkpro     9   0.0  0.6   113624  22476   ??  S     1Jan70   0:00.00 /usr/sbin/securityd -i 
+nkpro    10   0.0  0.3    25284  10712   ??  S     1Jan70   0:00.00 /usr/libexec/shellspawn 
+nkpro    14   0.0  0.2   338752   9412   ??  S     1Jan70   0:00.00 /usr/sbin/notifyd 
+nkpro    54   0.0  0.2    38596   6904   ??  SN    1Jan70   0:00.00 /usr/libexec/shellspawn 
+nkpro    55   0.0  0.4    37372  14100   ??  S     1Jan70   0:00.00 /bin/bash --login 
+nkpro     1   0.0  0.3    66784  11724   ??  S     1Jan70   0:00.00 /sbin/launchd 
+Darling [~]$ man dyld
+[?1049h[?1h=DYLD(1)                                                                                                                                        DYLD(1)
+
+[01;32mNAME[0m
+       dyld - the dynamic linker
+
+[01;32mSYNOPSIS[0m
+       DYLD_FRAMEWORK_PATH
+       DYLD_FALLBACK_FRAMEWORK_PATH
+       DYLD_VERSIONED_FRAMEWORK_PATH
+       DYLD_LIBRARY_PATH
+       DYLD_FALLBACK_LIBRARY_PATH
+       DYLD_VERSIONED_LIBRARY_PATH
+       DYLD_PRINT_TO_FILE
+       DYLD_SHARED_REGION
+       DYLD_INSERT_LIBRARIES
+       DYLD_FORCE_FLAT_NAMESPACE
+:[K[K [KESCESC[KOO[KBB[K       DYLD_IMAGE_SUFFIX
+:[K[K [KESCESC[KOO[KBB[K       DYLD_PRINT_OPTS
+:[K[K [KESCESC[KOO[KBB[K       DYLD_PRINT_ENV
+:[K[K [KESCESC[KOO[KBB[K       DYLD_PRINT_LIBRARIES
+:[K[K [KESCESC[KOO[KBB[K       DYLD_BIND_AT_LAUNCH
+:[K[K [KESCESC[KOO[KBB[K       DYLD_DISABLE_DOFS
+:[K[K [KESCESC[KOO[KBB[K       DYLD_PRINT_APIS
+:[K[K [KESCESC[KOO[KBB[K       DYLD_PRINT_BINDINGS
+:[K[K [KESCESC[KOO[KBB[K       DYLD_PRINT_INITIALIZERS
+:[K[K [KESCESC[KOO[KBB[K       DYLD_PRINT_REBASINGS
+:[K[K [KESCESC[KOO[KBB[K       DYLD_PRINT_SEGMENTS
+:[K[K [KESCESC[KOO[KBB[K       DYLD_PRINT_STATISTICS
+:[K[K [KESCESC[KOO[KBB[K       DYLD_PRINT_DOFS
+:[K[K [KESCESC[KOO[KBB[K       DYLD_PRINT_RPATHS
+:[K[K [KESCESC[KOO[KBB[K       DYLD_SHARED_CACHE_DIR
+:[K[K [KESCESC[KOO[KBB[K       DYLD_SHARED_CACHE_DONT_VALIDATE
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K[01;32mDESCRIPTION[0m
+:[K[K [KESCESC[KOO[KBB[K       The dynamic linker checks the following environment variables during the launch of each process.
+:[K[K [KESCESC[KOO[KBB[K       Note:  If System Integrity Protection is enabled, these environment variables are ignored when executing binaries protected by System Integrity
+:[K[K [KESCESC[KOO[KBB[K       Protection.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K       [01;32mDYLD_FRAMEWORK_PATH[0m
+:[K[K [KESCESC[KOO[KBB[K              This is a colon separated list of directories that contain frameworks.  The dynamic linker searches these directories before it searches
+:[K[K [KESCESC[KOO[KBB[K              for  the  framework  by  its install name.  It allows you to test new versions of existing frameworks. (A framework is a library install
+:[K[K [KESCESC[KOO[KBB[K              name that ends in the form XXX.framework/Versions/A/XXX or XXX.framework/XXX, where XXX and A are any name.)
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K              For each framework that a program uses, the dynamic linker looks for the framework in each directory in DYLD_FRAMEWORK_PATH in turn.  If
+:[K[K [KESCESC[KOO[KBB[K              it  looks  in  all  those directories and can't find the framework, it uses whatever it would have loaded if DYLD_FRAMEWORK_PATH had not
+:[K[K [KESCESC[KOO[KBB[K              been set.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K              Use the [01;32m-L[0m option to [01;36motool[0m(1) to discover the frameworks and shared libraries that the executable is linked against.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K       [01;32mDYLD_FALLBACK_FRAMEWORK_PATH[0m
+:[K[K [KESCESC[KOO[KBB[K              This is a colon separated list of directories that contain frameworks.  If a framework is not found at its install path, dyld uses  this
+:[K[K [KESCESC[KOO[KBB[K              as a list of directories to search for the framework.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K              By default, it is set to /Library/Frameworks:/System/Library/Frameworks
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K       [01;32mDYLD_VERSIONED_FRAMEWORK_PATH[0m
+:[K[K [KESCESC[KOO[KBB[K              This is a colon separated list of directories that contain potential override frameworks.  The dynamic linker searches these directories
+:[K[K [KESCESC[KOO[KBB[K              for frameworks.  For each framework found dyld looks at its LC_ID_DYLIB and gets the current_version and install name.  Dyld then  looks
+:[K[K [KESCESC[KOO[KBB[K              for  the  framework  at  the  install  name path.  Whichever has the larger current_version value will be used in the process whenever a
+:[K[K [KESCESC[KOO[KBB[K              framework with that install name is required.  This is similar to DYLD_FRAMEWORK_PATH except instead of always overriding, it only over-
+:[K[K [KESCESC[KOO[KBB[K              rides  if  the supplied framework is newer.  Note: dyld does not check the framework's Info.plist to find its version.  Dyld only checks
+:[K[K [KESCESC[KOO[KBB[K              the -currrent_version number supplied when the framework was created.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K       [01;32mDYLD_LIBRARY_PATH[0m
+:[K[K [KESCESC[KOO[KBB[K              This is a colon separated list of directories that contain libraries. The dynamic linker searches these directories before  it  searches
+:[K[K [KESCESC[KOO[KBB[K              the default locations for libraries. It allows you to test new versions of existing libraries.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K              For each dylib that a program uses, the dynamic linker looks for its leaf name in each directory in DYLD_LIBRARY_PATH.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K              Use the [01;32m-L[0m option to [01;36motool[0m(1) to discover the frameworks and shared libraries that the executable is linked against.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K       [01;32mDYLD_FALLBACK_LIBRARY_PATH[0m
+:[K[K [KESCESC[KOO[KBB[K              This is a colon separated list of directories that contain libraries.  If a dylib is not found at its install  path, dyld uses this as a
+:[K[K [KESCESC[KOO[KBB[K              list of directories to search for the dylib.  By default, it is set to /usr/local/lib:/usr/lib.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K       [01;32mDYLD_VERSIONED_LIBRARY_PATH[0m
+:[K[K [KESCESC[KOO[KBB[K              This is a colon separated list of directories that contain potential override libraries.  The dynamic linker searches these  directories
+:[K[K [KESCESC[KOO[KBB[K              for  dynamic  libraries.  For each library found dyld looks at its LC_ID_DYLIB and gets the current_version and install name.  Dyld then
+:[K[K [KESCESC[KOO[KBB[K              looks for the library at the install name path.  Whichever has the larger current_version value will be used in the process  whenever  a
+:[K[K [KESCESC[KOO[KBB[K              dylib  with  that install name is required.  This is similar to DYLD_LIBRARY_PATH except instead of always overriding, it only overrides
+:[K[K [KESCESC[KOO[KBB[K              is the supplied library is newer.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K       [01;32mDYLD_PRINT_TO_FILE[0m
+:[K[K [KESCESC[KOO[KBB[K              This is a path to a (writable) file. Normally, the dynamic linker writes all logging output (triggered by DYLD_PRINT_* settings) to file
+:[K[K [KESCESC[KOO[KBB[K              descriptor 2 (which is usually stderr).  But this setting causes the dynamic linker to write logging output to the specified file.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K       [01;32mDYLD_SHARED_REGION[0m
+:[K[K [KESCESC[KOO[KBB[K              This  can  be  "use" (the default), "avoid", or "private".  Setting it to "avoid" tells dyld to not use the shared cache.  All OS dylibs
+:[K[K [KESCESC[KOO[KBB[K              are loaded dynamically just like every other dylib.  Setting it to "private" tells dyld to remove the shared  region  from  the  process
+:[K[K [KESCESC[KOO[KBB[K              address  space and mmap() back in a private copy of the dyld shared cache in the shared region address range. This is only useful if the
+:[K[K [KESCESC[KOO[KBB[K              shared cache on disk has been updated and is different than the shared cache in use.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K       [01;32mDYLD_INSERT_LIBRARIES[0m
+:[K[K [KESCESC[KOO[KBB[K              This is a colon separated list of dynamic libraries to load before the ones specified in the program.  This lets you test new modules of
+:[K[K [KESCESC[KOO[KBB[K              existing dynamic shared libraries that are used in flat-namespace images by loading a temporary dynamic shared library with just the new
+:[K[K [KESCESC[KOO[KBB[K              modules.  Note that this has  no  effect  on  images  built  a  two-level  namespace  images  using  a  dynamic  shared  library  unless
+:[K[K[?1l>[?1049lDarling [~]$ python
+
+WARNING: Python 2.7 is not recommended. 
+This version is included in macOS for compatibility with legacy software. 
+Future versions of macOS will not include Python 2.7. 
+Instead, it is recommended that you transition to using 'python3' from within Terminal.
+
+Python 2.7.16 (default, Aug 23 2022, 02:49:18) 
+[GCC Clang 14.0.6] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import sys
+>>> sys.pla[17G[12Gtform
+'darwin'
+>>> improt os[Ks
+  File "<stdin>", line 1
+    improt os
+            ^
+SyntaxError: invalid syntax
+>>> import os
+>>> os.system()')')u')n')a')m')e')
+Darwin
+0
+>>> ^D
+Darling [~]$ arch
+i386
+Darling [~]$ xtrace arch
+xtrace: failed to dlsym(/usr/lib/darling/xtrace-mig/libnotify_xtrace_mig.dylib, "xtrace_mig_subsystem"): dlsym(0x7f91a885a158, xtrace_mig_subsystem): symbol not found
+[37m[85] [0mgetuid()[37m -> [0m1000
+[37m[85] [0mmach_msg_trap(0x7FFFFFDFBAB8, MACH_SEND_MSG|MACH_RCV_MSG, 188, 108, port 1543, 0, port 0)
+[37m[85]         [0m{remote = copy send 1799, local = make send-once 1543, id = 404}, 164 bytes of inline data
+[37m[85]         [0mjob::look_up2(copy send 1799, [;1m"com.apple.system.notification_center"[0m, 0, [192, 7, 8, 0, 15, 255, 145, 0, 0, 0, 0, 0, 0, 0, 0, 0], 8)
+[37m[85] [0m[37mmach_msg_trap()[37m -> [0mKERN_SUCCESS
+[37m[85]         [0m{local = move send-once 1543, complex, id = 504}, move send 4867, 0 bytes of inline data
+[37m[85]         [0m[37mjob::look_up2() -> [0mmove send 4867, {0, 0, 0, 0, 0, 0, 0, 0} 
+[37m[85] [0mmach 50(...)[37m -> [0m0xA03
+[37m[85] [0mmach_msg_trap(0x7FFFFFDFBDA8, MACH_SEND_MSG|MACH_RCV_MSG, 24, 56, port 2563, 0, port 0)
+[37m[85]         [0m{remote = copy send 4867, local = make send-once 2563, id = 78945023}, 0 bytes of inline data
+[37m[85]         [0mnotify_ipc::_notify_server_checkin(copy send 4867)
+[37m[85] [0m[37mmach_msg_trap()[37m -> [0mKERN_SUCCESS
+[37m[85]         [0m{local = move send-once 2563, id = 78945123}, 24 bytes of inline data
+[37m[85]         [0m[37mnotify_ipc::_notify_server_checkin() -> [0m3, 14, 0 
+[37m[85] [0mmach_msg_trap(0x7FFFFFDFBCD8, MACH_SEND_MSG|MACH_RCV_MSG, 96, 64, port 2563, 0, port 0)
+[37m[85]         [0m{remote = copy send 4867, local = make send-once 2563, id = 78945012}, 72 bytes of inline data
+[37m[85]         [0mnotify_ipc::_notify_server_register_check_2(copy send 4867, [;1m"com.apple.system.DirectoryService.InvalidateCache"[0m, 2)
+[37m[85] [0m[37mmach_msg_trap()[37m -> [0mKERN_SUCCESS
+[37m[85]         [0m{local = move send-once 2563, id = 78945112}, 32 bytes of inline data
+[37m[85]         [0m[37mnotify_ipc::_notify_server_register_check_2() -> [0m4096, 11, 19, 0 
+[37m[85] [0mshm_open([;1m"apple.shm.notification_center"[0m, 0, 0)[37m -> [0m3
+[37m[85] [0mmmap(NULL, 4096, PROT_READ, MAP_SHARED, 3, 0)[37m -> [0m0x7F91A7286000
+[37m[85] [0mclose(3)[37m -> [0m0
+[37m[85] [0mmach_msg_trap(0x7FFFFFDFBCD8, MACH_SEND_MSG|MACH_RCV_MSG, 100, 64, port 2563, 0, port 0)
+[37m[85]         [0m{remote = copy send 4867, local = make send-once 2563, id = 78945012}, 76 bytes of inline data
+[37m[85]         [0mnotify_ipc::_notify_server_register_check_2(copy send 4867, [;1m"com.apple.system.DirectoryService.InvalidateCache.user"[0m, 3)
+[37m[85] [0m[37mmach_msg_trap()[37m -> [0mKERN_SUCCESS
+[37m[85]         [0m{local = move send-once 2563, id = 78945112}, 32 bytes of inline data
+[37m[85]         [0m[37mnotify_ipc::_notify_server_register_check_2() -> [0m4096, 12, 20, 0 
+[37m[85] [0mmach_msg_trap(0x7FFFFFDFBCD8, MACH_SEND_MSG|MACH_RCV_MSG, 100, 64, port 2563, 0, port 0)
+[37m[85]         [0m{remote = copy send 4867, local = make send-once 2563, id = 78945012}, 76 bytes of inline data
+[37m[85]         [0mnotify_ipc::_notify_server_register_check_2(copy send 4867, [;1m"com.apple.system.DirectoryService.InvalidateCache.group"[0m, 4)
+[37m[85] [0m[37mmach_msg_trap()[37m -> [0mKERN_SUCCESS
+[37m[85]         [0m{local = move send-once 2563, id = 78945112}, 32 bytes of inline data
+[37m[85]         [0m[37mnotify_ipc::_notify_server_register_check_2() -> [0m4096, 13, 21, 0 
+[37m[85] [0mmach_msg_trap(0x7FFFFFDFBCD8, MACH_SEND_MSG|MACH_RCV_MSG, 104, 64, port 2563, 0, port 0)
+[37m[85]         [0m{remote = copy send 4867, local = make send-once 2563, id = 78945012}, 80 bytes of inline data
+[37m[85]         [0mnotify_ipc::_notify_server_register_check_2(copy send 4867, [;1m"com.apple.system.DirectoryService.InvalidateCache.service"[0m, 5)
+[37m[85] [0m[37mmach_msg_trap()[37m -> [0mKERN_SUCCESS
+[37m[85]         [0m{local = move send-once 2563, id = 78945112}, 32 bytes of inline data
+[37m[85]         [0m[37mnotify_ipc::_notify_server_register_check_2() -> [0m4096, 14, 22, 0 
+[37m[85] [0missetugid()[37m -> [0m0
+[37m[85] [0missetugid()[37m -> [0m0
+[37m[85] [0mmach_msg_trap(0x7FFFFFDFC078, MACH_SEND_MSG|MACH_RCV_MSG, 188, 108, port 1543, 0, port 0)
+[37m[85]         [0m{remote = copy send 1799, local = make send-once 1543, id = 404}, 164 bytes of inline data
+[37m[85]         [0mjob::look_up2(copy send 1799, [;1m"com.apple.system.opendirectoryd.libinfo"[0m, 0, [172, 7, 8, 145, 15, 255, 145, 0, 145, 145, 145, 0, 254, 0, 254, 0], 8)
+[37m[85] [0m[37mmach_msg_trap()[37m -> [0mKERN_SUCCESS
+[37m[85]         [0m{local = move send-once 1543, id = 504}, 12 bytes of inline data
+[37m[85]         [0m[37mjob::look_up2() -> [0mBOOTSTRAP_UNKNOWN_SERVICE 
+[37m[85] [0mgeteuid()[37m -> [0m1000
+[37m[85] [0mgetrlimit(4104, 0x7FFFFFDFBFC8)[37m -> [0m0
+[37m[85] [0mopen_nocancel([;1m"/etc/passwd"[0m, O_RDONLY, 438)[37m -> [0m3
+[37m[85] [0mfstat64(3, 0x7FFFFFDFC200)[37m -> [0m0
+[37m[85] [0mfstat64(3, 0x7FFFFFDFB0E0)[37m -> [0m0
+[37m[85] [0mread_nocancel(3, 0x7F91A680C800, 4096)[37m -> [0m104
+[37m[85] [0mclose_nocancel(3)[37m -> [0m0
+[37m[85] [0missetugid()[37m -> [0m0
+[37m[85] [0mopen([;1m"/dev/autofs_nowait"[0m, O_RDONLY, -2112180)[37m -> [0m3
+[37m[85] [0mopen([;1m"/Users/nkpro/.CFUserTextEncoding"[0m, O_RDONLY, 0)[37m -> [0mENOENT
+[37m[85] [0mclose(3)[37m -> [0m0
+[37m[85] [0missetugid()[37m -> [0m0
+[37m[85] [0mhost_self_trap()[37m -> [0mport right 2307
+[37m[85] [0mmach_msg_trap(0x7FFFFFDFFA70, MACH_SEND_MSG|MACH_RCV_MSG, 40, 320, port 1543, 0, port 0)
+[37m[85]         [0m{remote = copy send 2307, local = make send-once 1543, id = 200}, 16 bytes of inline data
+[37m[85]         [0mmach_host::host_info(copy send 2307, 12, 2)
+[37m[85] [0m[37mmach_msg_trap()[37m -> [0mKERN_SUCCESS
+[37m[85]         [0m{local = move send-once 1543, id = 300}, 24 bytes of inline data
+[37m[85]         [0m[37mmach_host::host_info() -> [0m[7, 4], 2 
+[37m[85] [0m_kernelrpc_mach_port_deallocate_trap(task 259, port name 2307)[37m -> [0mKERN_SUCCESS
+[37m[85] [0mioctl(0, 1074030202, 0x7FFFFFDFFBE4)[37m -> [0m0
+[37m[85] [0mfstat64(1, 0x7FFFFFDFF830)[37m -> [0m0
+[37m[85] [0mioctl(1, 1074030202, 0x7FFFFFDFF884)[37m -> [0m0
+[37m[85] [0mwrite_nocancel(1, 0x7F91A680CE00, 5)i386
+[37m -> [0m5
+[37m[85] [0mexit(0)
+Darling [~]$ launchctl list
+PID	Status	Label
+86	-	0x7fa8ead00740.anonymous.mldr
+54	-	0x7fa8ecc5a450.anonymous.mldr
+55	-	0x7fa8ecc59940.anonymous.mldr
+-	0	com.apple.periodic-weekly
+6	-	com.apple.memberd
+-	0	com.apple.periodic-daily
+-	0	com.apple.aslmanager
+-	0	com.apple.FileCoordination
+14	-	com.apple.notifyd
+7	-	com.apple.opendirectoryd
+-	0	com.apple.var-db-dslocal-backup
+8	-	org.darlinghq.iokitd
+-	0	com.apple.newsyslog
+-	0	com.apple.trustd
+-	0	com.apple.periodic-monthly
+9	-	com.apple.securityd
+-	0	org.cups.cupsd
+10	-	org.darlinghq.shellspawn
+-	0	com.apple.launchctl.System
+Darling [~]$ curl https://example.org
+Broken Mach-O file, cmdsize = 4688
+Darling [~]$ curl https://example.org[1P
+Broken Mach-O file, cmdsize = 4688
+Darling [~]$ curl 'http://example.org'
+Broken Mach-O file, cmdsize = 4688
+Darling [~]$ curl ''h't't'p's':'/'/'g'i't'h'u'b'.'c'o'm'/'n'k'p'r'o'2'0'0'0'
+Broken Mach-O file, cmdsize = 4688
+Darling [~]$ whoami
+nkpro
+Darling [~]$ sudo whoami
+root
+Darling [~]$ Darling [~]$ curl -s https://raw.githubusercontent.com/rudix-mac/rpm/2015.10.20/rudix.py | sudo python - install rudix
+bash: Darling: command not found
+Darling [~]$ Darling [~]$ curl -s https://raw.githubusercontent.com/rudix-mac/rpm/2015.10.20/rudix.py | sudo python - install rudixDarling [~]$ Darling [~]$ [1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+Broken Mach-O file, cmdsize = 4688
+Darling [~]$ curl -s https://raw.githubusercontent.com/rudix-mac/rpm/2015.10.20/rudix.py | sudo python - install rudixDarling [~]$ curl -s[1P[1P[1P[1P[1P[1P[1P[1@w[1@g[1@e[1@t
+bash: wget: command not found
+Darling [~]$ which curl
+/usr/bin/curl
+Darling [~]$ curl --help
+Broken Mach-O file, cmdsize = 4688
+Darling [~]$ /Volumes/SystemRoot/usr/bin/cu
+cubemap            cuberender32       cups-calibrate     cups-genppdupdate  cupsd              cupsfilter         curl               cut
+cubemap32          cue2toc            cups-config        cupsaccept         cupsdisable        cupsreject         curl-config        
+cuberender         cups-browsed       cups-genppd.5.3    cupsctl            cupsenable         cupstestppd        curve_keygen       
+Darling [~]$ /Volumes/SystemRoot/usr/bin/curl
+curl         curl-config  
+Darling [~]$ /Volumes/SystemRoot/usr/bin/curl -s https://raw.githubusercontent.com/rudix-mac/rpm/2015.10.20/rudix.py | sudo python - install rudix
+Could not synchronize with 'https://raw.githubusercontent.com/rudix-mac/packages'
+Darling [~]$ /Volumes/SystemRoot/usr/bin/curl -s https://raw.githubusercontent.com/rudix-mac/rpm/2015.10.20/rudix.py | sudo python - install rudix                              
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+'''Rudix Package Manager -- RPM ;D'''
+
+import sys
+import os
+import optparse
+import tempfile
+import re
+import gzip
+import subprocess
+import urllib2
+import platform
+import fnmatch
+
+from distutils.version import LooseVersion
+
+__author__ = 'Rudá Moura <ruda.moura@gmail.com>'
+__copyright__ = 'Copyright © 2005-2015 Rudix'
+__credits__ = 'Rudá Moura, Leonardo Santagada'
+__license__ = 'BSD'
+__version__ = '2015.10.20'
+
+Volume = os.getenv('VOLUME', '/')
+Vendor = os.getenv('VENDOR', 'org.rudix.pkg')
+RudixSite = os.getenv(
+    'RUDIX_SITE', 'https://raw.githubusercontent.com/rudix-mac/packages')
+RudixVersion = os.getenv('RUDIX_VERSION', '2015')
+
+OSX = {'10.6': 'Snow Leopard',
+       '10.7': 'Lion',
+       '10.8': 'Mountain Lion',
+       '10.9': 'Mavericks',
+       '10.10': 'Yosemite',
+       '10.11': 'El Capitan'}
+try:
+    OSXVersion = platform.mac_ver()[0]
+except:
+    OSXVersion = '10.10'
+OSXVersion = os.getenv('OSX_VERSION', OSXVersion)
+
+if OSXVersion.count('.') == 2:
+    OSXVersion = OSXVersion.rsplit('.', 1)[0]
+
+
+def version_compare(v1, v2):
+    'Compare software version'
+    ver_rel_re = re.compile('([^-]+)(?:-(\d+)$)?')
+    v1, r1 = ver_rel_re.match(v1).groups()
+    v2, r2 = ver_rel_re.match(v2).groups()
+    v_cmp = cmp(LooseVersion(v1), LooseVersion(v2))
+    # if they are in the same version, then compare the revision
+    if v_cmp == 0:
+        if r1 is None:
+            r1 = 0
+        if r2 is None:
+            r2 = 0
+        return cmp(int(r1), int(r2))
+    else:
+        return v_cmp
+
+
+def normalize(name):
+    'Transform package name in package-id.'
+    if name.startswith(Vendor) is False:
+        package_id = '%s.%s' % (Vendor, name)
+    else:
+        package_id = name
+    return package_id
+
+
+def denormalize(package_id):
+    'Transform package-id in package name.'
+    if package_id.startswith(Vendor):
+        name = package_id[len(Vendor) + 1:]
+    else:
+        name = package_id
+    return name
+
+
+def administrator(func):
+    'Restrict execution to Administrator (root)'
+    if os.getuid() != 0:
+        def new_func(*args, **kwargs):
+            print >>sys.stderr, 'This operation requires administrator (root) privileges!'
+            return 2
+    else:
+        new_func = func
+    return new_func
+
+
+def communicate(args):
+    'Call a process and return its output data as a list of strings.'
+    try:
+        proc = subprocess.Popen(args,
+                                stdout=subprocess.PIPE,
+                                stderr=subprocess.PIPE)
+    except OSError as err:
+        print >> sys.stderr, err, ': ' + ' '.join(args)
+        return []
+    return proc.communicate()[0].splitlines()
+
+
+def call(args, silent=True):
+    'Call a process and return its status.'
+    try:
+        if silent:
+            with open('/dev/null') as dev_null:
+                sts = subprocess.call(args, stdout=dev_null, stderr=dev_null)
+        else:
+            sts = subprocess.call(args)
+    except OSError as err:
+        print >> sys.stderr, err, ': ' + ' '.join(args)
+        sts = 1
+    return True if sts == 0 else False
+
+
+class Package(object):
+
+    """Class that represents a local package."""
+
+    def __init__(self, package_id, volume='/'):
+        self.package_id = package_id
+        self.volume = volume
+        self.name = denormalize(self.package_id)
+        self._package = None
+        self._version = None
+        self._instalL_date = None
+        self._files = None
+        self._dirs = None
+
+    def __str__(self):
+        return "Package '%s' on volume '%s'" % (self.package_id,
+                                                self.volume)
+
+    def __repr__(self):
+        return "Package('%s')" % (self.package_id)
+
+    @property
+    def installed(self):
+        cmd = ['pkgutil', '--volume', self.volume,
+               '--pkg-info', self.package_id]
+        return call(cmd, silent=True)
+
+    @property
+    def version(self):
+        if not self._version:
+            self.get_info()
+        return self._version
+
+    @property
+    def install_date(self):
+        if not self._install_date:
+            self.get_info()
+        return self._install_date
+
+    @property
+    def package(self):
+        if not self._package:
+            self.get_info()
+        self._package = '%s-%s.pkg' % (self.name, self.version)
+        return self._package
+
+    @property
+    def files(self):
+        if not self._files:
+            self._files = self.get_files()
+        return self._files
+
+    def get_info(self):
+        cmd = ['pkgutil', '-v', '--volume', self.volume,
+               '--pkg-info', self.package_id]
+        out = communicate(cmd)
+        version = '?'
+        install_date = '?'
+        for line in out:
+            line = line.strip()
+            if line.startswith('version: '):
+                self._version = line[len('version: '):]
+            if line.startswith('install-time: '):
+                self._install_date = line[len('install-time: '):]
+        return self._version, self._install_date
+
+    def get_files(self):
+        cmd = ['pkgutil', '--volume', self.volume,
+               '--files', self.package_id]
+        out = communicate(cmd)
+        content = [os.path.join(self.volume, line.strip()) for line in out]
+        return content
+
+    def uninstall(self, verbose=False):
+        FORBIDDEN = [
+            'Applications',
+            'Library',
+            'Library/Python',
+            'Library/Python/2.?',
+            'Library/Python/2.?/site-packages',
+            'Network',
+            'System',
+            'Users',
+            'Volumes',
+            'bin',
+            'cores',
+            'dev',
+            'etc',
+            'home',
+            'mach_kernel'
+            'net',
+            'private',
+            'sbin',
+            'tmp',
+            'usr',
+            'var', ]
+
+        def is_forbidden(path):
+            for pattern in FORBIDDEN:
+                if fnmatch.fnmatch(path, os.path.join(self.volume, pattern)):
+                    return True
+            return False
+        dirs = []
+        for x in self.files:
+            if is_forbidden(x):
+                if verbose:
+                    print "Skipping '%s'" % x
+                continue
+            if os.path.isdir(x):
+                dirs.append(x)
+                continue
+            if verbose:
+                print "Removing '%s'" % x
+            try:
+                os.unlink(x)
+            except OSError as err:
+                if verbose:
+                    print >> sys.stderr, err
+        dirs.sort(lambda p1, p2: p1.count('/') - p2.count('/'), reverse=True)
+        for x in dirs:
+            if verbose:
+                print "Removing directory '%s'" % x
+            try:
+                os.rmdir(x)
+            except OSError as err:
+                if verbose:
+                    print >> sys.stderr, err
+        cmd = ['pkgutil', '--volume', self.volume, '--forget', self.package_id]
+        return call(cmd, silent=False)
+
+
+class RemotePackage(object):
+
+    """Class that represents a remote package."""
+
+    def __init__(self,
+                 package,
+                 site_url=RudixSite,
+                 rudix_version=RudixVersion,
+                 osx_version=OSXVersion):
+        self.package = package
+        url = '{base}/{rudix}/{osx}'
+        self.url = url.format(base=site_url,
+                              rudix=rudix_version,
+                              osx=osx_version)
+        self._name = None
+        self._version = None
+        self._revision = None
+
+    def __str__(self):
+        return "Package '%s' on '%s'" % (self.package, self.url)
+
+    def __repr__(self):
+        return "RemotePackage('%s')" % self.package
+
+    @property
+    def package_id(self):
+        if self._name is None:
+            self.split()
+        return normalize(self._name)
+
+    @property
+    def name(self):
+        if self._name is None:
+            self.split()
+        return self._name
+
+    @property
+    def version(self):
+        if self._version is None:
+            self.split()
+        return '%s-%s' % (self._version, self._revision)
+
+    def split(self):
+        pat = re.compile(r'^(.+)-([^-]+)-(\d+)\.pkg$')
+        self._name, self._version, self._revision = pat.match(
+            self.package).groups()
+        return self._name, self._version, self._revision
+
+    def download(self, store_path=None, verbose=False):
+        tempf = None
+        if store_path is None:
+            tempf, file_path = tempfile.mkstemp(suffix=self.package)
+            store_path = file_path
+        url = self.url + '/{package}'
+        url = url.format(package=self.package)
+        cmd = ['curl', url, '--output', store_path,
+               '--remote-time', '--continue-at', '-', '--location']
+        if verbose:
+            cmd.append('--progress-bar')
+        else:
+            cmd.append('--silent')
+        call(cmd, silent=False)
+        if tempf:
+            os.close(tempf)
+        return store_path
+
+
+class Repository(object):
+
+    """Class that represents a local repository."""
+
+    def __init__(self, volume='/', vendor=Vendor):
+        self.volume = volume
+        self.vendor = vendor
+        self.packages = []
+
+    def __str__(self):
+        return "%d packages(s) installed on volume '%s'" % (len(self.packages),
+                                                            self.volume)
+
+    def __repr__(self):
+        return "Repository('%s')" % self.volume
+
+    def sync(self):
+        self.get_packages()
+        return True
+
+    def get_packages(self):
+        cmd = ['pkgutil', '--volume', self.volume,
+               '--pkgs=' + self.vendor + '.*']
+        out = communicate(cmd)
+        self.packages = [line.strip() for line in out]
+        return self.packages
+
+    def install_package(self, filename, verbose=False):
+        cmd = ['installer']
+        if verbose:
+            cmd.append('-verbose')
+        cmd.extend(['-pkg', filename, '-target', self.volume])
+        call(cmd, silent=False)
+
+    def remote_install_package(self, remote_package, verbose=False):
+        path = remote_package.download(verbose=True)
+        self.install_package(path, verbose)
+        os.remove(path)
+
+    def search_path(self, path):
+        'Search for path in all packages'
+        packages = []
+        out = communicate(['pkgutil', '--file-info', path])
+        for line in out:
+            line = line.strip()
+            if line.startswith('pkgid: '):
+                packages.append(line[len('pkgid: '):])
+        return packages
+
+
+class RemoteRepository(object):
+
+    """Class that represents a remote repository."""
+
+    def __init__(self,
+                 site_url=RudixSite,
+                 rudix_version=RudixVersion,
+                 osx_version=OSXVersion):
+        self.site_url = site_url
+        self.rudix_version = rudix_version
+        self.osx_version = osx_version
+        url = '{base}/{rudix}/{osx}'
+        self.url = url.format(base=self.site_url,
+                              rudix=self.rudix_version,
+                              osx=self.osx_version)
+        self.aliases = {}
+        self.packages = []
+
+    def __str__(self):
+        return "%d package(s) available on '%s'" % (len(self.packages),
+                                                    self.url)
+
+    def __repr__(self):
+        return "RemoteRepository('%s')" % self.url
+
+    def _retrieve_manifest(self):
+        url = self.url + '/00MANIFEST.txt'
+        cmd = ['curl', '-s', url]
+        content = communicate(cmd)
+        if not content:
+            return False
+        for line in content:
+            if line.endswith('.pkg'):
+                self.packages.append(line)
+        return True
+
+    def _retrieve_aliases(self):
+        url = self.url + '/00ALIASES.txt'
+        cmd = ['curl', '-s', url]
+        content = communicate(cmd)
+        if not content:
+            return False
+        for line in content:
+            if '->' in line:
+                alias, pkg = line.split('->')
+                self.aliases[alias] = pkg
+
+    def sync(self):
+        status = self._retrieve_manifest()
+        if status is False:
+            print >> sys.stderr, "Could not synchronize with '%s'" % self.site_url
+            return False
+        status = self._retrieve_aliases()
+        return True
+
+    def match_package(self, pkg):
+        if pkg in self.packages:
+            return RemotePackage(pkg)
+        else:
+            return None
+
+    def get_versions(self, name):
+        versions = []
+        for pkg in self.packages:
+            p = RemotePackage(pkg)
+            if name == p.name:
+                versions.append(p)
+        if versions:
+            versions = sorted(list(set(versions)),
+                              reverse=True,
+                              cmp=lambda x, y: version_compare(x.version,
+                                                               y.version))
+            return versions
+        else:
+            return []
+
+    def latest_version(self, name):
+        versions = self.get_versions(name)
+        return versions[0] if versions else None
+
+
+def command_alias(options, args=[]):
+    'List aliases.'
+    sts = 0
+    remote = RemoteRepository()
+    if remote.sync() is False:
+        return 1
+    if not args:
+        for alias in remote.aliases:
+            print '%s->%s' % (alias, remote.aliases[alias])
+    else:
+        for alias in args:
+            pkg = remote.aliases.get(alias, None)
+            if pkg:
+                print '%s->%s' % (alias, pkg)
+            else:
+                print >> sys.stderr, '%s: Not found!' % alias
+                sts = 1
+    return sts
+
+
+def command_search(options, args=[]):
+    'List all available (remote) packages.'
+    sts = 0
+    remote = RemoteRepository()
+    if remote.sync() is False:
+        return 1
+    if not args:
+        for pkg in remote.packages:
+            print pkg
+    else:
+        for name in args:
+            if remote.aliases.has_key(name):
+                name = remote.aliases[name]
+                print "Using '%s'" % name
+            versions = remote.get_versions(name)
+            if versions:
+                for p in versions:
+                    print p.package
+            else:
+                print >>sys.stderr, "No match for '%s'" % name
+                sts = 1
+    return sts
+
+
+def command_list(options, args):
+    'List all installed packages.'
+    repo = Repository(options.volume)
+    repo.sync()
+    if not repo.packages:
+        print >>sys.stderr, 'No Rudix packages installed.'
+        return 1
+    for pkg in repo.packages:
+        pkg = normalize(pkg)
+        if options.verbose:
+            p = Package(pkg, volume=options.volume)
+            print '%s version %s (install: %s)' % (p.package_id,
+                                                   p.version,
+                                                   p.install_date)
+        else:
+            print pkg
+    return 0
+
+
+def command_info(options, args=[]):
+    'Show information about installed packages.'
+    sts = 0
+    if not args:
+        repo = Repository(options.volume)
+        repo.sync()
+        args = repo.packages
+    for pkg in args:
+        pkg = normalize(pkg)
+        p = Package(pkg, volume=options.volume)
+        if p.installed is False:
+            print >>sys.stderr, "Package '%s' is not installed" % pkg
+            sts = 1
+            continue
+        print '---'
+        print 'Name: %s' % p.name
+        print 'Version: %s' % p.version
+        print 'Install date: %s' % p.install_date
+        if options.verbose:
+            print 'Package-id: %s' % p.package_id
+            print 'Package: %s' % p.package
+    return sts
+
+
+def command_files(options, args=[]):
+    "Show package's files."
+    sts = 0
+    for pkg in args:
+        pkg = normalize(pkg)
+        p = Package(pkg, volume=options.volume)
+        if p.installed is False:
+            print >>sys.stderr, "Package '%s' is not installed" % pkg
+            sts = 1
+            continue
+        print p
+        for x in p.files:
+            if os.path.isdir(x) and not options.verbose:
+                continue
+            print x
+    return sts
+
+
+def command_download(options, args):
+    'Download packages from Internet.'
+    sts = 0
+    repo = Repository(options.volume)
+    repo.sync()
+    remote = RemoteRepository()
+    if not remote.sync():
+        remote = None
+    for name in args:
+        if os.path.isfile(name):
+            print "Found package '%s'" % name
+            repo.install_package(name, options.verbose)
+        else:
+            if remote:
+                pkg = remote.match_package(name) or remote.latest_version(name)
+                if pkg:
+                    print 'Downloading %s...' % pkg.package
+                    pkg.download(store_path=pkg.package, verbose=True)
+                else:
+                    print >>sys.stderr, "No match for '%s'" % name
+                    sts = 1
+    return sts
+
+
+@administrator
+def command_install(options, args=[]):
+    'Install packages from file system or Internet.'
+    sts = 0
+    repo = Repository(options.volume)
+    repo.sync()
+    remote = RemoteRepository()
+    if not remote.sync():
+        remote = None
+    for name in args:
+        if os.path.isfile(name):
+            print "Found package '%s'" % name
+            repo.install_package(name, options.verbose)
+        else:
+            if remote:
+                if remote.aliases.has_key(name):
+                    name = remote.aliases[name]
+                    print "Using '%s'" % name
+                pkg = remote.match_package(name) or remote.latest_version(name)
+                if pkg:
+                    print 'Downloading %s...' % pkg.package
+                    repo.remote_install_package(pkg, options.verbose)
+                else:
+                    print >>sys.stderr, "No match for '%s'" % name
+                    sts = 1
+    return sts
+
+
+@administrator
+def command_update(options, args):
+    'Try to update the current base of packages.'
+    repo = Repository(options.volume)
+    repo.sync()
+    remote = RemoteRepository()
+    if not remote.sync():
+        return 1
+    to_update = []
+    for pkg in repo.packages:
+        p_local = Package(pkg, volume=options.volume)
+        p_remote = remote.latest_version(p_local.name)
+        if options.verbose:
+            print "Processing package %s:" % p_local.name,
+        if p_remote is None:
+            if options.verbose:
+                print 'No updates available'
+            continue
+        if version_compare(p_local.version,
+                           p_remote.version) >= 0:
+            if options.verbose:
+                print 'Already in the latest version'
+            continue
+        if options.verbose:
+            print 'New version available'
+        print '{0:25} {1:10} will be updated to version {2}'.format(p_local.name,
+                                                                    p_local.version,
+                                                                    p_remote.version)
+        to_update.append(p_remote)
+    if not to_update:
+        print 'All packages are up to date'
+    else:
+        total = len(to_update)
+        for cnt, p in enumerate(to_update):
+            print '[%d/%d] Downloading %s...' % (cnt + 1, total, p.package)
+            repo.remote_install_package(p, options.verbose)
+    return 0
+
+
+@administrator
+def command_remove(options, args=[]):
+    'Remove (uninstall) one or more packages.'
+    sts = 0
+    for pkg in args:
+        pkg = normalize(pkg)
+        p = Package(pkg, volume=options.volume)
+        if p.installed:
+            p.uninstall(options.verbose)
+        else:
+            if options.verbose:
+                print >>sys.stderr, '%s is not installed' % p
+            else:
+                print >>sys.stderr, "Package '%s' is not installed" % pkg
+            sts = 1
+    return sts
+
+
+@administrator
+def command_remove_all(options, args=[]):
+    'Remove (uninstall) all packages.'
+    if not options.force:
+        print "Using this option will remove *ALL* Rudix packages!"
+        print "Are you sure you want to proceed? (answer 'yes' or 'y' to confirm)"
+        answer = raw_input().strip()
+        if answer not in ['yes', 'y']:
+            print 'Great!'
+            return
+    print 'Removing package(s)...'
+    repo = Repository(options.volume)
+    repo.get_packages()
+    for pkg in repo.packages:
+        p = Package(pkg, volume=options.volume)
+        p.uninstall(options.verbose)
+    # Remember LinuxConf...
+    print 'Cry a little tear, because Rudix is not on this machine anymore...'
+
+
+def command_status(options, args):
+    'Show repositories status.'
+    print 'Rudix %s on OS X %s (%s)' % (RudixVersion,
+                                        OSXVersion,
+                                        OSX.get(OSXVersion, '?'))
+    repo = Repository(options.volume)
+    repo.sync()
+    print repo
+    remote = RemoteRepository()
+    if remote.sync() is False:
+        return 1
+    print remote
+    if options.verbose:
+        if remote.aliases:
+            print '%d alias(es)' % len(remote.aliases)
+    return 0
+
+
+def command_search_path(options, args=[]):
+    'Search for path in all packages'
+    sts = 0
+    repo = Repository(options.volume)
+    repo.sync()
+    for path in args:
+        pkgs = repo.search_path(path)
+        if pkgs:
+            print '%s:' % path,
+            for pkg in pkgs:
+                print '%s' % pkg,
+            print
+        else:
+            print >>sys.stderr, "No match for '%s'" % path
+            sts = 1
+    return sts
+
+
+def command_freeze(options, args=[]):
+    'Output installed packages in package file format.'
+    repo = Repository(options.volume)
+    repo.sync()
+    for pkg in repo.packages:
+        print Package(pkg, volume=options.volume).package
+
+
+def main(args=None):
+    if args is None:
+        args = sys.argv[1:]
+    usage = 'Usage: %prog command [options] [arguments]'
+    version = 'Rudix Package Manager (%prog) version ' + __version__ + '\n'
+    version += __copyright__
+    parser = optparse.OptionParser(usage=usage,
+                                   version=version)
+    parser.add_option('-v', '--verbose', action='store_true', default=False,
+                      help='displays more information when available')
+    parser.add_option('--volume', default=Volume,
+                      help='set volume to use. Default "%default"')
+    parser.add_option('--force', action='store_true', default=False,
+                      help='force operation')
+    commands = optparse.OptionGroup(parser,
+                                    'Commands',
+                                    'The Package manager commands.')
+    commands.add_option('-l', '--list', action='store_const', dest='command',
+                        const=command_list,
+                        help='list all packages installed')
+    commands.add_option('-I', '--info', '--show', action='store_const', dest='command',
+                        const=command_info,
+                        help='show information about installed packages')
+    commands.add_option('-L', '--files', '--content', action='store_const', dest='command',
+                        const=command_files,
+                        help="show packages's files")
+    commands.add_option('-i', '--install', action='store_const', dest='command',
+                        const=command_install,
+                        help='install local or remote package(s)')
+    commands.add_option('-d', '--download', action='store_const', dest='command',
+                        const=command_download,
+                        help='download package(s) but do not install')
+    commands.add_option('-u', '--update', '--upgrade', action='store_const', dest='command',
+                        const=command_update,
+                        help='update all packages')
+    commands.add_option('-r', '--remove', '--uninstall', action='store_const', dest='command',
+                        const=command_remove,
+                        help='remove (uninstall) package(s)')
+    commands.add_option('-R', '--remove-all', '--uninstall-all', action='store_const', dest='command',
+                        const=command_remove_all,
+                        help='remove (uninstall) ALL packages')
+    commands.add_option('-t', '--status', action='store_const', dest='command',
+                        const=command_status,
+                        help='show repository status')
+    commands.add_option('-s', '--search', action='store_const', dest='command',
+                        const=command_search,
+                        help='search for remote packages')
+    commands.add_option('-S', '--search-path', action='store_const', dest='command',
+                        const=command_search_path,
+                        help='search for path in all packages and print if matched')
+    commands.add_option('-a', '--alias', action='store_const', dest='command',
+                        const=command_alias,
+                        help='list aliases')
+    commands.add_option('-z', '--freeze', action='store_const', dest='command',
+                        const=command_freeze,
+                        help='freeze package list.')
+    parser.add_option_group(commands)
+    parser.set_defaults(command=command_list)
+    # Allow commands without dashes
+    if args:
+        command = args[0]
+        if command.startswith('-') is False:
+            args[0] = '--' + command
+    (options, args) = parser.parse_args(args)
+    return options.command(options, args)
+
+if __name__ == '__main__':
+    sys.exit(main())
+
+# vim: tabstop=8 expandtab shiftwidth=4 softtabstop=4
+Darling [~]$ /Volumes/SystemRoot/usr/bin/curl -s https://raw.githubusercontent.com/rudix-mac/rpm/2015.10.20/rudix.py > rudix.py
+Darling [~]$ sudo python rudix.py help
+Usage: rudix.py command [options] [arguments]
+
+Options:
+  --version             show program's version number and exit
+  -h, --help            show this help message and exit
+  -v, --verbose         displays more information when available
+  --volume=VOLUME       set volume to use. Default "/"
+  --force               force operation
+
+  Commands:
+    The Package manager commands.
+
+    -l, --list          list all packages installed
+    -I, --info, --show  show information about installed packages
+    -L, --files, --content
+                        show packages's files
+    -i, --install       install local or remote package(s)
+    -d, --download      download package(s) but do not install
+    -u, --update, --upgrade
+                        update all packages
+    -r, --remove, --uninstall
+                        remove (uninstall) package(s)
+    -R, --remove-all, --uninstall-all
+                        remove (uninstall) ALL packages
+    -t, --status        show repository status
+    -s, --search        search for remote packages
+    -S, --search-path   search for path in all packages and print if matched
+    -a, --alias         list aliases
+    -z, --freeze        freeze package list.
+Darling [~]$ sudo python rudix.py help      install rudix
+Could not synchronize with 'https://raw.githubusercontent.com/rudix-mac/packages'
+Darling [~]$ sudo python rudix.py install rudix[1P[1P[1P[1P[1P[1P[1P[1@-[1@i
+Could not synchronize with 'https://raw.githubusercontent.com/rudix-mac/packages'
+Darling [~]$ ln -s [1@s[1@u[1@d[1@o[1@ ln -s /System/v        Volumes/SystemRoot/usr/bin/curl /usr/bin/curl 
+ln: /usr/bin/curl: File exists
+Darling [~]$ sudo ln -s /Volumes/SystemRoot/usr/bin/curl /usr/bin/curl [1@f
+Darling [~]$ sudo ln -sf /Volumes/SystemRoot/usr/bin/curl /usr/bin/curl Darling [~]$ sudo ln -s[1P /Volumes/SystemRoot/usr/bin/curl /usr/bin/curl Darling [~]$ sudo [29Ppython rudix.py -i rudix[5@install rudixhelp[Kinstall rudix[5P-i rudix
+No match for 'rudix'
+Darling [~]$ sudo python rudix.py -i rudix[1P[1P[1@i[1@n[1@s[1@t[1@a[1@l[1@l
+No match for 'rudix'
+Darling [~]$ sudo python rudix.py install rudix     curl
+No match for 'curl'
+Darling [~]$ sudo python rudix.py install curl    wget mc
+No match for 'wget'
+No match for 'mc'
+Darling [~]$ rudix
+bash: rudix: command not found
+Darling [~]$ Darling [~]$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+bash: Darling: command not found
+Darling [~]$ Darling [~]$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"Darling [~]$ Darling [~]$ /[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+[1;34m==>[1;39m Checking for `sudo` access (which may request your password)...[0m
+[1;34m==>[1;39m This script will install:[0m
+/usr/local/bin/brew
+/usr/local/share/doc/homebrew
+/usr/local/share/man/man1/brew.1
+/usr/local/share/zsh/site-functions/_brew
+/usr/local/etc/bash_completion.d/brew
+/usr/local/Homebrew
+[1;34m==>[1;39m The following new directories will be created:[0m
+/usr/local/bin
+/usr/local/include
+/usr/local/lib
+/usr/local/sbin
+/usr/local/var
+/usr/local/opt
+/usr/local/share/zsh
+/usr/local/share/zsh/site-functions
+/usr/local/var/homebrew
+/usr/local/var/homebrew/linked
+/usr/local/Cellar
+/usr/local/Caskroom
+/usr/local/Frameworks
+[1;34m==>[1;39m The Xcode Command Line Tools will be installed.[0m
+
+Press [1;39mRETURN[0m/[1;39mENTER[0m to continue or any other key to abort:
+[1;34m==>[1;39m /usr/bin/sudo /bin/mkdir -p /usr/local/bin /usr/local/include /usr/local/lib /usr/local/sbin /usr/local/var /usr/local/opt /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var/homebrew /usr/local/var/homebrew/linked /usr/local/Cellar /usr/local/Caskroom /usr/local/Frameworks[0m
+[1;34m==>[1;39m /usr/bin/sudo /bin/chmod ug=rwx /usr/local/bin /usr/local/include /usr/local/lib /usr/local/sbin /usr/local/var /usr/local/opt /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var/homebrew /usr/local/var/homebrew/linked /usr/local/Cellar /usr/local/Caskroom /usr/local/Frameworks[0m
+[1;34m==>[1;39m /usr/bin/sudo /bin/chmod go-w /usr/local/share/zsh /usr/local/share/zsh/site-functions[0m
+[1;34m==>[1;39m /usr/bin/sudo /usr/sbin/chown nkpro /usr/local/bin /usr/local/include /usr/local/lib /usr/local/sbin /usr/local/var /usr/local/opt /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var/homebrew /usr/local/var/homebrew/linked /usr/local/Cellar /usr/local/Caskroom /usr/local/Frameworks[0m
+[1;34m==>[1;39m /usr/bin/sudo /usr/bin/chgrp admin /usr/local/bin /usr/local/include /usr/local/lib /usr/local/sbin /usr/local/var /usr/local/opt /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var/homebrew /usr/local/var/homebrew/linked /usr/local/Cellar /usr/local/Caskroom /usr/local/Frameworks[0m
+[1;34m==>[1;39m /usr/bin/sudo /bin/mkdir -p /usr/local/Homebrew[0m
+[1;34m==>[1;39m /usr/bin/sudo /usr/sbin/chown -R nkpro:admin /usr/local/Homebrew[0m
+[1;34m==>[1;39m /usr/bin/sudo /bin/mkdir -p /Users/nkpro/Library/Caches/Homebrew[0m
+[1;34m==>[1;39m Searching online for the Command Line Tools[0m
+[1;34m==>[1;39m /usr/bin/sudo /usr/bin/touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress[0m
+[1;34m==>[1;39m /usr/bin/sudo /bin/rm -f /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress[0m
+[1;34m==>[1;39m Installing the Command Line Tools (expect a GUI popup):[0m
+[1;34m==>[1;39m /usr/bin/sudo /usr/bin/xcode-select --install[0m
+You are about to download and install Apple Command Line Tools covered by the following license:
+https://www.apple.com/legal/sla/docs/xcode.pdf
+
+Do you agree with the terms of the license? (y/n) y
+Downloading packages...
+Downloading CLTools_macOS_SDK_Remove_1013.pkg...
+^C^C^C^C^CTraceback (most recent call last):
+  File "/usr/libexec/darling/clt_install.py", line 47, in <module>
+    f = urllib2.urlopen(package['url'])
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 429, in open
+    response = self._open(req, data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 447, in _open
+    '_open', req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 407, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1228, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1195, in do_open
+    h.request(req.get_method(), req.get_selector(), req.data, headers)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 566, in create_connection
+    sock.connect(sa)
+KeyboardInterrupt
+Failed during: /usr/bin/sudo /usr/bin/xcode-select --install
+Darling [~]$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+[1;34m==>[1;39m Checking for `sudo` access (which may request your password)...[0m
+[1;34m==>[1;39m This script will install:[0m
+/usr/local/bin/brew
+/usr/local/share/doc/homebrew
+/usr/local/share/man/man1/brew.1
+/usr/local/share/zsh/site-functions/_brew
+/usr/local/etc/bash_completion.d/brew
+/usr/local/Homebrew
+[1;34m==>[1;39m The Xcode Command Line Tools will be installed.[0m
+
+Press [1;39mRETURN[0m/[1;39mENTER[0m to continue or any other key to abort:
+[1;34m==>[1;39m /usr/bin/sudo /usr/sbin/chown -R nkpro:admin /usr/local/Homebrew[0m
+[1;34m==>[1;39m Searching online for the Command Line Tools[0m
+[1;34m==>[1;39m /usr/bin/sudo /usr/bin/touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress[0m
+[1;34m==>[1;39m /usr/bin/sudo /bin/rm -f /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress[0m
+[1;34m==>[1;39m Installing the Command Line Tools (expect a GUI popup):[0m
+[1;34m==>[1;39m /usr/bin/sudo /usr/bin/xcode-select --install[0m
+You are about to download and install Apple Command Line Tools covered by the following license:
+https://www.apple.com/legal/sla/docs/xcode.pdf
+
+Do you agree with the terms of the license? (y/n) y
+Downloading packages...
+Downloading CLTools_macOS_SDK_Remove_1013.pkg...
+^CTraceback (most recent call last):
+  File "/usr/libexec/darling/clt_install.py", line 47, in <module>
+    f = urllib2.urlopen(package['url'])
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 429, in open
+    response = self._open(req, data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 447, in _open
+    '_open', req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 407, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1228, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1195, in do_open
+    h.request(req.get_method(), req.get_selector(), req.data, headers)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 566, in create_connection
+    sock.connect(sa)
+KeyboardInterrupt
+Failed during: /usr/bin/sudo /usr/bin/xcode-select --install
+Darling [~]$ # retyr==    ry brew later
+Darling [~]$ w curl https://raw.githubusercontent.com/dylanaraps/neofetch/master/neofetchDarling [~]$ curl [1@s[1@ https://raw.githubusercontent.com/dylanaraps/neofetch/master/neofetch > neofetch.sh
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: s
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0  368k    0   816    0     0    576      0  0:10:54  0:00:01  0:10:53   576100  368k  100  368k    0     0   183k      0  0:00:02  0:00:02 --:--:--  183k
+Darling [~]$ chmod +x neofetch.sh 
+Darling [~]$ ./neofetch.sh 
+[?25l[?7l[0m[32m[1m                    c.'
+                 ,xNMM.
+               .OMMMMo
+               lMM"
+     .;loddo:.  .olloddol;.
+   cKMMMMMMMMMMNWMMMMMMMMMM0:
+[0m[33m[1m .KMMMMMMMMMMMMMMMMMMMMMMMWd.
+ XMMMMMMMMMMMMMMMMMMMMMMMX.
+[0m[31m[1m;MMMMMMMMMMMMMMMMMMMMMMMM:
+:MMMMMMMMMMMMMMMMMMMMMMMM:
+[0m[31m[1m.MMMMMMMMMMMMMMMMMMMMMMMMX.
+ kMMMMMMMMMMMMMMMMMMMMMMMMWd.
+ [0m[35m[1m'XMMMMMMMMMMMMMMMMMMMMMMMMMMk
+  'XMMMMMMMMMMMMMMMMMMMMMMMMK.
+    [0m[34m[1mkMMMMMMMMMMMMMMMMMMMMMMd
+     ;KMMMMMMMWXXWMMMMMMMk.
+       "cooc*"    "*coo'"[0m
+[17A[9999999D[33C[0m[1m[32m[1mnkpro[0m@[32m[1mlen0Gv[0m 
+[33C[0m------------[0m 
+[33C[0m[33m[1mOS[0m[0m:[0m macOS Catalina 10.15 Darling x86_64[0m 
+[33C[0m[33m[1mKernel[0m[0m:[0m 19.6.0[0m 
+[33C[0m[33m[1mUptime[0m[0m:[0m 16 hours, 22 mins[0m 
+[33C[0m[33m[1mShell[0m[0m:[0m bash 3.2.57[0m 
+[33C[0m[33m[1mDE[0m[0m:[0m Aqua[0m 
+[33C[0m[33m[1mWM[0m[0m:[0m Quartz Compositor[0m 
+[33C[0m[33m[1mWM Theme[0m[0m:[0m Blue (Print: Entry, AppleInterfaceStyle, Does Not Exist)[0m 
+[33C[0m[33m[1mTerminal[0m[0m:[0m shellspawn[0m 
+[33C[0m[33m[1mMemory[0m[0m:[0m 2819MiB / 3770MiB[0m 
+
+[33C[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   [36m[46m   [37m[47m   [m
+[33C[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   [38;5;13m[48;5;13m   [38;5;14m[48;5;14m   [38;5;15m[48;5;15m   [m
+
+
+
+
+[?25h[?7hDarling [~]$ # try     we cn   an continue latter   er
+Darling [~]$ logout
+]0;nkpro@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m [?2004l
+exit
+
+Script done on 2022-08-23 13:48:17+05:30 [COMMAND_EXIT_CODE="0"]

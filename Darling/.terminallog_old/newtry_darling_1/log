@@ -1,0 +1,246 @@
+Script started on 2022-08-24 12:46:13+05:30 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="167" LINES="38"]
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling[?2004h[01;32m[nkpro@len0Gv[01;37m nkpro_darling[01;32m]$[00m source init.sh 
+[?2004lnow : HOME=/mnt/Extended/LinuxExtRoot/thome/nkpro_darling
+now : PATH=/mnt/Extended/LinuxExtRoot/tusr/nkpro_darling/bin:/home/nkpro/nk/Dev/VSCode-linux-x64/bin:/home/nkpro/nk/Dev/bin/flutter:/home/nkpro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+Envs: DPREFIX=/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling
+'$ darling shell' to start darling
+]0;nkpro@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m darling shell
+[?2004l
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hDarling [/Volumes/SystemRoot/mnt/Extended/LinuxExtRoot/thome/nkpro_darling]$ cd
+Darling [~]$ export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk            OSX
+MacOSX.sdk/     MacOSX11.1.sdk/ 
+Darling [~]$ export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk
+Darling [~]$ echo 'void main() { puts("Hello world"); }' > helloworld.c
+Darling [~]$ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang helloworld.c -o helloworld
+[1mhelloworld.c:1:1: [0m[0;1;35mwarning: [0m[1mreturn type of 'main' is not 'int' [-Wmain-return-type][0m
+void main() { puts("Hello world"); }
+[0;1;32m^
+[0m[1mhelloworld.c:1:1: [0m[0;1;30mnote: [0mchange return type to 'int'[0m
+void main() { puts("Hello world"); }
+[0;1;32m^~~~
+[0m[0;32mint
+[0m[1mhelloworld.c:1:15: [0m[0;1;31merror: [0m[1mimplicit declaration of function 'puts' is invalid in C99 [-Werror,-Wimplicit-function-declaration][0m
+void main() { puts("Hello world"); }
+[0;1;32m              ^
+[0m1 warning and 1 error generated.
+Darling [~]$ file helloworld.c    
+helloworld: cannot open `helloworld' (No such file or directory)
+Darling [~]$ file helloworldDarling [~]$ [104@/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang helloworld.c -o helloworldDarling [~]$ file helloworld[KDarling [~]$ [104@/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang helloworld.c -o helloworldDarling [~]$ [61Pecho 'void main() { puts("Hello world"); }' > helloworld.c[1P[1P[1P[1@r[1@i[1@n[1@t[1@f
+Darling [~]$ echo 'void main() { printf("Hello world"); }' > helloworld.cDarling [~]$ file helloworld[KDarling [~]$ [104@/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang helloworld.c -o helloworld
+[1mhelloworld.c:1:1: [0m[0;1;35mwarning: [0m[1mreturn type of 'main' is not 'int' [-Wmain-return-type][0m
+void main() { printf("Hello world"); }
+[0;1;32m^
+[0m[1mhelloworld.c:1:1: [0m[0;1;30mnote: [0mchange return type to 'int'[0m
+void main() { printf("Hello world"); }
+[0;1;32m^~~~
+[0m[0;32mint
+[0m[1mhelloworld.c:1:15: [0m[0;1;31merror: [0m[1mimplicitly declaring library function 'printf' with type 'int (const char *, ...)' [-Werror,-Wimplicit-function-declaration][0m
+void main() { printf("Hello world"); }
+[0;1;32m              ^
+[0m[1mhelloworld.c:1:15: [0m[0;1;30mnote: [0minclude the header <stdio.h> or explicitly provide a declaration for 'printf'[0m
+1 warning and 1 error generated.
+Darling [~]$ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang helloworld.c -o helloworldDarling [~]$ [59Pecho 'void main() { printf("Hello world"); }' > helloworld.c[1@#[1@i[1@n[1@c[1@l[1@u[1@d[1@e[1@ [1@s[1@t[1@d[1@i[1@o[1@'[1@"[1@"[1@\[1@n"[1@'
+Darling [~]$ echo '#include stdio'"\n"'void main() { printf("Hello world"); }' > helloworld.cDarling [~]$ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang helloworld.c -o helloworld
+[1mhelloworld.c:1:10: [0m[0;1;31merror: [0m[1mexpected "FILENAME" or <FILENAME>[0m
+#include stdio\nvoid main() { printf("Hello world"); }
+[0;1;32m         ^
+[0m1 error generated.
+Darling [~]$ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang helloworld.c -o helloworldDarling [~]$ [39Pecho '#include stdio'"\n"'void main() { printf("Hello world"); }' > helloworld.c[1@$"\n"'void[1P[1P[1P[1P[1@i[1@n[1@t
+Darling [~]$ echo '#include stdio'$"\n"'int main() { printf("Hello world"); }' > helloworld.cDarling [~]$ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang helloworld.c -o helloworld
+[1mhelloworld.c:1:10: [0m[0;1;31merror: [0m[1mexpected "FILENAME" or <FILENAME>[0m
+#include stdio\nint main() { printf("Hello world"); }
+[0;1;32m         ^
+[0m1 error generated.
+Darling [~]$ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang helloworld.c -o helloworldDarling [~]$ [39Pecho '#include stdio'$"\n"'int main() { printf("Hello world"); }' > helloworld.c'int main() { printf("Hello world"); }' >[1P[1P[1P[1P[1P[1@ [1@>[1@ [1@ [1@h[1@e[10@lloworld.c [1@ [1@&[1@&[1@&[1P [1@ [1@e[1@c[1@h[1@o 'int main() { printf("Hello world"); }' >[1@>
+Darling [~]$ echo '#include stdio' > helloworld.c && echo 'int main() { printf("Hello world"); }' >> helloworld.cDarling [~]$ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang helloworld.c -o helloworld
+[1mhelloworld.c:1:10: [0m[0;1;31merror: [0m[1mexpected "FILENAME" or <FILENAME>[0m
+#include stdio
+[0;1;32m         ^
+[0m[1mhelloworld.c:2:14: [0m[0;1;31merror: [0m[1mimplicitly declaring library function 'printf' with type 'int (const char *, ...)' [-Werror,-Wimplicit-function-declaration][0m
+int main() { printf("Hello world"); }
+[0;1;32m             ^
+[0m[1mhelloworld.c:2:14: [0m[0;1;30mnote: [0minclude the header <stdio.h> or explicitly provide a declaration for 'printf'[0m
+2 errors generated.
+Darling [~]$ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang helloworld.c -o helloworldDarling [~]$ [19Pecho '#include stdio' > helloworld.c && echo 'int main() { printf("Hello world"); }' >> helloworld.c[1@<stdio[1@.[1@h[1@>
+Darling [~]$ echo '#include <stdio.h>' > helloworld.c && echo 'int main() { printf("Hello world"); }' >> helloworld.cDarling [~]$ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang helloworld.c -o helloworld
+Darling [~]$ ./helloworld 
+Hello worldDarling [~]$ 
+Darling [~]$ 
+Darling [~]$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+[1;34m==>[1;39m Checking for `sudo` access (which may request your password)...[0m
+[1;34m==>[1;39m This script will install:[0m
+/usr/local/bin/brew
+/usr/local/share/doc/homebrew
+/usr/local/share/man/man1/brew.1
+/usr/local/share/zsh/site-functions/_brew
+/usr/local/etc/bash_completion.d/brew
+/usr/local/Homebrew
+[1;34m==>[1;39m The following new directories will be created:[0m
+/usr/local/bin
+/usr/local/include
+/usr/local/lib
+/usr/local/sbin
+/usr/local/var
+/usr/local/opt
+/usr/local/share/zsh
+/usr/local/share/zsh/site-functions
+/usr/local/var/homebrew
+/usr/local/var/homebrew/linked
+/usr/local/Cellar
+/usr/local/Caskroom
+/usr/local/Frameworks
+[1;34m==>[1;39m The Xcode Command Line Tools will be installed.[0m
+
+Press [1;39mRETURN[0m/[1;39mENTER[0m to continue or any other key to abort:
+[1;34m==>[1;39m /usr/bin/sudo /bin/mkdir -p /usr/local/bin /usr/local/include /usr/local/lib /usr/local/sbin /usr/local/var /usr/local/opt /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var/homebrew /usr/local/var/homebrew/linked /usr/local/Cellar /usr/local/Caskroom /usr/local/Frameworks[0m
+[1;34m==>[1;39m /usr/bin/sudo /bin/chmod ug=rwx /usr/local/bin /usr/local/include /usr/local/lib /usr/local/sbin /usr/local/var /usr/local/opt /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var/homebrew /usr/local/var/homebrew/linked /usr/local/Cellar /usr/local/Caskroom /usr/local/Frameworks[0m
+[1;34m==>[1;39m /usr/bin/sudo /bin/chmod go-w /usr/local/share/zsh /usr/local/share/zsh/site-functions[0m
+[1;34m==>[1;39m /usr/bin/sudo /usr/sbin/chown nkpro /usr/local/bin /usr/local/include /usr/local/lib /usr/local/sbin /usr/local/var /usr/local/opt /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var/homebrew /usr/local/var/homebrew/linked /usr/local/Cellar /usr/local/Caskroom /usr/local/Frameworks[0m
+[1;34m==>[1;39m /usr/bin/sudo /usr/bin/chgrp admin /usr/local/bin /usr/local/include /usr/local/lib /usr/local/sbin /usr/local/var /usr/local/opt /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var/homebrew /usr/local/var/homebrew/linked /usr/local/Cellar /usr/local/Caskroom /usr/local/Frameworks[0m
+[1;34m==>[1;39m /usr/bin/sudo /bin/mkdir -p /usr/local/Homebrew[0m
+[1;34m==>[1;39m /usr/bin/sudo /usr/sbin/chown -R nkpro:admin /usr/local/Homebrew[0m
+[1;34m==>[1;39m /usr/bin/sudo /bin/mkdir -p /Users/nkpro/Library/Caches/Homebrew[0m
+[1;34m==>[1;39m Searching online for the Command Line Tools[0m
+[1;34m==>[1;39m /usr/bin/sudo /usr/bin/touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress[0m
+[1;34m==>[1;39m /usr/bin/sudo /bin/rm -f /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress[0m
+[1;34m==>[1;39m Installing the Command Line Tools (expect a GUI popup):[0m
+[1;34m==>[1;39m /usr/bin/sudo /usr/bin/xcode-select --install[0m
+You are about to download and install Apple Command Line Tools covered by the following license:
+https://www.apple.com/legal/sla/docs/xcode.pdf
+
+Do you agree with the terms of the license? (y/n) y
+Downloading packages...
+Downloading CLTools_macOS_SDK_Remove_1013.pkg...
+^C^C^C^C^C^C^CTraceback (most recent call last):
+  File "/usr/libexec/darling/clt_install.py", line 47, in <module>
+    f = urllib2.urlopen(package['url'])
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 429, in open
+    response = self._open(req, data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 447, in _open
+    '_open', req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 407, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1228, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1195, in do_open
+    h.request(req.get_method(), req.get_selector(), req.data, headers)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 566, in create_connection
+    sock.connect(sa)
+KeyboardInterrupt
+Failed during: /usr/bin/sudo /usr/bin/xcode-select --install
+Darling [~]$ # we can use other  s
+Darling [~]$ xcode-select 
+xcode-select: error: no command option given
+Usage: xcode-select [options]
+
+xcode-select is used to set up path to the active developer directory.
+This affects both toolchain commands (such as clang or make) and Xcode-specific
+tools (such as xcodebuild).
+
+Options:
+  -h, --help                  print this help message
+  -p, --print-path            print the path of the active developer directory
+  -s <path>, --switch <path>  change the path of the active developer directory
+  --install                   trigger the installation of command line developer tools
+  -v, --version               print the version of this tool
+  -r, --reset                 reset to the default developer directory
+Darling [~]$ xcode-select -s /Applications/xcode-12.4_meta.                Xcode.app/
+Darling [~]$ xcode-select -s /Applications/Xcode.app/[K
+xcode-select: error: no command option given
+Usage: xcode-select [options]
+
+xcode-select is used to set up path to the active developer directory.
+This affects both toolchain commands (such as clang or make) and Xcode-specific
+tools (such as xcodebuild).
+
+Options:
+  -h, --help                  print this help message
+  -p, --print-path            print the path of the active developer directory
+  -s <path>, --switch <path>  change the path of the active developer directory
+  --install                   trigger the installation of command line developer tools
+  -v, --version               print the version of this tool
+  -r, --reset                 reset to the default developer directory
+Darling [~]$ xcode-select -p
+/Applications/Xcode.app//Contents/Developer/
+Darling [~]$ xcode-select -p[K-s /Applications/Xcode.app/ 
+Darling [~]$ xcode-select -s /Applications/Xcode.appp[K
+/Applications/Xcode.app/Contents/Developer/
+Darling [~]$ xocde
+bash: xocde: command not found
+Darling [~]$ xocdecode-select -ps /Applications/Xcode.appp[K[K-s /Applications/Xcode.app/[K# we can use othersDarling [~]$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+[1;34m==>[1;39m Checking for `sudo` access (which may request your password)...[0m
+[1;34m==>[1;39m This script will install:[0m
+/usr/local/bin/brew
+/usr/local/share/doc/homebrew
+/usr/local/share/man/man1/brew.1
+/usr/local/share/zsh/site-functions/_brew
+/usr/local/etc/bash_completion.d/brew
+/usr/local/Homebrew
+[1;34m==>[1;39m The Xcode Command Line Tools will be installed.[0m
+
+Press [1;39mRETURN[0m/[1;39mENTER[0m to continue or any other key to abort:
+[1;34m==>[1;39m /usr/bin/sudo /usr/sbin/chown -R nkpro:admin /usr/local/Homebrew[0m
+[1;34m==>[1;39m Searching online for the Command Line Tools[0m
+[1;34m==>[1;39m /usr/bin/sudo /usr/bin/touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress[0m
+[1;34m==>[1;39m /usr/bin/sudo /bin/rm -f /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress[0m
+[1;34m==>[1;39m Installing the Command Line Tools (expect a GUI popup):[0m
+[1;34m==>[1;39m /usr/bin/sudo /usr/bin/xcode-select --install[0m
+You are about to download and install Apple Command Line Tools covered by the following license:
+https://www.apple.com/legal/sla/docs/xcode.pdf
+
+Do you agree with the terms of the license? (y/n) y
+Downloading packages...
+Downloading CLTools_macOS_SDK_Remove_1013.pkg...
+^C^C^C^CTraceback (most recent call last):
+  File "/usr/libexec/darling/clt_install.py", line 47, in <module>
+    f = urllib2.urlopen(package['url'])
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 429, in open
+    response = self._open(req, data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 447, in _open
+    '_open', req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 407, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1228, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1195, in do_open
+    h.request(req.get_method(), req.get_selector(), req.data, headers)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 566, in create_connection
+    sock.connect(sa)
+KeyboardInterrupt
+Failed during: /usr/bin/sudo /usr/bin/xcode-select --install
+Darling [~]$ logout
+]0;nkpro@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m [?2004l
+exit
+
+Script done on 2022-08-24 12:57:35+05:30 [COMMAND_EXIT_CODE="0"]

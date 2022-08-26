@@ -1,0 +1,128 @@
+Script started on 2022-08-23 14:24:23+05:30 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="167" LINES="38"]
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling[?2004h[01;32m[nkpro@len0Gv[01;37m nkpro_darling[01;32m]$[00m rm .darling/usr/bin/curl [C[C[1P[1P[1@f[1@i[1@l[1@e
+[?2004l.darling/usr/bin/curl: broken symbolic link to /Volumes/SystemRoot/usr/bin/curl
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling[?2004h[01;32m[nkpro@len0Gv[01;37m nkpro_darling[01;32m]$[00m file .darling/usr/bin/curl [C[C[C[C[1P[1P[1P[1P[1@r[1@m
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling[?2004h[01;32m[nkpro@len0Gv[01;37m nkpro_darling[01;32m]$[00m # so ha[K[Ka[Kthat it uses default darling [K's curl
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling[?2004h[01;32m[nkpro@len0Gv[01;37m nkpro_darling[01;32m]$[00m HOME=/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling[?2004h[01;32m[nkpro@len0Gv[01;37m nkpro_darling[01;32m]$[00m HOME=/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/[K
+[?2004l]0;nkpro@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m darling d[Kshell
+[?2004l
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hDarling [/Volumes/SystemRoot/mnt/Extended/LinuxExtRoot/thome/nkpro_darling]$ cd
+Darling [~]$ l
+bash: l: command not found
+Darling [~]$ ls
+[35mDesktop[39;49m[0m     [35mDocuments[39;49m[0m   [35mDownloads[39;49m[0m   [34mLibrary[39;49m[0m     [35mLinuxHome[39;49m[0m   [35mMovies[39;49m[0m      [35mMusic[39;49m[0m       [35mPictures[39;49m[0m    [35mPublic[39;49m[0m      [34mhomebrew[39;49m[0m    [31mneofetch.sh[39;49m[0m rudix.py
+Darling [~]$ ls[Kcdbrew list[4Pclaerhmod -R go-w "$(brew --prefix)/share/zsh"Darling [~]$ clear[K[1@aeerurl --helpbrew install curl[1Pgitupdate --force Darling [~]$ eval "$(homebrew/bin/brew shellenv)"Darling [~]$ /Volumes/SystemRoot/usr/bin/git clone https://github.com/Homebrew/brew homebrewDarling [~]$ [43Peval "$(homebrew/bin/brew shellenv)"Darling [~]$ /Volumes/SystemRoot/usr/bin/git clone https://github.com/Homebrew/brew homebrewDarling [~]$ [43Peval "$(homebrew/bin/brew shellenv)"
+Darling [~]$ brew update 
+[4;31mError[0m: 'git' must be installed and in your PATH!
+Darling [~]$ brew update        install git
+[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/portable-ruby/portable-ruby/blobs/sha256:1f50bf80583bd436c9542d4fa5ad47df0ef0f0bea22ae710c4f04c42d7560bca[0m
+##O=#     #                                                                                                                                                           #=#=- #     #                                                                                                                                                         -#O=#   #      #                                                                                                                                                      -#O=-#     #      #                                                                                                                                                   -=O#-  #      #       #                                                                                                                                               Warning: Failed to open the file 
+Warning: /Users/nkpro/Library/Caches/Homebrew/portable-ruby-2.6.8_1.el_capitan.
+Warning: bottle.tar.gz.incomplete: No such file or directory
+                                                                                                                                                                   0.0%curl: (23) Failure writing output to destination
+
+[34m==>[0m [1mDownloading https://github.com/Homebrew/homebrew-portable-ruby/releases/download/2.6.8_1/portable-ruby-2.6.8_1.el_capitan.bottle.tar.gz[0m
+##O=#     #                                                                                                                                                           #=#=- #     #                                                                                                                                                         -#O=#   #      #                                                                                                                                                      -#O=-#     #      #                                                                                                                                                   -=O#-  #      #       #                                                                                                                                               Warning: Failed to open the file 
+Warning: /Users/nkpro/Library/Caches/Homebrew/portable-ruby-2.6.8_1.el_capitan.
+Warning: bottle.tar.gz.incomplete: No such file or directory
+                                                                                                                                                                   0.0%curl: (23) Failure writing output to destination
+
+[4;31mError[0m: Failed to download ruby from the following locations:
+  - https://ghcr.io/v2/homebrew/portable-ruby/portable-ruby/blobs/sha256:1f50bf80583bd436c9542d4fa5ad47df0ef0f0bea22ae710c4f04c42d7560bca
+  - https://github.com/Homebrew/homebrew-portable-ruby/releases/download/2.6.8_1/portable-ruby-2.6.8_1.el_capitan.bottle.tar.gz
+
+Do not file an issue on GitHub about this; you will need to figure out for
+yourself what issue with your internet connection restricts your access to
+GitHub (used for Homebrew updates and binary packages).
+[4;31mError[0m: Failed to install Homebrew Portable Ruby (and your system version is too old)!
+Darling [~]$ xcode-select --install
+You are about to download and install Apple Command Line Tools covered by the following license:
+https://www.apple.com/legal/sla/docs/xcode.pdf
+
+Do you agree with the terms of the license? (y/n) y
+Downloading packages...
+Downloading CLTools_macOS_SDK_Remove_1013.pkg...
+^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^CTraceback (most recent call last):
+  File "/usr/libexec/darling/clt_install.py", line 47, in <module>
+    f = urllib2.urlopen(package['url'])
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 429, in open
+    response = self._open(req, data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 447, in _open
+    '_open', req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 407, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1228, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1195, in do_open
+    h.request(req.get_method(), req.get_selector(), req.data, headers)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 566, in create_connection
+    sock.connect(sa)
+KeyboardInterrupt
+Darling [~]$ xcode-select --installDarling [~]$ [K[KDarling [~]$ [KDarling [~]$ curl -s 'https://master.dl.sourceforge.net/project/git-osx-installer/git-2.33.0-intel-universal-mavericks.dmg?viasf=1' > git-2.33.0-intel-universal-maveri cks.dmg
+Darling [~]$ [KDarling [~]$ [KDarling [~]$ hdiutil attah ch git-2.33.0-intel-universal-mavericks.dmg /Volumes/git
+Usage: hdiutil <action>
+
+Possible actions:
+	attach [options] <file>
+		Mounts a .dmg file <file> and prints the mount locaton
+	detach [options] <mount-path>
+		Unmounts a .dmg file mounted at <mount-path>
+Darling [~]$ hdiutil attach git-2.33.0-intel-universal-mavericks.dmg /Volumes/git            
+/Volumes/git-2.33.0-intel-universal-mavericks
+Darling [~]$ ls /Volumes/git-2.33.0-intel-universal-mavericks/
+README.txt                               VERSION-2.33.0-universal-mavericks       git-2.33.0-intel-universal-mavericks.pkg
+Darling [~]$ cp -r /Volumes/git-2.33.0-intel-universal-mavericks/VERSION-2.33.0-universal-mavericks                                                                                        install -pkg /Volumes/git-2.33.0-intel-universal-mavericks/git-2.33.0-intel-universal-mavericks.pkg -target /
+install: illegal option -- k
+usage: install [-bCcpSsv] [-B suffix] [-f flags] [-g group] [-m mode]
+               [-o owner] file1 file2
+       install [-bCcpSsv] [-B suffix] [-f flags] [-g group] [-m mode]
+               [-o owner] file1 ... fileN directory
+       install -d [-v] [-g group] [-m mode] [-o owner] directory ...
+Darling [~]$ install -pkg /Volumes/git-2.33.0-intel-universal-mavericks/git-2.33.0-intel-universal-mavericks.pkg -target /[1@'[1@'[1@e[1@r
+inflate error
+Darling [~]$ installer -pkg '/Volumes/git-2.33.0-intel-universal-mavericks/git-2.33.0-intel-universal-mavericks.pkg' -target /[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@g[1@i[38@t-2.33.0-intel-universal-mavericks.dmg
+Not a XAR file
+Darling [~]$ cp -r /Volumes/ /git-2.33.0-intel-universal-mavericks/
+README.txt                                VERSION-2.33.0-universal-mavericks        git-2.33.0-intel-universal-mavericks.pkg
+Darling [~]$ cp -r /Volumes/git-2.33.0-intel-universal-mavericks/git-2.33.0-intel-universal-mavericks.pkg /Applications/g[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P /Applications/                                                                                       installer -pkg 'git-2.33.0-intel-universal-mavericks.dmg' -target /Darling [~]$ installer -pkg '[46@/Volumes/git-2.33.0-intel-universal-mavericks/git-2.33.0-intel-universal-mavericks.pkg' -target /Darling [~]$ install[4P -pkg /Volumes/git-2.33.0-intel-universal-mavericks/git-2.33.0-intel-universal-mavericks.pkg -target /Darling [~]$ [60Pls /Volumes/git-2.33.0-intel-universal-mavericks/Darling [~]$ hdiutil attach git-2.33.0-intel-universal-mavericks.dmg Darling [~]$ [7Pls /Volumes/git-2.33.0-intel-universal-mavericks/Darling [~]$ [60@install -pkg /Volumes/git-2.33.0-intel-universal-mavericks/git-2.33.0-intel-universal-mavericks.pkg -target /Darling [~]$ install[4@er -pkg '/Volumes/git-2.33.0-intel-universal-mavericks/git-2.33.0-intel-universal-mavericks.pkg' -target /Darling [~]$ installer -pkg '[46Pgit-2.33.0-intel-universal-mavericks.dmg' -target /Darling [~]$ [Kcd /Volumes/git-2.33.0-intel-universal-mavericks/
+Darling [/Volumes/git-2.33.0-intel-universal-mavericks]$ ls
+README.txt                               VERSION-2.33.0-universal-mavericks       git-2.33.0-intel-universal-mavericks.pkg
+Darling [/Volumes/git-2.33.0-intel-universal-mavericks]$ ls -a
+README.txt                               VERSION-2.33.0-universal-mavericks       git-2.33.0-intel-universal-mavericks.pkg
+Darling [/Volumes/git-2.33.0-intel-universal-mavericks]$ installer -pkg git-2.33.0-intel-universal-mavericks.pkg -target /
+inflate error
+Darling [/Volumes/git-2.33.0-intel-universal-mavericks]$ cd ..
+Darling [/Volumes]$ cd..  
+Darling [~]$ install git-2.33.0-intel-universal-mavericks.dmg 
+usage: install [-bCcpSsv] [-B suffix] [-f flags] [-g group] [-m mode]
+               [-o owner] file1 file2
+       install [-bCcpSsv] [-B suffix] [-f flags] [-g group] [-m mode]
+               [-o owner] file1 ... fileN directory
+       install -d [-v] [-g group] [-m mode] [-o owner] directory ...
+Darling [~]$ sudo installer -pkg /Volumes/git-2.33.0-intel-universal-mavericks/  -target /
+Not a XAR file
+Darling [~]$ sudo installer -pkg /Volumes/git-2.33.0-intel-universal-mavericks -target /[1@/[1@g[1@i[38@t-2.33.0-intel-universal-mavericks.pkg
+inflate error
+Darling [~]$ logout
+]0;nkpro@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m [?2004l
+exit
+
+Script done on 2022-08-23 14:39:21+05:30 [COMMAND_EXIT_CODE="0"]

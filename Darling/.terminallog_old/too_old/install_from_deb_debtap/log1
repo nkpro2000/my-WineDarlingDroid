@@ -1,0 +1,100 @@
+[nkpro@len0Gv nkpro]$ ls -a
+.  ..  4mdeb  .cache  .darling  .darling.workdir  installlog  installlog1
+[nkpro@len0Gv nkpro]$ du -sh *
+232M    4mdeb
+4.7M    installlog
+224K    installlog1
+[nkpro@len0Gv nkpro]$ du -sh .cache/
+du: cannot read directory '.cache/pacaur/darling/pkg': Permission denied
+6.0G    .cache/
+[nkpro@len0Gv nkpro]$ du -sh .darling/
+7.4M    .darling/
+[nkpro@len0Gv nkpro]$ du -sh .darling.workdir/
+du: cannot read directory '.darling.workdir/work': Permission denied
+du: cannot read directory '.darling.workdir/index': Permission denied
+12K     .darling.workdir/
+[nkpro@len0Gv nkpro]$ sudo du -sh .cache/
+[sudo] password for nkpro: 
+6.0G    .cache/
+[nkpro@len0Gv nkpro]$ sudo du -sh .darling.workdir/
+12K     .darling.workdir/
+[nkpro@len0Gv nkpro]$ sudo rm -rf .cache/
+activate.source    deactivate.source  pacaur/            
+[nkpro@len0Gv nkpro]$ sudo rm -rf .cache/pacaur/darling/
+Display all 120 possibilities? (y or n)
+[nkpro@len0Gv nkpro]$ sudo rm -rf .cache/pacaur/darling/
+[nkpro@len0Gv nkpro]$ sudo du -sh .cache/
+16K     .cache/
+[nkpro@len0Gv nkpro]$ sudo du -sh /usr/local/libexec
+du: cannot access '/usr/local/libexec': No such file or directory
+[nkpro@len0Gv nkpro]$ sudo du -sh /usr/libexec/darling/
+723M    /usr/libexec/darling/
+[nkpro@len0Gv nkpro]$ 
+
+
+--- trying to solve unable to change chmod in /usr/local/etc in darling ---
+
+Darling [~]$ /usr/bin/sudo /bin/chmod g+rwx /usr/local/etc
+chmod: Unable to change file mode on /usr/local/etc: Operation not permitted
+Darling [~]$ /Volumes/SystemRoot/usr/bin/sudo /bin/chmod g+rwx /usr/local/etc
+[sudo] password for nkpro: 
+Darling [~]$ ls -ld /usr/local/etc
+drwxr-xr-x  3 nkpro  nkpro  4096 Jan  2 16:04 /usr/local/etc
+Darling [~]$ ls -ld /Volumes/SystemRoot/usr/local/etc/                              
+drwxrwxr-x  2 nkpro  nkpro  4096 May 21  2020 /Volumes/SystemRoot/usr/local/etc/
+Darling [~]$ ls -ld /Volumes/SystemRoot/usr/local/etc/
+drwxr-xr-x  2 nkpro  nkpro  4096 May 21  2020 /Volumes/SystemRoot/usr/local/etc/
+Darling [~]$ logout
+[nkpro@len0Gv nkpro]$ sudo darling shell
+[sudo] password for nkpro: 
+Setting up a new Darling prefix at /root/.darling
+Bootstrapping the container with launchd...
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Darling [/Volumes/SystemRoot/run/media/nkpro/Extended/darling/nkpro]# cd
+Darling [~]# sudo chmod g+rwx /usr/local/etc/
+Darling [~]# logout
+[nkpro@len0Gv nkpro]$ darling shell
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Darling [/Volumes/SystemRoot/run/media/nkpro/Extended/darling/nkpro]$ cd
+Darling [~]$ ls -ld /usr/local/etc
+drwxr-xr-x  3 nkpro  nkpro  4096 Jan  2 16:04 /usr/local/etc
+Darling [~]$ # forgot each user has seperate upperlayer in overlayfs
+Darling [~]$ logout
+
+[rough@len0Gv ~]$ darling shell
+Setting up a new Darling prefix at /home/rough/.darling
+Bootstrapping the container with launchd...
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Darling [/Volumes/SystemRoot/home/rough]$ cd
+Darling [~]$ sudo chmod g+rwx /usr/local/etc/
+Darling [~]$ # so it works every wher other than nkpro's
+Darling [~]$ logout
+[rough@len0Gv ~]$ su nkpro
+Password: 
+[nkpro@len0Gv rough]$ cd
+[nkpro@len0Gv ~]$ echo $DPREFIX 
+/run/media/nkpro/Extended/darling/nkpro/.darling
+[nkpro@len0Gv ~]$ sudo mkdir -p /run/media/nkpro/Extended
+[nkpro@len0Gv ~]$ sudo mount /dev/sda7 /run/media/nkpro/Extended/
+[nkpro@len0Gv ~]$ darling shell
+Bootstrapping the container with launchd...
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Darling [/Volumes/SystemRoot/home/nkpro]$ cd
+Darling [~]$ ls
+Desktop     Documents   Downloads   Library     LinuxHome   Movies      Music       Pictures    Public      neofetch.sh nkpro       rudix.py
+Darling [~]$ sudo chmod g+rwx /usr/local/etc/
+Darling [~]$ # not it works ... ¯\_(ツ)_/¯
+Darling [~]$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+==> Checking for `sudo` access (which may request your password)...

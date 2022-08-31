@@ -1,0 +1,632 @@
+Script started on 2022-08-31 03:16:17+05:30 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="167" LINES="38"]
+]0;nkpro@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m # This tiem[K[Kme reextrace xcode using ln[Kinux and check this works
+[?2004l]0;nkpro@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m 
+[?2004l]0;nkpro@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m cd /mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling[?2004h[01;32m[nkpro@len0Gv[01;37m .darling[01;32m]$[00m rm -rf /A[K[K./Applications/x[KXcode.app/
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling[?2004h[01;32m[nkpro@len0Gv[01;37m .darling[01;32m]$[00m pikaur -S xar
+[?2004l[sudo] password for nkpro: 
+[?25l[?25hReading repository package databases...
+[?25l[?25hReading local package database...
+Resolving AUR dependencies...
+
+[0;1m[033m::[0;0m [0;1mNew dependency will be installed from repository:[0m
+ [0;1mopenssl-1.0[0m[033m (for [0;1m[033mxar[0;0m[033m)[0;0m                 [0;1m[032m[0;0m[0;1m[033m[0;0m                     -> [0;1m[032m[0;0m[0;1m[031m1.0.2.u-1[0;0m
+
+[0;1m[036m::[0;0m [0;1mAUR package will be installed:[0m
+ [0;1mxar[0m                                   [0;1m[032m[0;0m[0;1m[033m [0;0m                    -> [0;1m[032m[0;0m[0;1m[031m1.6.1-5[0;0m
+
+[0;1m[034m::[0;0m [0;1mProceed with installation? [Y/n] [0m
+[0;1m[034m::[0;0m [0;1m[v]iew package details   [m]anually select packages[0m
+>> y
+looking for conflicting AUR packages...
+[0;1m[033m:: warning:[0;0m Not showing diff for [0;1mxar[0m package (installing for the first time)
+Do you want to [0;1medit[0m PKGBUILD for [0;1mxar[0m package? [Y/n] n
+
+Reading local package database...
+[0;1m[035m::[0;0m Installing repository dependencies for [0;1mxar[0m:
+[?25l[?25h[?25lresolving dependencies...
+looking for conflicting packages...
+
+[0;1mPackages (1)[0m openssl-1.0[38;5;243m-1.0.2.u-1[0m
+
+[0;1mTotal Download Size: [0m  1.67 MiB
+[0;1mTotal Installed Size:[0m  5.82 MiB
+
+[1;34m::[0;1m Proceed with installation? [Y/n] [0m[?25hY
+[?25l[1;34m::[0;1m Retrieving packages...
+[0m openssl-1.0-1.0.2.u-1-x86_64
+[1F openssl-1.0-1.0.2.u-1-x86_64                                              0.0   B  0.00   B/s --:-- [-----------------------------------------------------------]   0% openssl-1.0-1.0.2.u-1-x86_64                                             16.0 KiB  18.2 KiB/s 01:33 [-----------------------------------------------------------]   0% openssl-1.0-1.0.2.u-1-x86_64                                             48.0 KiB  48.4 KiB/s 00:34 [#----------------------------------------------------------]   2% openssl-1.0-1.0.2.u-1-x86_64                                            112.0 KiB   102 KiB/s 00:15 [###--------------------------------------------------------]   6% openssl-1.0-1.0.2.u-1-x86_64                                            160.0 KiB   117 KiB/s 00:13 [#####------------------------------------------------------]   9% openssl-1.0-1.0.2.u-1-x86_64                                            240.0 KiB   163 KiB/s 00:09 [########---------------------------------------------------]  14% openssl-1.0-1.0.2.u-1-x86_64                                            304.0 KiB   178 KiB/s 00:07 [##########-------------------------------------------------]  17% openssl-1.0-1.0.2.u-1-x86_64                                            368.0 KiB   192 KiB/s 00:07 [############-----------------------------------------------]  21% openssl-1.0-1.0.2.u-1-x86_64                                            448.0 KiB   211 KiB/s 00:05 [###############--------------------------------------------]  26% openssl-1.0-1.0.2.u-1-x86_64                                            512.0 KiB   244 KiB/s 00:04 [#################------------------------------------------]  29% openssl-1.0-1.0.2.u-1-x86_64                                            544.0 KiB   208 KiB/s 00:05 [##################-----------------------------------------]  31% openssl-1.0-1.0.2.u-1-x86_64                                            608.0 KiB   246 KiB/s 00:04 [####################---------------------------------------]  35% openssl-1.0-1.0.2.u-1-x86_64                                            672.0 KiB   270 KiB/s 00:03 [#######################------------------------------------]  39% openssl-1.0-1.0.2.u-1-x86_64                                            704.0 KiB   234 KiB/s 00:04 [########################-----------------------------------]  41% openssl-1.0-1.0.2.u-1-x86_64                                            768.0 KiB   237 KiB/s 00:03 [#########################----------------------------------]  44% openssl-1.0-1.0.2.u-1-x86_64                                            864.0 KiB   299 KiB/s 00:02 [#############################------------------------------]  50% openssl-1.0-1.0.2.u-1-x86_64                                            912.0 KiB   280 KiB/s 00:02 [###############################----------------------------]  53% openssl-1.0-1.0.2.u-1-x86_64                                            960.0 KiB   259 KiB/s 00:02 [#################################--------------------------]  56% openssl-1.0-1.0.2.u-1-x86_64                                           1072.0 KiB   279 KiB/s 00:02 [####################################-----------------------]  62% openssl-1.0-1.0.2.u-1-x86_64                                           1088.0 KiB   212 KiB/s 00:02 [#####################################----------------------]  63% openssl-1.0-1.0.2.u-1-x86_64                                           1136.0 KiB   218 KiB/s 00:02 [######################################---------------------]  66% openssl-1.0-1.0.2.u-1-x86_64                                           1168.0 KiB   183 KiB/s 00:02 [########################################-------------------]  68% openssl-1.0-1.0.2.u-1-x86_64                                           1248.0 KiB   253 KiB/s 00:01 [##########################################-----------------]  72% openssl-1.0-1.0.2.u-1-x86_64                                           1296.0 KiB   229 KiB/s 00:01 [############################################---------------]  75% openssl-1.0-1.0.2.u-1-x86_64                                           1392.0 KiB   300 KiB/s 00:01 [###############################################------------]  81% openssl-1.0-1.0.2.u-1-x86_64                                           1472.0 KiB   333 KiB/s 00:00 [##################################################---------]  85% openssl-1.0-1.0.2.u-1-x86_64                                           1584.0 KiB   400 KiB/s 00:00 [######################################################-----]  92% openssl-1.0-1.0.2.u-1-x86_64                                           1664.0 KiB   400 KiB/s 00:00 [#########################################################--]  97% openssl-1.0-1.0.2.u-1-x86_64                                           1714.1 KiB   195 KiB/s 00:09 [###########################################################] 100%[1E(0/1) checking keys in keyring                                                                       [-----------------------------------------------------------]   0%(1/1) checking keys in keyring                                                                       [###########################################################] 100%
+(0/1) checking package integrity                                                                     [-----------------------------------------------------------]   0%(1/1) checking package integrity                                                                     [###########################################################] 100%
+(0/1) loading package files                                                                          [-----------------------------------------------------------]   0%(1/1) loading package files                                                                          [###########################################################] 100%
+(0/1) checking for file conflicts                                                                    [-----------------------------------------------------------]   0%(1/1) checking for file conflicts                                                                    [###########################################################] 100%
+(0/1) checking available disk space                                                                  [-----------------------------------------------------------]   0%(1/1) checking available disk space                                                                  [###########################################################] 100%
+[1;34m::[0;1m Processing package changes...
+[0m(1/1) installing openssl-1.0                                                                         [-----------------------------------------------------------]   0%(1/1) installing openssl-1.0                                                                         [###########################################################] 100%
+Optional dependencies for openssl-1.0
+[0;1m   [0m ca-certificates [installed]
+[1;34m::[0;1m Running post-transaction hooks...
+[0m(1/1) Arming ConditionNeedsUpdate...
+[?25hReading local package database...
+
+[0;1m[035m::[0;0m Starting the build:
+[1m[32m==>(B[m[1m Making package: xar 1.6.1-5 (Wednesday 31 August 2022 03:21:53 AM)(B[m
+[1m[32m==>(B[m[1m Checking runtime dependencies...(B[m
+[1m[32m==>(B[m[1m Checking buildtime dependencies...(B[m
+[1m[32m==>(B[m[1m Retrieving sources...(B[m
+[1m[34m  ->(B[m[1m Cloning xar git repo...(B[m
+Cloning into bare repository '/home/nkpro/.cache/pikaur/build/xar/xar'...
+remote: Enumerating objects: 1815, done.[K
+Receiving objects:   0% (1/1815)Receiving objects:   1% (19/1815)Receiving objects:   2% (37/1815)Receiving objects:   3% (55/1815)Receiving objects:   4% (73/1815)Receiving objects:   5% (91/1815)Receiving objects:   6% (109/1815)Receiving objects:   7% (128/1815)Receiving objects:   8% (146/1815)Receiving objects:   9% (164/1815)Receiving objects:  10% (182/1815)Receiving objects:  11% (200/1815)Receiving objects:  12% (218/1815)Receiving objects:  13% (236/1815)Receiving objects:  14% (255/1815)Receiving objects:  15% (273/1815)Receiving objects:  16% (291/1815)Receiving objects:  17% (309/1815)Receiving objects:  18% (327/1815)Receiving objects:  19% (345/1815)Receiving objects:  20% (363/1815)Receiving objects:  21% (382/1815)Receiving objects:  22% (400/1815)Receiving objects:  23% (418/1815)Receiving objects:  24% (436/1815)Receiving objects:  25% (454/1815)Receiving objects:  26% (472/1815)Receiving objects:  27% (491/1815)Receiving objects:  28% (509/1815)Receiving objects:  29% (527/1815)Receiving objects:  30% (545/1815)Receiving objects:  31% (563/1815)Receiving objects:  32% (581/1815)Receiving objects:  33% (599/1815)Receiving objects:  34% (618/1815)Receiving objects:  35% (636/1815)Receiving objects:  36% (654/1815)Receiving objects:  37% (672/1815)Receiving objects:  38% (690/1815)Receiving objects:  39% (708/1815)Receiving objects:  40% (726/1815)Receiving objects:  41% (745/1815)Receiving objects:  42% (763/1815)Receiving objects:  43% (781/1815)Receiving objects:  44% (799/1815)Receiving objects:  45% (817/1815)Receiving objects:  46% (835/1815)Receiving objects:  47% (854/1815)Receiving objects:  48% (872/1815)Receiving objects:  49% (890/1815)Receiving objects:  50% (908/1815)Receiving objects:  51% (926/1815)Receiving objects:  52% (944/1815)Receiving objects:  53% (962/1815)Receiving objects:  54% (981/1815)Receiving objects:  55% (999/1815)Receiving objects:  56% (1017/1815)Receiving objects:  57% (1035/1815)Receiving objects:  58% (1053/1815)Receiving objects:  59% (1071/1815)Receiving objects:  60% (1089/1815)Receiving objects:  61% (1108/1815)Receiving objects:  62% (1126/1815)Receiving objects:  63% (1144/1815)Receiving objects:  64% (1162/1815)Receiving objects:  65% (1180/1815)Receiving objects:  66% (1198/1815)Receiving objects:  67% (1217/1815)Receiving objects:  68% (1235/1815)Receiving objects:  69% (1253/1815)Receiving objects:  70% (1271/1815)Receiving objects:  71% (1289/1815)Receiving objects:  72% (1307/1815)Receiving objects:  73% (1325/1815)Receiving objects:  74% (1344/1815)Receiving objects:  75% (1362/1815)Receiving objects:  76% (1380/1815)Receiving objects:  77% (1398/1815)Receiving objects:  78% (1416/1815)Receiving objects:  79% (1434/1815)Receiving objects:  80% (1452/1815)Receiving objects:  81% (1471/1815)Receiving objects:  82% (1489/1815)Receiving objects:  83% (1507/1815)Receiving objects:  84% (1525/1815)Receiving objects:  85% (1543/1815)Receiving objects:  86% (1561/1815)Receiving objects:  87% (1580/1815)Receiving objects:  88% (1598/1815)Receiving objects:  89% (1616/1815)Receiving objects:  90% (1634/1815)Receiving objects:  91% (1652/1815)Receiving objects:  92% (1670/1815)Receiving objects:  93% (1688/1815)Receiving objects:  94% (1707/1815)Receiving objects:  95% (1725/1815)Receiving objects:  96% (1743/1815)Receiving objects:  97% (1761/1815)Receiving objects:  98% (1779/1815)Receiving objects:  99% (1797/1815)remote: Total 1815 (delta 0), reused 0 (delta 0), pack-reused 1815[K
+Receiving objects: 100% (1815/1815), 460.01 KiB | 865.00 KiB/sReceiving objects: 100% (1815/1815), 518.30 KiB | 913.00 KiB/s, done.
+Resolving deltas:   0% (0/1219)Resolving deltas:   1% (13/1219)Resolving deltas:   2% (25/1219)Resolving deltas:   3% (37/1219)Resolving deltas:   4% (49/1219)Resolving deltas:   5% (61/1219)Resolving deltas:   6% (74/1219)Resolving deltas:   7% (86/1219)Resolving deltas:   8% (98/1219)Resolving deltas:   9% (110/1219)Resolving deltas:  10% (122/1219)Resolving deltas:  11% (135/1219)Resolving deltas:  12% (147/1219)Resolving deltas:  13% (159/1219)Resolving deltas:  14% (171/1219)Resolving deltas:  15% (183/1219)Resolving deltas:  16% (196/1219)Resolving deltas:  17% (208/1219)Resolving deltas:  18% (220/1219)Resolving deltas:  19% (232/1219)Resolving deltas:  20% (244/1219)Resolving deltas:  21% (256/1219)Resolving deltas:  22% (269/1219)Resolving deltas:  23% (281/1219)Resolving deltas:  24% (293/1219)Resolving deltas:  25% (305/1219)Resolving deltas:  26% (317/1219)Resolving deltas:  27% (330/1219)Resolving deltas:  28% (342/1219)Resolving deltas:  29% (354/1219)Resolving deltas:  30% (366/1219)Resolving deltas:  31% (378/1219)Resolving deltas:  32% (391/1219)Resolving deltas:  33% (403/1219)Resolving deltas:  34% (415/1219)Resolving deltas:  35% (427/1219)Resolving deltas:  36% (439/1219)Resolving deltas:  37% (452/1219)Resolving deltas:  38% (464/1219)Resolving deltas:  39% (476/1219)Resolving deltas:  40% (488/1219)Resolving deltas:  41% (500/1219)Resolving deltas:  42% (512/1219)Resolving deltas:  43% (525/1219)Resolving deltas:  44% (537/1219)Resolving deltas:  45% (549/1219)Resolving deltas:  46% (561/1219)Resolving deltas:  47% (573/1219)Resolving deltas:  48% (586/1219)Resolving deltas:  49% (598/1219)Resolving deltas:  50% (610/1219)Resolving deltas:  51% (622/1219)Resolving deltas:  52% (634/1219)Resolving deltas:  53% (647/1219)Resolving deltas:  54% (659/1219)Resolving deltas:  55% (671/1219)Resolving deltas:  56% (683/1219)Resolving deltas:  57% (695/1219)Resolving deltas:  58% (708/1219)Resolving deltas:  59% (720/1219)Resolving deltas:  60% (732/1219)Resolving deltas:  61% (744/1219)Resolving deltas:  62% (756/1219)Resolving deltas:  63% (768/1219)Resolving deltas:  64% (781/1219)Resolving deltas:  65% (793/1219)Resolving deltas:  66% (805/1219)Resolving deltas:  67% (817/1219)Resolving deltas:  68% (829/1219)Resolving deltas:  69% (842/1219)Resolving deltas:  70% (854/1219)Resolving deltas:  71% (866/1219)Resolving deltas:  72% (878/1219)Resolving deltas:  73% (890/1219)Resolving deltas:  74% (903/1219)Resolving deltas:  75% (915/1219)Resolving deltas:  76% (927/1219)Resolving deltas:  77% (939/1219)Resolving deltas:  78% (951/1219)Resolving deltas:  79% (964/1219)Resolving deltas:  80% (976/1219)Resolving deltas:  81% (988/1219)Resolving deltas:  82% (1000/1219)Resolving deltas:  83% (1012/1219)Resolving deltas:  84% (1024/1219)Resolving deltas:  85% (1037/1219)Resolving deltas:  86% (1049/1219)Resolving deltas:  87% (1061/1219)Resolving deltas:  88% (1073/1219)Resolving deltas:  89% (1085/1219)Resolving deltas:  90% (1098/1219)Resolving deltas:  91% (1110/1219)Resolving deltas:  92% (1122/1219)Resolving deltas:  93% (1134/1219)Resolving deltas:  94% (1146/1219)Resolving deltas:  95% (1159/1219)Resolving deltas:  96% (1171/1219)Resolving deltas:  97% (1183/1219)Resolving deltas:  98% (1195/1219)Resolving deltas:  99% (1207/1219)Resolving deltas: 100% (1219/1219)Resolving deltas: 100% (1219/1219), done.
+[1m[32m==>(B[m[1m Validating source files with md5sums...(B[m
+    xar ... Skipped
+[1m[32m==>(B[m[1m Extracting sources...(B[m
+[1m[34m  ->(B[m[1m Creating working copy of xar git repo...(B[m
+Cloning into 'xar'...
+done.
+[1m[32m==>(B[m[1m Starting build()...(B[m
+autoconf
+configure.ac:99: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.ac:99: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+./lib/autoconf/general.m4:1534: AC_ARG_ENABLE is expanded from...
+configure.ac:99: the top level
+configure.ac:107: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.ac:107: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+./lib/autoconf/general.m4:1534: AC_ARG_ENABLE is expanded from...
+configure.ac:107: the top level
+configure.ac:189: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:189: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+configure.ac:189: the top level
+configure.ac:219: warning: The macro `AC_ERROR' is obsolete.
+configure.ac:219: You should run autoupdate.
+./lib/autoconf/oldnames.m4:34: AC_ERROR is expanded from...
+configure.ac:219: the top level
+configure.ac:230: warning: The macro `AC_ERROR' is obsolete.
+configure.ac:230: You should run autoupdate.
+./lib/autoconf/oldnames.m4:34: AC_ERROR is expanded from...
+configure.ac:230: the top level
+configure.ac:243: warning: The macro `AC_ERROR' is obsolete.
+configure.ac:243: You should run autoupdate.
+./lib/autoconf/oldnames.m4:34: AC_ERROR is expanded from...
+configure.ac:243: the top level
+configure.ac:256: warning: The macro `AC_ERROR' is obsolete.
+configure.ac:256: You should run autoupdate.
+./lib/autoconf/oldnames.m4:34: AC_ERROR is expanded from...
+configure.ac:256: the top level
+configure.ac:391: warning: The macro `AC_CONFIG_HEADER' is obsolete.
+configure.ac:391: You should run autoupdate.
+./lib/autoconf/status.m4:719: AC_CONFIG_HEADER is expanded from...
+configure.ac:391: the top level
+./configure --enable-autogen --prefix=/usr --mandir=/usr/share/man CFLAGS=-I/usr/include/openssl-1.0 LDFLAGS=-L/usr/lib/openssl-1.0
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking how to run the C preprocessor... gcc -E
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for ld... /usr/bin/ld
+checking for ar... /usr/bin/ar
+checking for ranlib... /usr/bin/ranlib
+checking for autoconf... /usr/bin/autoconf
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for stdint.h... (cached) yes
+checking for ext2fs/ext2_fs.h... yes
+checking for sys/statfs.h... yes
+checking for sys/xattr.h... yes
+checking for sys/param.h... yes
+checking for sys/extattr.h... no
+checking for libutil.h... no
+checking for lgetxattr... yes
+checking for lsetxattr... yes
+checking for getxattr... yes
+checking for setxattr... yes
+checking for getattrlist... no
+checking for setattrlist... no
+checking for lchmod... yes
+checking for lchown... yes
+checking for chflags... no
+checking for statvfs... yes
+checking for statfs... yes
+checking for strmode... no
+checking for struct statfs.f_fstypename... no
+checking for struct statvfs.f_fstypename... no
+checking for struct stat.st_flags... no
+checking size of uid_t... 4
+checking size of gid_t... 4
+checking size of ino_t... 8
+checking size of dev_t... 8
+checking for acl_get_file in -lacl... yes
+checking for asprintf... yes
+checking for xml2-config... /usr/bin/xml2-config
+checking for libxml >= 2.6.11... 2.9.14
+checking for libxml/xmlwriter.h... yes
+checking for openssl/evp.h... yes
+checking for EVP_add_cipher in -lcrypto... yes
+checking for zlib.h... yes
+checking for deflate in -lz... yes
+checking for bzlib.h... yes
+checking for BZ2_bzCompress in -lbz2... yes
+checking for lzma.h... yes
+checking for lzma_code in -llzma... yes
+checking for fts_open in -lfts... no
+configure: creating ./config.status
+config.status: creating cfgoutputs.stamp
+config.status: creating Makefile
+config.status: creating include/xar.h
+config.status: creating lib/Makefile.inc
+config.status: creating lib/libxar.la.in
+config.status: creating src/Makefile.inc
+config.status: creating xar.spec
+config.status: creating cfghdrs.stamp
+config.status: creating include/config.h
+echo stamp > cfgoutputs.stamp.in
+./config.status
+config.status: creating cfgoutputs.stamp
+config.status: creating Makefile
+config.status: creating include/xar.h
+config.status: creating lib/Makefile.inc
+config.status: creating lib/libxar.la.in
+config.status: creating src/Makefile.inc
+config.status: creating xar.spec
+config.status: creating cfghdrs.stamp
+config.status: cfghdrs.stamp is unchanged
+config.status: creating include/config.h
+config.status: include/config.h is unchanged
+gcc -I/usr/include/openssl-1.0  -fPIC -DPIC -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/archive.c -o lib/archive.o
+gcc -I/usr/include/openssl-1.0  -fPIC -DPIC -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/arcmod.c -o lib/arcmod.o
+gcc -I/usr/include/openssl-1.0  -fPIC -DPIC -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/b64.c -o lib/b64.o
+gcc -I/usr/include/openssl-1.0  -fPIC -DPIC -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/bzxar.c -o lib/bzxar.o
+gcc -I/usr/include/openssl-1.0  -fPIC -DPIC -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/darwinattr.c -o lib/darwinattr.o
+gcc -I/usr/include/openssl-1.0  -fPIC -DPIC -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/data.c -o lib/data.o
+gcc -I/usr/include/openssl-1.0  -fPIC -DPIC -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/ea.c -o lib/ea.o
+gcc -I/usr/include/openssl-1.0  -fPIC -DPIC -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/err.c -o lib/err.o
+gcc -I/usr/include/openssl-1.0  -fPIC -DPIC -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/ext2.c -o lib/ext2.o
+gcc -I/usr/include/openssl-1.0  -fPIC -DPIC -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/fbsdattr.c -o lib/fbsdattr.o
+gcc -I/usr/include/openssl-1.0  -fPIC -DPIC -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/filetree.c -o lib/filetree.o
+gcc -I/usr/include/openssl-1.0  -fPIC -DPIC -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/io.c -o lib/io.o
+gcc -I/usr/include/openssl-1.0  -fPIC -DPIC -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/lzmaxar.c -o lib/lzmaxar.o
+gcc -I/usr/include/openssl-1.0  -fPIC -DPIC -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/linuxattr.c -o lib/linuxattr.o
+gcc -I/usr/include/openssl-1.0  -fPIC -DPIC -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/hash.c -o lib/hash.o
+gcc -I/usr/include/openssl-1.0  -fPIC -DPIC -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/signature.c -o lib/signature.o
+gcc -I/usr/include/openssl-1.0  -fPIC -DPIC -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/stat.c -o lib/stat.o
+gcc -I/usr/include/openssl-1.0  -fPIC -DPIC -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/subdoc.c -o lib/subdoc.o
+gcc -I/usr/include/openssl-1.0  -fPIC -DPIC -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/util.c -o lib/util.o
+gcc -I/usr/include/openssl-1.0  -fPIC -DPIC -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/zxar.c -o lib/zxar.o
+gcc -I/usr/include/openssl-1.0  -fPIC -DPIC -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/script.c -o lib/script.o
+gcc -I/usr/include/openssl-1.0  -fPIC -DPIC -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/macho.c -o lib/macho.o
+gcc -I/usr/include/openssl-1.0   -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/archive.c -o lib/archive.static.o
+gcc -I/usr/include/openssl-1.0   -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/arcmod.c -o lib/arcmod.static.o
+gcc -I/usr/include/openssl-1.0   -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/b64.c -o lib/b64.static.o
+gcc -I/usr/include/openssl-1.0   -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/bzxar.c -o lib/bzxar.static.o
+gcc -I/usr/include/openssl-1.0   -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/darwinattr.c -o lib/darwinattr.static.o
+gcc -I/usr/include/openssl-1.0   -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/data.c -o lib/data.static.o
+gcc -I/usr/include/openssl-1.0   -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/ea.c -o lib/ea.static.o
+gcc -I/usr/include/openssl-1.0   -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/err.c -o lib/err.static.o
+gcc -I/usr/include/openssl-1.0   -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/ext2.c -o lib/ext2.static.o
+gcc -I/usr/include/openssl-1.0   -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/fbsdattr.c -o lib/fbsdattr.static.o
+gcc -I/usr/include/openssl-1.0   -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/filetree.c -o lib/filetree.static.o
+gcc -I/usr/include/openssl-1.0   -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/io.c -o lib/io.static.o
+gcc -I/usr/include/openssl-1.0   -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/lzmaxar.c -o lib/lzmaxar.static.o
+gcc -I/usr/include/openssl-1.0   -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/linuxattr.c -o lib/linuxattr.static.o
+gcc -I/usr/include/openssl-1.0   -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/hash.c -o lib/hash.static.o
+gcc -I/usr/include/openssl-1.0   -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/signature.c -o lib/signature.static.o
+gcc -I/usr/include/openssl-1.0   -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/stat.c -o lib/stat.static.o
+gcc -I/usr/include/openssl-1.0   -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/subdoc.c -o lib/subdoc.static.o
+gcc -I/usr/include/openssl-1.0   -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/util.c -o lib/util.static.o
+gcc -I/usr/include/openssl-1.0   -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/zxar.c -o lib/zxar.static.o
+gcc -I/usr/include/openssl-1.0   -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/script.c -o lib/script.static.o
+gcc -I/usr/include/openssl-1.0   -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c lib/macho.c -o lib/macho.static.o
+sed -e s/@LIBXAR_SNAME@/libxar.so.1/ -e s/@LIBXAR_LNAME@/libxar.so/ -e s/@LIBXAR_ANAME@/libxar.a/ < lib/libxar.la.in > lib/libxar.la
+gcc -I/usr/include/openssl-1.0  -Iinclude -Iinclude -D_GNU_SOURCE -I/usr/include/libxml2 -c src/xar.c -o src/xar.o
+gcc -shared -Wl,-soname,libxar.so.1 -o lib/libxar.so.1 lib/archive.o lib/arcmod.o lib/b64.o lib/bzxar.o lib/darwinattr.o lib/data.o lib/ea.o lib/err.o lib/ext2.o lib/fbsdattr.o lib/filetree.o lib/io.o lib/lzmaxar.o lib/linuxattr.o lib/hash.o lib/signature.o lib/stat.o lib/subdoc.o lib/util.o lib/zxar.o lib/script.o lib/macho.o -Llib -L/usr/lib/openssl-1.0  -llzma -lbz2 -lz -lcrypto -lacl  -lxml2 -lz -llzma -licui18n -licuuc -licudata -lm
+gcc -shared -Wl,-soname,libxar.so.1 -o lib/librxar.so.1 lib/archive.o lib/arcmod.o lib/b64.o lib/bzxar.o lib/darwinattr.o lib/data.o lib/ea.o lib/err.o lib/ext2.o lib/fbsdattr.o lib/filetree.o lib/io.o lib/lzmaxar.o lib/linuxattr.o lib/hash.o lib/signature.o lib/stat.o lib/subdoc.o lib/util.o lib/zxar.o lib/script.o lib/macho.o -Llib -L/usr/lib/openssl-1.0  -llzma -lbz2 -lz -lcrypto -lacl  -lxml2 -lz -llzma -licui18n -licuuc -licudata -lm
+rm -f lib/libxar.so
+ln -s libxar.so.1 lib/libxar.so
+/usr/bin/ar cvr lib/libxar.a lib/archive.static.o lib/arcmod.static.o lib/b64.static.o lib/bzxar.static.o lib/darwinattr.static.o lib/data.static.o lib/ea.static.o lib/err.static.o lib/ext2.static.o lib/fbsdattr.static.o lib/filetree.static.o lib/io.static.o lib/lzmaxar.static.o lib/linuxattr.static.o lib/hash.static.o lib/signature.static.o lib/stat.static.o lib/subdoc.static.o lib/util.static.o lib/zxar.static.o lib/script.static.o lib/macho.static.o
+a - lib/archive.static.o
+a - lib/arcmod.static.o
+a - lib/b64.static.o
+a - lib/bzxar.static.o
+a - lib/darwinattr.static.o
+a - lib/data.static.o
+a - lib/ea.static.o
+a - lib/err.static.o
+a - lib/ext2.static.o
+a - lib/fbsdattr.static.o
+a - lib/filetree.static.o
+a - lib/io.static.o
+a - lib/lzmaxar.static.o
+a - lib/linuxattr.static.o
+a - lib/hash.static.o
+a - lib/signature.static.o
+a - lib/stat.static.o
+a - lib/subdoc.static.o
+a - lib/util.static.o
+a - lib/zxar.static.o
+a - lib/script.static.o
+a - lib/macho.static.o
+rm -f lib/librxar.so
+ln -s librxar.so.1 lib/librxar.so
+gcc -I/usr/include/openssl-1.0  -o src/ixar src/xar.o -Wl,-rpath,/usr/lib -Llib -L/usr/lib/openssl-1.0  lib/libxar.so.1 -llzma -lbz2 -lz -lcrypto -lacl  -lxml2 -lz -llzma -licui18n -licuuc -licudata -lm
+/usr/bin/ranlib lib/libxar.a 
+gcc -I/usr/include/openssl-1.0  -o src/xar src/xar.o -Wl,-rpath,/home/nkpro/.cache/pikaur/build/xar/src/xar/xar/lib -Llib -L/usr/lib/openssl-1.0  lib/libxar.a -llzma -lbz2 -lz -lcrypto -lacl  -lxml2 -lz -llzma -licui18n -licuuc -licudata -lm
+[1m[32m==>(B[m[1m Entering fakeroot environment...(B[m
+[1m[32m==>(B[m[1m Starting package()...(B[m
+echo stamp > cfghdrs.stamp.in
+./config.status
+config.status: creating cfgoutputs.stamp
+config.status: creating Makefile
+config.status: creating include/xar.h
+config.status: creating lib/Makefile.inc
+config.status: creating lib/libxar.la.in
+config.status: creating src/Makefile.inc
+config.status: creating xar.spec
+config.status: creating cfghdrs.stamp
+config.status: cfghdrs.stamp is unchanged
+config.status: creating include/config.h
+config.status: include/config.h is unchanged
+echo stamp > cfghdrs.stamp
+/usr/bin/install -c -d /home/nkpro/.cache/pikaur/build/xar/pkg/xar/usr/include/xar
+/usr/bin/install -c -m 0644 include/xar.h /home/nkpro/.cache/pikaur/build/xar/pkg/xar/usr/include/xar
+/usr/bin/install -c -d /home/nkpro/.cache/pikaur/build/xar/pkg/xar/usr/lib
+/usr/bin/install -c -m 0755 lib/libxar.so.1 /home/nkpro/.cache/pikaur/build/xar/pkg/xar/usr/lib
+rm -f /home/nkpro/.cache/pikaur/build/xar/pkg/xar/usr/lib/libxar.so
+ln -s libxar.so.1 /home/nkpro/.cache/pikaur/build/xar/pkg/xar/usr/lib/libxar.so
+/usr/bin/install -c -m 0644 lib/libxar.a /home/nkpro/.cache/pikaur/build/xar/pkg/xar/usr/lib
+/usr/bin/install -c -m 0644 lib/libxar.la /home/nkpro/.cache/pikaur/build/xar/pkg/xar/usr/lib
+/usr/bin/install -c -d /home/nkpro/.cache/pikaur/build/xar/pkg/xar/usr/bin
+/usr/bin/install -c -m 0755 src/ixar /home/nkpro/.cache/pikaur/build/xar/pkg/xar/usr/bin/xar
+/usr/bin/install -c -d /home/nkpro/.cache/pikaur/build/xar/pkg/xar/usr/share/man/man1
+/usr/bin/install -c -m 0644 src/xar.1 /home/nkpro/.cache/pikaur/build/xar/pkg/xar/usr/share/man/man1
+[1m[32m==>(B[m[1m Tidying install...(B[m
+[1m[34m  ->(B[m[1m Removing libtool files...(B[m
+[1m[34m  ->(B[m[1m Purging unwanted files...(B[m
+[1m[34m  ->(B[m[1m Removing static library files...(B[m
+[1m[34m  ->(B[m[1m Stripping unneeded symbols from binaries and libraries...(B[m
+[1m[34m  ->(B[m[1m Compressing man and info pages...(B[m
+[1m[32m==>(B[m[1m Checking for packaging issues...(B[m
+[1m[32m==>(B[m[1m Creating package "xar"...(B[m
+[1m[34m  ->(B[m[1m Generating .PKGINFO file...(B[m
+[1m[34m  ->(B[m[1m Generating .BUILDINFO file...(B[m
+[1m[34m  ->(B[m[1m Generating .MTREE file...(B[m
+[1m[34m  ->(B[m[1m Compressing package...(B[m
+[1m[32m==>(B[m[1m Leaving fakeroot environment.(B[m
+[1m[32m==>(B[m[1m Finished making: xar 1.6.1-5 (Wednesday 31 August 2022 03:22:22 AM)(B[m
+
+[0;1m[035m::[0;0m Removing already installed dependencies for [0;1mxar[0m:
+[?25l[?25h[?25lchecking dependencies...
+
+[0;1mPackages (1)[0m openssl-1.0[38;5;243m-1.0.2.u-1[0m
+
+[0;1mTotal Removed Size:[0m  5.82 MiB
+
+[1;34m::[0;1m Do you want to remove these packages? [Y/n] [0m[?25hY
+[?25l[1;34m::[0;1m Processing package changes...
+[0m(1/1) removing openssl-1.0                                                                           [-----------------------------------------------------------]   0%(1/1) removing openssl-1.0                                                                           [-----------------------------------------------------------]   0%[?25l[?25h(1/1) removing openssl-1.0                                                                           [-----------------------------------------------------------]   0%(1/1) removing openssl-1.0                                                                           [###########################################################] 100%
+[1;34m::[0;1m Running post-transaction hooks...
+[0m(1/1) Arming ConditionNeedsUpdate...
+[?25h[?25l[?25h[?25lloading packages...
+resolving dependencies...
+looking for conflicting packages...
+
+[0;1mPackages (2)[0m openssl-1.0[38;5;243m-1.0.2.u-1[0m  xar[38;5;243m-1.6.1-5[0m
+
+[0;1mTotal Installed Size:[0m  6.03 MiB
+
+[1;34m::[0;1m Proceed with installation? [Y/n] [0mY
+[?25h[?25l(0/2) checking keys in keyring                                                                       [-----------------------------------------------------------]   0%(1/2) checking keys in keyring                                                                       [#############################------------------------------]  50%(2/2) checking keys in keyring                                                                       [###########################################################] 100%
+(0/2) checking package integrity                                                                     [-----------------------------------------------------------]   0%(1/2) checking package integrity                                                                     [###########################################################] 100%
+(0/2) loading package files                                                                          [-----------------------------------------------------------]   0%(1/2) loading package files                                                                          [###########################################################] 100%
+(0/2) checking for file conflicts                                                                    [-----------------------------------------------------------]   0%(1/2) checking for file conflicts                                                                    [#############################------------------------------]  50%(2/2) checking for file conflicts                                                                    [###########################################################] 100%
+(0/2) checking available disk space                                                                  [-----------------------------------------------------------]   0%(1/2) checking available disk space                                                                  [#############################------------------------------]  50%(2/2) checking available disk space                                                                  [###########################################################] 100%
+[1;34m::[0;1m Processing package changes...
+[0m(1/2) installing openssl-1.0                                                                         [-----------------------------------------------------------]   0%(1/2) installing openssl-1.0                                                                         [###########################################################] 100%
+Optional dependencies for openssl-1.0
+[0;1m   [0m ca-certificates [installed]
+(2/2) installing xar                                                                                 [-----------------------------------------------------------]   0%(2/2) installing xar                                                                                 [###########################################################] 100%
+[1;34m::[0;1m Running post-transaction hooks...
+[0m(1/1) Arming ConditionNeedsUpdate...
+[?25h]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling[?2004h[01;32m[nkpro@len0Gv[01;37m .darling[01;32m]$[00m ## This method is using commands from gist : [7mhttps://gist.github.com/phracker/1944ce190e01963c550566b749bd2b54[27mhttps://gist.github.com/phracker/1944ce190e01963c550566b749bd2b54
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling[?2004h[01;32m[nkpro@len0Gv[01;37m .darling[01;32m]$[00m 
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling[?2004h[01;32m[nkpro@len0Gv[01;37m .darling[01;32m]$[00m [7mxar -xf XIP_FILE -C /path/to/extract/to[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cxar -xf XIP_FILE -C /path/to/extract/to[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K./Applications/X[K[C[1P[1P[1P[1P[1P[1P[1P[1P[1@/[1@m[3@nt/[1@E[1@x[7@tended/[1@D[1@o[1@w[7@nloads/[1@d[1@a[1@r[1@/[1@x[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@.[1@.[1@/[1@x[10@code-12.4/[1@X[1P[1@x[15@code-12.4_meta.[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@X[13@code_12.4.xip
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling[?2004h[01;32m[nkpro@len0Gv[01;37m .darling[01;32m]$[00m # [K## I didn't expect this to this much fast
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling[?2004h[01;32m[nkpro@len0Gv[01;37m .darling[01;32m]$[00m 
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling[?2004h[01;32m[nkpro@len0Gv[01;37m .darling[01;32m]$[00m du -sh ./Applications/X[K
+Content        Metadata       ._Python 3.10  Python 3.10/   
+[01;32m[nkpro@len0Gv[01;37m .darling[01;32m]$[00m du -sh ./Applications/Content [K[K[K[K[K[K[K[KMetadata [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksud [K[K[K[Kdu -sh ./Applications/Content [C[1@c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ./Applications/ME[Ketadata 
+[?2004l11G	./Applications/Content
+4.0K	./Applications/Metadata
+11G	total
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling[?2004h[01;32m[nkpro@len0Gv[01;37m .darling[01;32m]$[00m du -sh ./[K./X[Kxcode-12.4/Xcode_12.4.xip 
+[?2004l11G	../xcode-12.4/Xcode_12.4.xip
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling[?2004h[01;32m[nkpro@len0Gv[01;37m .darling[01;32m]$[00m cd ./Applications/
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications[?2004h[01;32m[nkpro@len0Gv[01;37m Applications[01;32m]$[00m mkdif[K[Kir [7mXcode.app[27mXcode.app
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications[?2004h[01;32m[nkpro@len0Gv[01;37m Applications[01;32m]$[00m mv Content Metadata Xcode.app/
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications[?2004h[01;32m[nkpro@len0Gv[01;37m Applications[01;32m]$[00m ls
+[?2004l[0m[01;34m'Python 3.10'[0m   [01;34mXcode.app[0m
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications[?2004h[01;32m[nkpro@len0Gv[01;37m Applications[01;32m]$[00m cd Xcode.app/
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications/Xcode.app[?2004h[01;32m[nkpro@len0Gv[01;37m Xcode.app[01;32m]$[00m ls -a
+[?2004l[0m[01;34m.[0m  [37;44m..[0m  Content  Metadata
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications/Xcode.app[?2004h[01;32m[nkpro@len0Gv[01;37m Xcode.app[01;32m]$[00m ls - a[K[Ka ../
+[?2004l [0m[37;44m.[0m   [01;34m..[0m  '._Python 3.10'  [01;34m'Python 3.10'[0m   [01;34mXcode.app[0m
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications/Xcode.app[?2004h[01;32m[nkpro@len0Gv[01;37m Xcode.app[01;32m]$[00m [7mpbzx -n Content | cpio -i[27mpbzx -n Content | cpio -i
+[?2004lbash: cpio: command not found
+bash: pbzx: command not found
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications/Xcode.app[?2004h[01;32m[nkpro@len0Gv[01;37m Xcode.app[01;32m]$[00m cpio
+[?2004lbash: cpio: command not found
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications/Xcode.app[?2004h[01;32m[nkpro@len0Gv[01;37m Xcode.app[01;32m]$[00m sudo pacman -S pbzx cpio
+[?2004l[sudo] password for nkpro: 
+error: target not found: pbzx
+[?25l[?25h]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications/Xcode.app[?2004h[01;32m[nkpro@len0Gv[01;37m Xcode.app[01;32m]$[00m sudo pacman -S pbzx cpio[1Pcpio[1Pcpio[1Pcpio[1Pcpio[1Pcpio
+[?2004l[?25lresolving dependencies...
+looking for conflicting packages...
+
+Packages (1) cpio-2.13-2
+
+Total Download Size:   0.22 MiB
+Total Installed Size:  0.92 MiB
+
+:: Proceed with installation? [Y/n] [?25h
+[?25l:: Retrieving packages...
+ cpio-2.13-2-x86_64
+[1F cpio-2.13-2-x86_64                                                        0.0   B  0.00   B/s --:-- [-----------------------------------------------------------]   0% cpio-2.13-2-x86_64                                                       16.0 KiB  19.5 KiB/s 00:10 [####-------------------------------------------------------]   7% cpio-2.13-2-x86_64                                                       48.0 KiB  45.0 KiB/s 00:03 [############-----------------------------------------------]  21% cpio-2.13-2-x86_64                                                       96.0 KiB  85.8 KiB/s 00:01 [########################-----------------------------------]  42% cpio-2.13-2-x86_64                                                      223.5 KiB  93.1 KiB/s 00:02 [###########################################################] 100%[1E(0/1) checking keys in keyring                                                                       [-----------------------------------------------------------]   0%(1/1) checking keys in keyring                                                                       [###########################################################] 100%
+(0/1) checking package integrity                                                                     [-----------------------------------------------------------]   0%(1/1) checking package integrity                                                                     [###########################################################] 100%
+(0/1) loading package files                                                                          [-----------------------------------------------------------]   0%(1/1) loading package files                                                                          [###########################################################] 100%
+(0/1) checking for file conflicts                                                                    [-----------------------------------------------------------]   0%(1/1) checking for file conflicts                                                                    [###########################################################] 100%
+(0/1) checking available disk space                                                                  [-----------------------------------------------------------]   0%(1/1) checking available disk space                                                                  [###########################################################] 100%
+:: Processing package changes...
+(1/1) installing cpio                                                                                [-----------------------------------------------------------]   0%(1/1) installing cpio                                                                                [###########################################################] 100%
+:: Running post-transaction hooks...
+(1/2) Arming ConditionNeedsUpdate...
+(2/2) Updating the info directory file...
+[?25h]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications/Xcode.app[?2004h[01;32m[nkpro@len0Gv[01;37m Xcode.app[01;32m]$[00m pikaur -S pbzx
+[?2004l[?25l[?25hReading repository package databases...
+[?25l[?25hReading local package database...
+Resolving AUR dependencies...
+
+[0;1m[036m::[0;0m [0;1mAUR package will be installed:[0m
+ [0;1mpbzx[0m                                  [0;1m[032m[0;0m[0;1m[033m [0;0m                    -> [0;1m[032m[0;0m[0;1m[031m1.0.2-2[0;0m
+
+[0;1m[034m::[0;0m [0;1mProceed with installation? [Y/n] [0m
+[0;1m[034m::[0;0m [0;1m[v]iew package details   [m]anually select packages[0m
+>> y
+looking for conflicting AUR packages...
+[0;1m[033m:: warning:[0;0m Not showing diff for [0;1mpbzx[0m package (installing for the first time)
+Do you want to [0;1medit[0m PKGBUILD for [0;1mpbzx[0m package? [Y/n] n
+
+
+[0;1m[035m::[0;0m Starting the build:
+[1m[32m==>(B[m[1m Making package: pbzx 1.0.2-2 (Wednesday 31 August 2022 03:37:23 AM)(B[m
+[1m[32m==>(B[m[1m Checking runtime dependencies...(B[m
+[1m[32m==>(B[m[1m Checking buildtime dependencies...(B[m
+[1m[32m==>(B[m[1m Retrieving sources...(B[m
+[1m[34m  ->(B[m[1m Downloading v1.0.2.tar.gz...(B[m
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+100   881    0   881    0     0    447      0 --:--:--  0:00:01 --:--:--   447100 16083    0 16083    0     0   7793      0 --:--:--  0:00:02 --:--:--  161k
+[1m[32m==>(B[m[1m Validating source files with sha256sums...(B[m
+    v1.0.2.tar.gz ... Passed
+[1m[32m==>(B[m[1m Extracting sources...(B[m
+[1m[34m  ->(B[m[1m Extracting v1.0.2.tar.gz with bsdtar(B[m
+[1m[32m==>(B[m[1m Starting build()...(B[m
+[1m[32m==>(B[m[1m Entering fakeroot environment...(B[m
+[1m[32m==>(B[m[1m Starting package()...(B[m
+[1m[32m==>(B[m[1m Tidying install...(B[m
+[1m[34m  ->(B[m[1m Removing libtool files...(B[m
+[1m[34m  ->(B[m[1m Purging unwanted files...(B[m
+[1m[34m  ->(B[m[1m Removing static library files...(B[m
+[1m[34m  ->(B[m[1m Stripping unneeded symbols from binaries and libraries...(B[m
+[1m[34m  ->(B[m[1m Compressing man and info pages...(B[m
+[1m[32m==>(B[m[1m Checking for packaging issues...(B[m
+[1m[32m==>(B[m[1m Creating package "pbzx"...(B[m
+[1m[34m  ->(B[m[1m Generating .PKGINFO file...(B[m
+[1m[34m  ->(B[m[1m Generating .BUILDINFO file...(B[m
+[1m[34m  ->(B[m[1m Generating .MTREE file...(B[m
+[1m[34m  ->(B[m[1m Compressing package...(B[m
+[1m[32m==>(B[m[1m Leaving fakeroot environment.(B[m
+[1m[32m==>(B[m[1m Finished making: pbzx 1.0.2-2 (Wednesday 31 August 2022 03:37:44 AM)(B[m
+
+[?25l[?25h[?25lloading packages...
+resolving dependencies...
+looking for conflicting packages...
+
+[0;1mPackages (1)[0m pbzx[38;5;243m-1.0.2-2[0m
+
+[0;1mTotal Installed Size:[0m  0.01 MiB
+
+[1;34m::[0;1m Proceed with installation? [Y/n] [0m[?25hY
+[?25l(0/1) checking keys in keyring                                                                       [-----------------------------------------------------------]   0%(1/1) checking keys in keyring                                                                       [###########################################################] 100%
+(0/1) checking package integrity                                                                     [-----------------------------------------------------------]   0%(1/1) checking package integrity                                                                     [###########################################################] 100%
+(0/1) loading package files                                                                          [-----------------------------------------------------------]   0%(1/1) loading package files                                                                          [###########################################################] 100%
+(0/1) checking for file conflicts                                                                    [-----------------------------------------------------------]   0%(1/1) checking for file conflicts                                                                    [###########################################################] 100%
+(0/1) checking available disk space                                                                  [-----------------------------------------------------------]   0%(1/1) checking available disk space                                                                  [###########################################################] 100%
+[1;34m::[0;1m Processing package changes...
+[0m(1/1) installing pbzx                                                                                [-----------------------------------------------------------]   0%(1/1) installing pbzx                                                                                [###########################################################] 100%
+Optional dependencies for pbzx
+[0;1m   [0m cpio: postprocessing of the extracted archive [installed]
+[1;34m::[0;1m Running post-transaction hooks...
+[0m(1/1) Arming ConditionNeedsUpdate...
+[?25h]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications/Xcode.app[?2004h[01;32m[nkpro@len0Gv[01;37m Xcode.app[01;32m]$[00m pikaur -S pbzxsudo pacman -S cpiopbzx cpiocpio[Kpbzx -n Content | cpio -i[16Pls -a ../pbzx -n Content | cpio -i
+[?2004l63668107 blocks
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications/Xcode.app[?2004h[01;32m[nkpro@len0Gv[01;37m Xcode.app[01;32m]$[00m ls
+[?2004lContent  Metadata  [0m[01;34mXcode.app[0m
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications/Xcode.app[?2004h[01;32m[nkpro@len0Gv[01;37m Xcode.app[01;32m]$[00m ls Xcode.app/
+[?2004l[0m[01;34mContents[0m
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications/Xcode.app[?2004h[01;32m[nkpro@len0Gv[01;37m Xcode.app[01;32m]$[00m ls Xcode.app/Contents/
+[?2004l[0m[01;34mApplications[0m    [01;34mDeveloper[0m   Info.plist  [01;34mMacOS[0m            PkgInfo  [01;34mResources[0m         [01;34mSystemFrameworks[0m  [01;34mXPCServices[0m
+[01;34m_CodeSignature[0m  [01;34mFrameworks[0m  [01;34mLibrary[0m     [01;34mOtherFrameworks[0m  [01;34mPlugIns[0m  [01;34mSharedFrameworks[0m  version.plist
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications/Xcode.app[?2004h[01;32m[nkpro@len0Gv[01;37m Xcode.app[01;32m]$[00m cd ..
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications[?2004h[01;32m[nkpro@len0Gv[01;37m Applications[01;32m]$[00m mv Me[K[K[K Xcode.app/Metadata ~[K../ho[K[KUsers/nkpro/
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications[?2004h[01;32m[nkpro@len0Gv[01;37m Applications[01;32m]$[00m ls Xcode.app/
+[?2004lContent  [0m[01;34mXcode.app[0m
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications[?2004h[01;32m[nkpro@len0Gv[01;37m Applications[01;32m]$[00m mv [K[K[Krm Xcode.app/X[KContent 
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications[?2004h[01;32m[nkpro@len0Gv[01;37m Applications[01;32m]$[00m rm Xcode.app/Content [8Pls Xcode.app/
+[?2004l[0m[01;34mXcode.app[0m
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications[?2004h[01;32m[nkpro@len0Gv[01;37m Applications[01;32m]$[00m mv Xcode.app/Xcode.app/ ./
+[?2004lmv: cannot move 'Xcode.app/Xcode.app/' to './Xcode.app': Directory not empty
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications[?2004h[01;32m[nkpro@len0Gv[01;37m Applications[01;32m]$[00m mv Xcode.app/[K Xcode.app/[K_
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications[?2004h[01;32m[nkpro@len0Gv[01;37m Applications[01;32m]$[00m mv Xcode.app_/Xcode.app/[K ./
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications[?2004h[01;32m[nkpro@len0Gv[01;37m Applications[01;32m]$[00m ls
+[?2004l[0m[01;34m'Python 3.10'[0m   [01;34mXcode.app[0m   [01;34mXcode.app_[0m
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications[?2004h[01;32m[nkpro@len0Gv[01;37m Applications[01;32m]$[00m rmdir Xcode.app_/
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications[?2004h[01;32m[nkpro@len0Gv[01;37m Applications[01;32m]$[00m ls
+[?2004l[0m[01;34m'Python 3.10'[0m   [01;34mXcode.app[0m
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling/Applications[?2004h[01;32m[nkpro@len0Gv[01;37m Applications[01;32m]$[00m cd ../../
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot/thome/nkpro_darling[?2004h[01;32m[nkpro@len0Gv[01;37m nkpro_darling[01;32m]$[00m source init.sh 
+[?2004lnow : HOME=/mnt/Extended/LinuxExtRoot/thome/nkpro_darling
+now : PATH=/mnt/Extended/LinuxExtRoot/tusr/darling/bin:/home/nkpro/nk/Dev/VSCode-linux-x64/bin:/home/nkpro/nk/Dev/bin/flutter:/home/nkpro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+Envs: DPREFIX=/mnt/Extended/LinuxExtRoot/thome/nkpro_darling/.darling
+'$ darling shell' to start darling
+]0;nkpro@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m darling shell
+[?2004lBootstrapping the container with launchd...
+    
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hDarling [/Volumes/SystemRoot/mnt/Extended/LinuxExtRoot/thome/nkpro_darling]$ cd
+Darling [~]$ ls
+[35mDesktop[39;49m[0m               [35mLinuxHome[39;49m[0m             [35mPictures[39;49m[0m              hello-world.c         mc-4.8.7-0.pkg        openssl-1.1.1d.tar.gz
+[35mDocuments[39;49m[0m             Metadata              [35mPublic[39;49m[0m                [31mhello-world_old[39;49m[0m       [34mneofetch-7.1.0[39;49m[0m        rudix.py
+[35mDownloads[39;49m[0m             [35mMovies[39;49m[0m                [34mcurl-7.84.0[39;49m[0m           [31mhi[39;49m[0m                    neofetch-7.1.0.tar.gz [34mtryinstalls[39;49m[0m
+[34mLibrary[39;49m[0m               [35mMusic[39;49m[0m                 curl-7.84.0.tar.gz    hi.swift              [34mopenssl-1.1.1d[39;49m[0m        [34mvcpkg[39;49m[0m
+Darling [~]$ file Metadata 
+Metadata: XML 1.0 document text, ASCII text
+Darling [~]$ xcode-select -p
+/Applications/Xcode.app/Contents/Developer/
+Darling [~]$ xcode-select -pDarling [~]$ [1Pfile Metadata ls[KcdDONEclang hello-world.c -o hello-worldDarling [~]$ which clang[Kclang hello-world.c -o hello-world
+dyld: dyld cache load error: shared cache file open() failed
+dyld: Library not loaded: /usr/lib/swift/libswiftCore.dylib
+  Referenced from: /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+  Reason: no suitable image found.  Did find:
+	/usr/lib/swift/libswiftCore.dylib: file too short
+	/usr/lib/swift/libswiftCore.dylib: stat() failed with errno=22
+abort_with_payload: reason: dyld cache load error: shared cache file open() failed
+Library not loaded: /usr/lib/swift/libswiftCore.dylib
+  Referenced from: /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+  Reason: no suitable image found.  Did find:
+	/usr/lib/swift/libswiftCore.dylib: file too short
+	/usr/lib/swift/libswiftCore.dylib: stat() failed with errno=22; code: 1
+Abort trap: 6 (core dumped)
+Darling [~]$ file /usr/lib/swift/libswiftC 
+libswiftAVFoundation.dylib       libswiftCoreFoundation.dylib     libswiftGLKit.dylib              libswiftNetwork.dylib            libswiftSwiftLang.dylib
+libswiftAccelerate.dylib         libswiftCoreGraphics.dylib       libswiftGameplayKit.dylib        libswiftObjectiveC.dylib         libswiftSwiftOnoneSupport.dylib
+libswiftAppKit.dylib             libswiftCoreImage.dylib          libswiftIOKit.dylib              libswiftOpenCL.dylib             libswiftVision.dylib
+libswiftCloudKit.dylib           libswiftCoreLocation.dylib       libswiftIntents.dylib            libswiftPhotos.dylib             libswiftXCTest.dylib
+libswiftCompression.dylib        libswiftCoreMedia.dylib          libswiftMapKit.dylib             libswiftQuartzCore.dylib         libswiftXPC.dylib
+libswiftContacts.dylib           libswiftCryptoTokenKit.dylib     libswiftMetal.dylib              libswiftRemoteMirror.dylib       libswift_Differentiation.dylib
+libswiftCore.dylib               libswiftDarwin.dylib             libswiftMetalKit.dylib           libswiftSafariServices.dylib     libswiftos.dylib
+libswiftCoreAudio.dylib          libswiftDispatch.dylib           libswiftModelIO.dylib            libswiftSceneKit.dylib           libswiftsimd.dylib
+libswiftCoreData.dylib           libswiftFoundation.dylib         libswiftNaturalLanguage.dylib    libswiftSpriteKit.dylib          
+Darling [~]$ file /usr/lib/swift/libswiftCore
+libswiftCore.dylib            libswiftCoreData.dylib        libswiftCoreGraphics.dylib    libswiftCoreLocation.dylib    
+libswiftCoreAudio.dylib       libswiftCoreFoundation.dylib  libswiftCoreImage.dylib       libswiftCoreMedia.dylib       
+Darling [~]$ file /usr/lib/swift/libswiftCore.dylib 
+/usr/lib/swift/libswiftCore.dylib: ASCII text
+Darling [~]$ sudo cp         cd LinuxHome
+Darling [~/LinuxHome]$ ls
+[34mDesktop[39;49m[0m             [34mDownloads[39;49m[0m           [34mdarling_src_repo[39;49m[0m    [34mmy-WineDarlingDroid[39;49m[0m [34mxcode-12.4[39;49m[0m
+[34mDocuments[39;49m[0m           [34mdarling_deb[39;49m[0m         init.sh             [34mmyPSLABappDemo[39;49m[0m
+Darling [~/LinuxHome]$ find darling_deb/   / -name libswiftCore.dylib
+darling_deb//usr/libexec/darling/usr/lib/swift/libswiftCore.dylib
+^C
+Darling [~/LinuxHome]$ find darling_deb/ -name libswiftCore.dylib[1P[1@.[1@/
+./darling_deb/usr/libexec/darling/usr/lib/swift/libswiftCore.dylib
+Darling [~/LinuxHome]$ dif  f    whc ich diff
+/usr/bin/diff
+Darling [~/LinuxHome]$ diff /usr/lib/swift/libswiftCore.dylib ./darling_deb/usr/libexec/darling/usr/lib/swift/libswiftCore.dylib
+Binary files /usr/lib/swift/libswiftCore.dylib and ./darling_deb/usr/libexec/darling/usr/lib/swift/libswiftCore.dylib differ
+Darling [~/LinuxHome]$ sudo diff /usr/lib/swift/libswiftCore.dylib ./darling_deb/usr/libexec/darling/usr/lib/swift/libswiftCore.dylib[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@s[1@u[1@d[1@o[1@ [1@c[1@p[1@ ./darling_deb/usr/libexec/darling/usr/lib/swift/libswiftCore.dylib /usr/lib/swift/libswiftCore.dylib
+cp: /usr/lib/swift/libswiftCore.dylib: Permission denied
+Darling [~/LinuxHome]$ sudo rm /usr/lib/swift/libswiftCore.dylib
+override rw-r--r--  root/wheel for /usr/lib/swift/libswiftCore.dylib? y
+Darling [~/LinuxHome]$ sudo rm /usr/lib/swift/libswiftCore.dylibDarling [~/LinuxHome]$ sudo [67@cp ./darling_deb/usr/libexec/darling/usr/lib/swift/libswiftCore.dylib /usr/lib/swift/libswiftCore.dylib
+Darling [~/LinuxHome]$ sudo cp ./darling_deb/usr/libexec/darling/usr/lib/swift/libswiftCore.dylib /usr/lib/swift/libswiftCore.dylibDarling [~/LinuxHome]$ sudo [67Prm /usr/lib/swift/libswiftCore.dylibDarling [~/LinuxHome]$ sudo [67@cp ./darling_deb/usr/libexec/darling/usr/lib/swift/libswiftCore.dylib /usr/lib/swift/libswiftCore.dylibDarling [~/LinuxHome]$ [3Pdiff /usr/lib/swift/libswiftCore.dylib ./darling_deb/usr/libexec/darling/usr/lib/swift/libswiftCore.dylibDarling [~/LinuxHome]$ which diff[Kfind ./darling_deb -name libswiftCore.dylibDarling [~/LinuxHome]$ find [1Pdarling_deb/ -name libswiftCore.dylibDarling [~/LinuxHome]$ ls[Kcd LinuxHomefile /usr/lib/swift/libswiftCore.dylib Darling [~/LinuxHome]$ [5Pclang hello-world.c -o hello-worldDarling [~/LinuxHome]$ [19Pxcode-select -pclang hello-world.c -o hello-world
+dyld: dyld cache load error: shared cache file open() failed
+dyld: Library not loaded: /usr/lib/swift/libswiftCoreGraphics.dylib
+  Referenced from: /Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework/Versions/A/DVTFoundation
+  Reason: no suitable image found.  Did find:
+	/usr/lib/swift/libswiftCoreGraphics.dylib: file too short
+	/usr/lib/swift/libswiftCoreGraphics.dylib: stat() failed with errno=22
+abort_with_payload: reason: dyld cache load error: shared cache file open() failed
+Library not loaded: /usr/lib/swift/libswiftCoreGraphics.dylib
+  Referenced from: /Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework/Versions/A/DVTFoundation
+  Reason: no suitable image found.  Did find:
+	/usr/lib/swift/libswiftCoreGraphics.dylib: file too short
+	/usr/lib/swift/libswiftCoreGraphics.dylib: stat() failed with errno=22; code: 1
+Abort trap: 6 (core dumped)
+Darling [~/LinuxHome]$ sudo rm -rf /usr/lib/swift/* 
+Darling [~/LinuxHome]$ sudo cp -r ./darling_deb/usr/libexec/darling/usr/lib/swift/* /usr/lib/sh wift/
+Darling [~/LinuxHome]$ sudo cp -r ./darling_deb/usr/libexec/darling/usr/lib/swift/* /usr/lib/swift/Darling [~/LinuxHome]$ sudo [47Prm -rf /usr/lib/swift/* Darling [~/LinuxHome]$ clang hello-world.c -o hello-world
+dyld: dyld cache load error: shared cache file open() failed
+dyld: Library not loaded: /System/Library/PrivateFrameworks/Bom.framework/Versions/A/Bom
+  Referenced from: /Applications/Xcode.app/Contents/SharedFrameworks/DVTInstrumentsFoundation.framework/Versions/A/DVTInstrumentsFoundation
+  Reason: image not found
+abort_with_payload: reason: dyld cache load error: shared cache file open() failed
+Library not loaded: /System/Library/PrivateFrameworks/Bom.framework/Versions/A/Bom
+  Referenced from: /Applications/Xcode.app/Contents/SharedFrameworks/DVTInstrumentsFoundation.framework/Versions/A/DVTInstrumentsFoundation
+  Reason: image not found; code: 1
+Abort trap: 6 (core dumped)
+Darling [~/LinuxHome]$ file /System/Library/PrivateFrameworks/Bom.framework/Versions/A/Bom
+/System/Library/PrivateFrameworks/Bom.framework/Versions/A/Bom: cannot open `/System/Library/PrivateFrameworks/Bom.framework/Versions/A/Bom' (No such file or directory)
+Darling [~/LinuxHome]$ file /System/Library/PrivateFrameworks/Bom.framework/Versions/A/BomDarling [~/LinuxHome]$ file [1@.[1@ [1@d[1@a[5@rling[1@_[1@d[1@e[1P[1P[1@/darling_ [1@d[1@w[1P[3@eb/
+darling_0.1.20220704.focal_amd64.deb  data.tar.xz                           usr/                                  
+Darling [~/LinuxHome]$ file ./darling_deb/ /System/Library/PrivateFrameworks/Bom.framework/Versions/A/BomDarling [~/LinuxHome]$ file ./darling_deb/[1@u[1@s[2@r/
+bin/     lib/     libexec/ share/   
+Darling [~/LinuxHome]$ file ./darling_deb/usr/ /System/Library/PrivateFrameworks/Bom.framework/Versions/A/BomDarling [~/LinuxHome]$ file ./darling_deb/usr/[1@l[1@i[1@b[1@e[4@xec/[8@darling/
+Library/ System/  Volumes/ bin/     dev/     etc/     private/ proc/    sbin/    tmp/     usr/     var/     
+Darling [~/LinuxHome]$ file ./darling_deb/usr/libexec/darling/ /System/Library/PrivateFrameworks/Bom.framework/Versions/A/Bom /[1P[1P
+./darling_deb/usr/libexec/darling/System/Library/PrivateFrameworks/Bom.framework/Versions/A/Bom: cannot open `./darling_deb/usr/libexec/darling/System/Library/PrivateFrameworks/Bom.framework/Versions/A/Bom' (No such file or directory)
+Darling [~/LinuxHome]$ ls .dar   /darling_deb/usr/lib/
+binfmt.d/ darling/  
+Darling [~/LinuxHome]$ ls ./darling_deb/usr/lib/darling/shutdown-user.sh                                                   find ./darling_deb/  -name Bom
+Darling [~/LinuxHome]$ ls    file ./darling_deb/uusl   sr/libexec/darling/System/Library/PrivateFrameworks/B 
+AppleFSCompression.framework/           CoreUtils.framework/                    IOPlatformPluginFamily.framework/       SkyLight.framework/
+AppleSauce.framework/                   CrashReporterSupport.framework/         LoggingSupport.framework/               Spotlight.framework/
+AppleSystemInfo.framework/              DBusKit.framework/                      MobileAsset.framework/                  SpotlightDaemon.framework/
+AssertionServices.framework/            DataDetectors.framework/                MobileDevice.framework/                 SpotlightIndex.framework/
+AssetCacheServices.framework/           DataDetectorsCore.framework/            NetworkStatistics.framework/            SpotlightReceiver.framework/
+AssistantServices.framework/            DataDetectorsNaturalLanguage.framework/ Onyx2D.framework/                       SpotlightServerKit.framework/
+AuthKit.framework/                      DebugSymbols.framework/                 PackageKit.framework/                   SpotlightServices.framework/
+AuthKitUI.framework/                    DeviceLink.framework/                   PerformanceAnalysis.framework/          StreamingZip.framework/
+CommonAuth.framework/                   DiskImages.framework/                   PlugInKit.framework/                    TrustedPeers.framework/
+ConfigurationProfiles.framework/        DiskManagement.framework/               PowerLog.framework/                     ViewBridge.framework/
+CoreAnalytics.framework/                Espresso.framework/                     ProtocolBuffer.framework/               kperf.framework/
+CoreSymbolication.framework/            FMDB.framework/                         SecurityTokend.framework/               login.framework/
+CoreUI.framework/                       Heimdal.framework/                      ServerInformation.framework/            
+Darling [~/LinuxHome]$ file ./darling_deb/usr/libexec/darling/System/Library/PrivateFrameworks/                                                                   /System/Library/PrivateFrameworks/
+Display all 116 possibilities? (y or n)
+Darling [~/LinuxHome]$ file /System/Library/PrivateFrameworks/B
+BioKitAggD.framework/     BluetoothAudio.framework/ BridgeXPC.framework/      
+Darling [~/LinuxHome]$ file /System/Library/PrivateFrameworks/B
+Darling [~/LinuxHome]$ 
+Darling [~/LinuxHome]$ # So i     # T it needs little help from internet
+Darling [~/LinuxHome]$ logout
+]0;nkpro@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m [?2004l
+exit
+
+Script done on 2022-08-31 04:13:22+05:30 [COMMAND_EXIT_CODE="0"]

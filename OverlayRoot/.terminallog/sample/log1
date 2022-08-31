@@ -1,0 +1,630 @@
+Script started on 2022-09-01 00:55:58+05:30 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="167" LINES="38"]
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m .TOP_LOWER_DIR=/tmp/sl:/tmp/cm:/tmp/aa ./ovroot_uw/chroot /tmp/sca[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[Kaaonly
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : /tmp/aa
+[sudo] password for nkpro: 
+|> Making new upper dir ...
+I> Upper dir : /tmp/aaonly
+|> Making new work dir ...
+I> Work  dir : /tmp/aaonly.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/tmp/aa:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/aaonly,workdir=/tmp/aaonly.work /mnt/Extended/LinuxExtRoot/ovroot
+|> overlay on /mnt/Extended/LinuxExtRoot/ovroot type overlay (rw,relatime,lowerdir=/tmp/aa:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/aaonly,workdir=/tmp/aaonly.work)
+|> mounting some system directories on merged overlay file system
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m whc[Kich asciia[Kquarium
+[?2004l/usr/bin/asciiquarium
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m which asciiquarium[K[K[K[K[K[K[K[K[K[K[K[Ksl
+[?2004lwhich: no sl in (/home/nkpro/nk/Dev/VSCode-linux-x64/bin:/home/nkpro/nk/Dev/bin/flutter:/home/nkpro/nk/Dev/VSCode-linux-x64/bin:/home/nkpro/nk/Dev/bin/flutter:/home/nkpro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl)
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m which sl[K[Kcmatrix
+[?2004lwhich: no cmatrix in (/home/nkpro/nk/Dev/VSCode-linux-x64/bin:/home/nkpro/nk/Dev/bin/flutter:/home/nkpro/nk/Dev/VSCode-linux-x64/bin:/home/nkpro/nk/Dev/bin/flutter:/home/nkpro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl)
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m [?2004l
+exit
+
+|> un-mounting some system directories from merged overlay file system
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m ./ovroot_uw/chroot /tmp/aa
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : 
+I> Upper dir : /tmp/aa
+I> Work  dir : /tmp/aa.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/aa,workdir=/tmp/aa.work /mnt/Extended/LinuxExtRoot/ovroot
+mount: /mnt/Extended/LinuxExtRoot/ovroot: mount(2) system call failed: Stale file handle.
+       dmesg(1) may have more information after failed mount system call.
+|> 
+|> mounting some system directories on merged overlay file system
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/proc: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/sys: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev/pts: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev/shm: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/run: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+chroot: invalid user
+
+|> un-mounting some system directories from merged overlay file system
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev/shm: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev/pts: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/proc: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/sys: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/run: no mount point specified.
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+umount: /mnt/Extended/LinuxExtRoot/ovroot: not mounted.
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m sudo rm -rf /tmp/aa.work/
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m sudo rm -rf /tmp/aa.work/./ovroot_uw/chroot /tmp/aa
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : 
+I> Upper dir : /tmp/aa
+|> Making new work dir ...
+I> Work  dir : /tmp/aa.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/aa,workdir=/tmp/aa.work /mnt/Extended/LinuxExtRoot/ovroot
+mount: /mnt/Extended/LinuxExtRoot/ovroot: mount(2) system call failed: Stale file handle.
+       dmesg(1) may have more information after failed mount system call.
+|> 
+|> mounting some system directories on merged overlay file system
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/proc: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/sys: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev/pts: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev/shm: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/run: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+chroot: invalid user
+
+|> un-mounting some system directories from merged overlay file system
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev/shm: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev/pts: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/proc: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/sys: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/run: no mount point specified.
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+umount: /mnt/Extended/LinuxExtRoot/ovroot: not mounted.
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m ./ovroot_uw/chroot /tmp/aa[1Psudo rm -rf /tmp/aa.work/./ovroot_uw/chroot /tmp/aa[K[K[K[K[K[K[K[KT./ovroot_uw/chrootO./ovroot_uw/chrootP./ovroot_uw/chroot_./ovroot_uw/chroot[1P./ovroot_uw/chroot[1P./ovroot_uw/chroot[1P./ovroot_uw/chroot[1P./ovroot_uw/chroot[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /tmp/sl
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : 
+I> Upper dir : /tmp/sl
+I> Work  dir : /tmp/sl.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/sl,workdir=/tmp/sl.work /mnt/Extended/LinuxExtRoot/ovroot
+|> overlay on /mnt/Extended/LinuxExtRoot/ovroot type overlay (rw,relatime,lowerdir=/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/sl,workdir=/tmp/sl.work)
+|> mounting some system directories on merged overlay file system
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m s[Kwhich sl
+[?2004l/usr/bin/sl
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m [?2004l
+exit
+
+|> un-mounting some system directories from merged overlay file system
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m ./ovroot_uw/chroot /tmp/sl[K[Kcm
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : 
+I> Upper dir : /tmp/cm
+I> Work  dir : /tmp/cm.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/cm,workdir=/tmp/cm.work /mnt/Extended/LinuxExtRoot/ovroot
+|> overlay on /mnt/Extended/LinuxExtRoot/ovroot type overlay (rw,relatime,lowerdir=/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/cm,workdir=/tmp/cm.work)
+|> mounting some system directories on merged overlay file system
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m which cm
+[?2004lwhich: no cm in (/home/nkpro/nk/Dev/VSCode-linux-x64/bin:/home/nkpro/nk/Dev/bin/flutter:/home/nkpro/nk/Dev/VSCode-linux-x64/bin:/home/nkpro/nk/Dev/bin/flutter:/home/nkpro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl)
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m which cmatrix
+[?2004l/usr/bin/cmatrix
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m [?2004l
+exit
+
+|> un-mounting some system directories from merged overlay file system
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m ./ovroot_uw/chroot /tmp/cmslaa
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : 
+I> Upper dir : /tmp/aa
+I> Work  dir : /tmp/aa.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/aa,workdir=/tmp/aa.work /mnt/Extended/LinuxExtRoot/ovroot
+mount: /mnt/Extended/LinuxExtRoot/ovroot: mount(2) system call failed: Stale file handle.
+       dmesg(1) may have more information after failed mount system call.
+|> 
+|> mounting some system directories on merged overlay file system
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/proc: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/sys: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev/pts: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev/shm: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/run: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+chroot: invalid user
+
+|> un-mounting some system directories from merged overlay file system
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev/shm: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev/pts: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/proc: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/sys: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/run: no mount point specified.
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+umount: /mnt/Extended/LinuxExtRoot/ovroot: not mounted.
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m ./ovroot_uw/chroot /tmp/aa[1@T[1@O[1@P[1@_[1@L[1@O[1@W[1@E[1@R[1@_[1@D[1@I[1@R[1@=[1@ [1@/[1@t[1@m[2@p/[1@s[1@l
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : /tmp/sl
+I> Upper dir : /tmp/aa
+I> Work  dir : /tmp/aa.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/tmp/sl:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/aa,workdir=/tmp/aa.work /mnt/Extended/LinuxExtRoot/ovroot
+|> overlay on /mnt/Extended/LinuxExtRoot/ovroot type overlay (rw,relatime,lowerdir=/tmp/sl:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/aa,workdir=/tmp/aa.work)
+|> mounting some system directories on merged overlay file system
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m which sl
+[?2004l/usr/bin/sl
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m which sl[K[Kasciiqaurium
+[?2004lwhich: no asciiqaurium in (/home/nkpro/nk/Dev/VSCode-linux-x64/bin:/home/nkpro/nk/Dev/bin/flutter:/home/nkpro/nk/Dev/VSCode-linux-x64/bin:/home/nkpro/nk/Dev/bin/flutter:/home/nkpro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl)
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m which asciiqaurium[K[K[K[K[K[Kuarium
+[?2004l/usr/bin/asciiquarium
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m [?2004l
+exit
+
+|> un-mounting some system directories from merged overlay file system
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m TOP_LOWER_DIR=/tmp/sl ./ovroot_uw/chroot /tmp/aa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1@c[1@m
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : /tmp/cm
+I> Upper dir : /tmp/aa
+I> Work  dir : /tmp/aa.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/tmp/cm:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/aa,workdir=/tmp/aa.work /mnt/Extended/LinuxExtRoot/ovroot
+mount: /mnt/Extended/LinuxExtRoot/ovroot: mount(2) system call failed: Stale file handle.
+       dmesg(1) may have more information after failed mount system call.
+|> 
+|> mounting some system directories on merged overlay file system
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/proc: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/sys: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev/pts: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev/shm: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/run: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+chroot: invalid user
+
+|> un-mounting some system directories from merged overlay file system
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev/shm: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev/pts: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/proc: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/sys: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/run: no mount point specified.
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+umount: /mnt/Extended/LinuxExtRoot/ovroot: not mounted.
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m sudo rm -rf /m[Ktmp/aa.work/
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m sudo rm -rf /tmp/aa.work/TOP_LOWER_DIR=/tmp/cm ./ovroot_uw/chroot /tmp/aa
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : /tmp/cm
+I> Upper dir : /tmp/aa
+|> Making new work dir ...
+I> Work  dir : /tmp/aa.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/tmp/cm:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/aa,workdir=/tmp/aa.work /mnt/Extended/LinuxExtRoot/ovroot
+mount: /mnt/Extended/LinuxExtRoot/ovroot: mount(2) system call failed: Stale file handle.
+       dmesg(1) may have more information after failed mount system call.
+|> 
+|> mounting some system directories on merged overlay file system
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/proc: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/sys: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev/pts: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev/shm: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/run: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+chroot: invalid user
+
+|> un-mounting some system directories from merged overlay file system
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev/shm: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev/pts: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/proc: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/sys: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/run: no mount point specified.
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+umount: /mnt/Extended/LinuxExtRoot/ovroot: not mounted.
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m # So aa is[K[K[K[K[K/tmp/aa is somehow depended on /tmp/sl
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m # So /tmp/aa is somehow depended on /tmp/sl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CTOP_LOWER_DIR=/tmp/cm ./ovroot_uw/chroot /tmp/aa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Psudo rm -rf /tmp/aa.work/TOP_LOWER_DIR=/tmp/cm ./ovroot_uw/chroot /tmp/aasl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccmslaa[1Psudo rm -rf /tmp/aa.work/./ovroot_uw/chroot /tmp/aaTOP_LOWER_DIR=/tmp/aa ./ovroot_uw/chroot /tmp/aaonlysl:/tmp/cm:/tmp/aa ./ovroot_uw/chroot /tmp/sca[9P ./ovroot_uw/chroot /tmp/aa:/tmp/aa ./ovroot_uw/chroot /tmp/sca[9P ./ovroot_uw/chroot /tmp/aa^C[?2004l[?2004h[?2004l
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m M[K## This may be due to sl is the top most lower dir at the time of creating aa
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m 
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m ./ovroot_uw/chroot /tmp/sl_[K1sl[1Psl[C[C1
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : 
+|> Making new upper dir ...
+I> Upper dir : /tmp/sl1
+|> Making new work dir ...
+I> Work  dir : /tmp/sl1.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/sl1,workdir=/tmp/sl1.work /mnt/Extended/LinuxExtRoot/ovroot
+|> overlay on /mnt/Extended/LinuxExtRoot/ovroot type overlay (rw,relatime,lowerdir=/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/sl1,workdir=/tmp/sl1.work)
+|> mounting some system directories on merged overlay file system
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m sudo pacman -S sl
+[?2004l[?25lresolving dependencies...
+looking for conflicting packages...
+
+Packages (1) sl-5.05-3
+
+Total Download Size:   0.01 MiB
+Total Installed Size:  0.03 MiB
+
+:: Proceed with installation? [Y/n] [?25h
+[?25l:: Retrieving packages...
+ sl-5.05-3-x86_64
+[1F sl-5.05-3-x86_64                                                          0.0   B  0.00   B/s --:-- [-----------------------------------------------------------]   0% sl-5.05-3-x86_64                                                         10.9 KiB  6.54 KiB/s 00:02 [###########################################################] 100%[1E(0/1) checking keys in keyring                                                                       [-----------------------------------------------------------]   0%(1/1) checking keys in keyring                                                                       [###########################################################] 100%
+(0/1) checking package integrity                                                                     [-----------------------------------------------------------]   0%(1/1) checking package integrity                                                                     [###########################################################] 100%
+(0/1) loading package files                                                                          [-----------------------------------------------------------]   0%(1/1) loading package files                                                                          [###########################################################] 100%
+(0/1) checking for file conflicts                                                                    [-----------------------------------------------------------]   0%(1/1) checking for file conflicts                                                                    [###########################################################] 100%
+(0/1) checking available disk space                                                                  [-----------------------------------------------------------]   0%(1/1) checking available disk space                                                                  [###########################################################] 100%
+:: Processing package changes...
+(1/1) installing sl                                                                                  [-----------------------------------------------------------]   0%(1/1) installing sl                                                                                  [###########################################################] 100%
+:: Running post-transaction hooks...
+(1/1) Arming ConditionNeedsUpdate...
+[?25h]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m which sl
+[?2004l/usr/bin/sl
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m [?2004l
+exit
+
+|> un-mounting some system directories from merged overlay file system
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m ./ovroot_uw/chroot /tmp/sl1[K[K[Kcm1
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : 
+|> Making new upper dir ...
+I> Upper dir : /tmp/cm1
+|> Making new work dir ...
+I> Work  dir : /tmp/cm1.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/cm1,workdir=/tmp/cm1.work /mnt/Extended/LinuxExtRoot/ovroot
+|> overlay on /mnt/Extended/LinuxExtRoot/ovroot type overlay (rw,relatime,lowerdir=/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/cm1,workdir=/tmp/cm1.work)
+|> mounting some system directories on merged overlay file system
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m sudo pacman -S cmatrix
+[?2004l[?25lresolving dependencies...
+looking for conflicting packages...
+
+Packages (1) cmatrix-2.0-2
+
+Total Download Size:   0.03 MiB
+Total Installed Size:  0.09 MiB
+
+:: Proceed with installation? [Y/n] [?25h
+[?25l:: Retrieving packages...
+ cmatrix-2.0-2-x86_64
+[1F cmatrix-2.0-2-x86_64                                                      0.0   B  0.00   B/s --:-- [-----------------------------------------------------------]   0% cmatrix-2.0-2-x86_64                                                     16.0 KiB  13.0 KiB/s 00:01 [###########################--------------------------------]  47% cmatrix-2.0-2-x86_64                                                     33.5 KiB  15.2 KiB/s 00:02 [###########################################################] 100%[1E(0/1) checking keys in keyring                                                                       [-----------------------------------------------------------]   0%(1/1) checking keys in keyring                                                                       [###########################################################] 100%
+(0/1) checking package integrity                                                                     [-----------------------------------------------------------]   0%(1/1) checking package integrity                                                                     [###########################################################] 100%
+(0/1) loading package files                                                                          [-----------------------------------------------------------]   0%(1/1) loading package files                                                                          [###########################################################] 100%
+(0/1) checking for file conflicts                                                                    [-----------------------------------------------------------]   0%(1/1) checking for file conflicts                                                                    [###########################################################] 100%
+(0/1) checking available disk space                                                                  [-----------------------------------------------------------]   0%(1/1) checking available disk space                                                                  [###########################################################] 100%
+:: Processing package changes...
+(1/1) installing cmatrix                                                                             [-----------------------------------------------------------]   0%(1/1) installing cmatrix                                                                             [###########################################################] 100%
+Optional dependencies for cmatrix
+    kbd: cmatrix-tty custom font [installed]
+    xterm: cmatrix-tty custom font
+:: Running post-transaction hooks...
+(1/3) Arming ConditionNeedsUpdate...
+(2/3) Updating fontconfig cache...
+(3/3) Updating 32-bit fontconfig cache...
+[?25h]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m which cmatrix
+[?2004l/usr/bin/cmatrix
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m [?2004l
+exit
+
+|> un-mounting some system directories from merged overlay file system
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m ### This time with cm [K1 as top mot[Kst lower dir for aa1
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m ### This time with cm1 as top most lower dir for aa1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25P./ovroot_uw/chroot /tmp/cm1sl1## This may be due to sl is the top most lower dir at the time of creating aa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34P So /tmp/aa is somehow depended on /tmp/sl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CTOP_LOWER_DIR=/tmp/cm ./ovroot_uw/chroot /tmp/aa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Psudo rm -rf /tmp/aa.work/TOP_LOWER_DIR=/tmp/cm ./ovroot_uw/chroot /tmp/aasl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccmslaa[1Psudo rm -rf /tmp/aa.work/./ovroot_uw/chroot /tmp/aaslcmaa[22@TOP_LOWER_DIR=/tmp/sl [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Psudo rm -rf /tmp/aa.work/TOP_LOWER_DIR=/tmp/cm ./ovroot_uw/chroot /tmp/aa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P# So /tmp/aa is somehow depended on /tmp/sl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C# This may be due to sl is the top most lower dir at the time of creating aa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[50P./ovroot_uw/chroot /tmp/sl1## This may be due to sl is the top most lower dir at the time of creating aa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34P So /tmp/aa is somehow depended on /tmp/sl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C# This may be due to sl is the top most lower dir at the time of creating aa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34P So /tmp/aa is somehow depended on /tmp/sl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CTOP_LOWER_DIR=/tmp/cm ./ovroot_uw/chroot /tmp/aa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P# So /tmp/aa is somehow depended on /tmp/sl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CTOP_LOWER_DIR=/tmp/cm ./ovroot_uw/chroot /tmp/aa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Psudo rm -rf /tmp/aa.work/TOP_LOWER_DIR=/tmp/cm ./ovroot_uw/chroot /tmp/aasl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccmslaa[1Psudo rm -rf /tmp/aa.work/./ovroot_uw/chroot /tmp/aaTOP_LOWER_DIR=/tmp/aa ./ovroot_uw/chroot /tmp/aaonlysl:/tmp/cm:/tmp/aa ./ovroot_uw/chroot /tmp/sca[9P ./ovroot_uw/chroot /tmp/aa[C[1P[1P[1@s[1@l[1P[1P[1@c[1@m[1@1[C[C[C[C[C[C[C[C[1@1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : /tmp/cm1:/tmp/sl1
+|> Making new upper dir ...
+I> Upper dir : /tmp/aa1
+|> Making new work dir ...
+I> Work  dir : /tmp/aa1.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/tmp/cm1:/tmp/sl1:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/aa1,workdir=/tmp/aa1.work /mnt/Extended/LinuxExtRoot/ovroot
+|> overlay on /mnt/Extended/LinuxExtRoot/ovroot type overlay (rw,relatime,lowerdir=/tmp/cm1:/tmp/sl1:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/aa1,workdir=/tmp/aa1.work)
+|> mounting some system directories on merged overlay file system
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m sudo pacman -S asciiqaurium
+[?2004lerror: target not found: asciiqaurium
+[?25l[?25h]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m sudo pacman -S asciiqaurium[1Purium[Carium
+[?2004l[?25lresolving dependencies...
+looking for conflicting packages...
+
+Packages (3) perl-curses-1.38-2  perl-term-animation-2.6-9  asciiquarium-1.1-6
+
+Total Download Size:   0.10 MiB
+Total Installed Size:  0.34 MiB
+
+:: Proceed with installation? [Y/n] [?25h
+[?25l:: Retrieving packages...
+ perl-curses-1.38-2-x86_64
+ Total (0/3)                                                               0.0   B  0.00   B/s 00:00 [-----------------------------------------------------------]   0%
+[2F perl-curses-1.38-2-x86_64                                                 0.0   B  0.00   B/s --:-- [-----------------------------------------------------------]   0%[1E Total (0/3)                                                               0.0   B  0.00   B/s --:-- [-----------------------------------------------------------]   0%[1F perl-curses-1.38-2-x86_64                                                16.0 KiB  18.1 KiB/s 00:02 [#############----------------------------------------------]  23%[1E Total (0/3)                                                              16.0 KiB  18.1 KiB/s 00:04 [########---------------------------------------------------]  15%[1F perl-curses-1.38-2-x86_64                                                32.0 KiB  28.1 KiB/s 00:01 [###########################--------------------------------]  47%[1E Total (0/3)                                                              32.0 KiB  28.1 KiB/s 00:02 [##################-----------------------------------------]  31%[1F perl-curses-1.38-2-x86_64                                                48.0 KiB  36.9 KiB/s 00:00 [#########################################------------------]  71%[1E Total (0/3)                                                              48.0 KiB  36.9 KiB/s 00:01 [###########################--------------------------------]  46%[1F perl-curses-1.38-2-x86_64                                                67.4 KiB  29.1 KiB/s 00:02 [###########################################################] 100%[1E perl-term-animation-2.6-9-any
+ Total (1/3)                                                              48.0 KiB  36.9 KiB/s 00:01 [###########################--------------------------------]  46%
+[2F perl-term-animation-2.6-9-any                                             0.0   B  0.00   B/s --:-- [-----------------------------------------------------------]   0%[1E Total (1/3)                                                              67.4 KiB  35.3 KiB/s 00:01 [######################################---------------------]  65%[1F perl-term-animation-2.6-9-any                                            25.8 KiB  86.8 KiB/s 00:00 [###########################################################] 100%[1E asciiquarium-1.1-6-any
+ Total (2/3)                                                              67.4 KiB  35.3 KiB/s 00:01 [######################################---------------------]  65%
+[2F asciiquarium-1.1-6-any                                                    0.0   B  0.00   B/s --:-- [-----------------------------------------------------------]   0%[1E Total (2/3)                                                              93.2 KiB  37.5 KiB/s 00:00 [#####################################################------]  90%[1F asciiquarium-1.1-6-any                                                   10.0 KiB  34.0 KiB/s 00:00 [###########################################################] 100%[1E Total (3/3)                                                             103.1 KiB  27.0 KiB/s 00:04 [###########################################################] 100%
+(0/3) checking keys in keyring                                                                       [-----------------------------------------------------------]   0%(1/3) checking keys in keyring                                                                       [###################----------------------------------------]  33%(2/3) checking keys in keyring                                                                       [######################################---------------------]  66%(3/3) checking keys in keyring                                                                       [###########################################################] 100%
+(0/3) checking package integrity                                                                     [-----------------------------------------------------------]   0%(1/3) checking package integrity                                                                     [######################################---------------------]  65%(2/3) checking package integrity                                                                     [#####################################################------]  90%(3/3) checking package integrity                                                                     [###########################################################] 100%
+(0/3) loading package files                                                                          [-----------------------------------------------------------]   0%(1/3) loading package files                                                                          [######################################---------------------]  65%(2/3) loading package files                                                                          [#####################################################------]  90%(3/3) loading package files                                                                          [###########################################################] 100%
+(0/3) checking for file conflicts                                                                    [-----------------------------------------------------------]   0%(1/3) checking for file conflicts                                                                    [###################----------------------------------------]  33%(2/3) checking for file conflicts                                                                    [######################################---------------------]  66%(3/3) checking for file conflicts                                                                    [###########################################################] 100%
+(0/3) checking available disk space                                                                  [-----------------------------------------------------------]   0%(1/3) checking available disk space                                                                  [###################----------------------------------------]  33%(2/3) checking available disk space                                                                  [######################################---------------------]  66%(3/3) checking available disk space                                                                  [###########################################################] 100%
+:: Processing package changes...
+(1/3) installing perl-curses                                                                         [-----------------------------------------------------------]   0%(1/3) installing perl-curses                                                                         [###########################################################] 100%
+(2/3) installing perl-term-animation                                                                 [-----------------------------------------------------------]   0%(2/3) installing perl-term-animation                                                                 [###########################################################] 100%
+(3/3) installing asciiquarium                                                                        [-----------------------------------------------------------]   0%(3/3) installing asciiquarium                                                                        [###########################################################] 100%
+:: Running post-transaction hooks...
+(1/2) Arming ConditionNeedsUpdate...
+(2/2) Warn about old perl modules
+[?25h]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m which asciiquarium
+[?2004l/usr/bin/asciiquarium
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m [?2004l
+exit
+
+|> un-mounting some system directories from merged overlay file system
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m TOP_LOWER_DIR=/tmp/cm1:/tmp/sl1 ./ovroot_uw/chroot /tmp/aa1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7P### This time with cm1 as top most lower dir for aa1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CTOP_LOWER_DIR=/tmp/cm1:/tmp/sl1 ./ovroot_uw/chroot /tmp/aa1[C[1P[1P[1P[1P[1P[1P[1P[1P[1P
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : /tmp/sl1
+I> Upper dir : /tmp/aa1
+I> Work  dir : /tmp/aa1.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/tmp/sl1:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/aa1,workdir=/tmp/aa1.work /mnt/Extended/LinuxExtRoot/ovroot
+mount: /mnt/Extended/LinuxExtRoot/ovroot: mount(2) system call failed: Stale file handle.
+       dmesg(1) may have more information after failed mount system call.
+|> 
+|> mounting some system directories on merged overlay file system
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/proc: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/sys: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev/pts: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev/shm: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/run: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+chroot: invalid user
+
+|> un-mounting some system directories from merged overlay file system
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev/shm: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev/pts: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/proc: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/sys: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/run: no mount point specified.
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+umount: /mnt/Extended/LinuxExtRoot/ovroot: not mounted.
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m TOP_LOWER_DIR=/tmp/sl1 ./ovroot_uw/chroot /tmp/aa1[1P[1P[1@c[1@m
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : /tmp/cm1
+I> Upper dir : /tmp/aa1
+I> Work  dir : /tmp/aa1.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/tmp/cm1:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/aa1,workdir=/tmp/aa1.work /mnt/Extended/LinuxExtRoot/ovroot
+|> overlay on /mnt/Extended/LinuxExtRoot/ovroot type overlay (rw,relatime,lowerdir=/tmp/cm1:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/aa1,workdir=/tmp/aa1.work)
+|> mounting some system directories on merged overlay file system
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m which cmatrix
+[?2004l/usr/bin/cmatrix
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m which cmatrix[K[K[K[K[K[K[Kasciiquarium
+[?2004l/usr/bin/asciiquarium
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m asciiquarium --help
+[?2004l[?1049h[22;0;0t[1;38r(B[m[4l[?7h[?25l[39;49m[39;49m[37m[40m[H[2J[37m[40m[J(B[m[39;49m[37m[40m[1;136H(B[0;1m[32m[40m\\__//[2;136H `--' [6d(B[0m[36m[40m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[7;1H^^^^ ^^^  ^^^   ^^^    ^^^^      ^^^^ ^^^  ^^^   ^^^    ^^^^      ^^^^ ^^^  ^^^   ^^^    ^^^^      ^^^^ ^^^  ^^^   ^^^    ^^^^      ^^^^ ^^^  ^^^   ^^^    ^^^^      ^^[8;1H^^^^      ^^^^     ^^^    ^^     ^^^^      ^^^^     ^^^    ^^     ^^^^      ^^^^     ^^^    ^^     ^^^^      ^^^^     ^^^    ^^     ^^^^      ^^^^     ^^^    ^^     ^^[9;1H^^      ^^^^      ^^^    ^^^^^^  ^^      ^^^^      ^^^    ^^^^^^  ^^      ^^^^      ^^^    ^^^^^^  ^^      ^^^^      ^^^    ^^^^^^  ^^      ^^^^      ^^^    ^^^^^^  ^^[15;167H[34m[40m/[16;166H[36m[40m<(B[0;1m[34m[40m/[17;166H[31m[40m<[37m[40m'[18;167H[34m[40m\[20;1H(B[0m[35m[40m<[21;166H(B[0;1m[33m[40m<[37m[40mo[22;166H(B[0m[31m[40m>:[23;167H[32m[40m\[25;1H(B[0;1m[34m[40m>[26;136H[30m[40m[15X[26;151HT[31m[40m~~[27;136H[30m[40m[15X[27;151H|[28d[32m[40m>[28;136H[30m[40m[14X[28;150H(B[0m[33m[40m/^\[29;136H(B[0;1m[30m[40m             (B[0m[33m[40m/(B[0;1m[30m[40m   (B[0m[33m[40m\[167G(B[0;1m[33m[40m_[30;136H[30m[40m _   _   _  (B[0m[33m[40m/(B[0;1m[30m[40m     (B[0m[33m[40m\(B[0;1m[30m[40m  _   _   _[33m[40m/[37m[40mo[31;136H[30m[40m[ ]_[ ]_[ ](B[0m[33m[40m/(B[0;1m[30m[40m _   _ (B[0m[33m[40m\(B[0;1m[30m[40m[ ]_[ ]_[ [33m[40m\_[32;136H[30m[40m|_=__-_ =_|_[ ]_[ ]_|_=-___-__|[33;73H(B[0m[32m[40m )[82G )[33;136H(B[0;1m[30m[40m | _- =  | =_ = _    |= _=   |(B[0m[37m[40m (B[0;1m[36m[40m/[34;1H(B[0m[32m[40m\[34;73H([80G )([34;136H(B[0;1m[30m[40m |= -[]  |- = (B[0m[32m[40m )(B[0;1m[30m[40m=    |_-=_[] |[34m[40m<[37m[40m'[35;1H(B[0m[32m[40m/[8G )[37m[40m   [32m[40m )[35;46H )[35;73H )[37m[40m     [32m[40m([37m[40m [32m[40m )[37m[40m  [32m[40m )[35;131H )[37m[40m   (B[0;1m[30m[40m | =_    |= - (B[0m[32m[40m([33m[40m__(B[0;1m[30m[40m    | =_ =  |(B[0m[37m[40m (B[0;1m[36m[40m\[36;8H(B[0m[32m[40m([37m[40m    [32m[40m([36;46H([36;73H([80G )([37m[40m [32m[40m )([36;131H([37m[40m  [32m[40m )(B[0;1m[30m[40m |=  []- |-  (B[0m[33m[40m/[32m[40m )[33m[40m|\(B[0;1m[30m[40m   |=_ =[] |[37;8H(B[0m[32m[40m )[37m[40m   [32m[40m )[37;46H )[37;73H )[37m[40m     [32m[40m([37m[40m [32m[40m )([37m[40m [32m[40m )[37;131H )[37m[40m [32m[40m([37m[40m (B[0;1m[30m[40m |- =_   | =(B[0m[33m[40m|(B[0;1m[30m[40m (B[0m[32m[40m((B[0;1m[30m[40m (B[0m[33m[40m|(B[0;1m[30m[40m (B[0m[33m[40m|(B[0;1m[30m[40m  |- = -  |[38;8H(B[0m[32m[40m([37m[40m    [32m[40m([38;46H([38;73H([80G )([37m[40m [32m[40m )([38;131H([37m[40m  [32m[40m )(B[0;1m[30m[40m |_______|__(B[0m[33m[40m|_[32m[40m )[33m[40m|_|(B[0;1m[30m[40m__|_______|[C(B[m[39;49m[37m[40m[39;49m[37m[40m[H[2JM[1;135H(B[0;1m[32m[40m/ \   ||[2;136H\\__//[3;136H `--' [6d(B[0m[36m[40m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[7;1H^^^^ ^^^  ^^^   ^^^    ^^^^      ^^^^ ^^^  ^^^   ^^^    ^^^^      ^^^^ ^^^  ^^^   ^^^    ^^^^      ^^^^ ^^^  ^^^   ^^^    ^^^^      ^^^^ ^^^  ^^^   ^^^    ^^^^      ^^[8;1H^^^^      ^^^^     ^^^    ^^     ^^^^      ^^^^     ^^^    ^^     ^^^^      ^^^^     ^^^    ^^     ^^^^      ^^^^     ^^^    ^^     ^^^^      ^^^^     ^^^    ^^     ^^[9;1H^^      ^^^^      ^^^    ^^^^^^  ^^      ^^^^      ^^^    ^^^^^^  ^^      ^^^^      ^^^    ^^^^^^  ^^      ^^^^      ^^^    ^^^^^^  ^^      ^^^^      ^^^    ^^^^^^  ^^[14;166H[34m[40m,.[15;165H/(B[0;1m[33m[40m/[16;164H(B[0m[36m[40m<(B[0;1m[34m[40m/(B[0m[37m[40m (B[0;1m[34m[40m\[17;164H[31m[40m<[37m[40m'[36m[40m.[34m[40m_[18;165H\_/[19;1H[36m[40m:.[166G[31m[40m\[20d[36m[40m::(B[0m[35m[40m<[166G[31m[40m,[33m[40m,[21;1H(B[0;1m[36m[40m`[164G[37m[40mo[33m[40m<[37m[40m'[33m[40m)[22;163H(B[0m[31m[40m>::[33m[40m``[23;165H[31m[40m''(B[0;1m[32m[40m\[24;166H(B[0m[32m[40m`'[25;1H(B[0;1m[34m[40m>[26;136H[30m[40m[15X[26;151HT[31m[40m~~[27d[34m[40m\[37m[40mo[27;136H[30m[40m[15X[27;151H|[28d[37m[40m'[32m[40m>(B[0m[35m[40m<[28;136H(B[0;1m[30m[40m[14X[28;150H(B[0m[33m[40m/^\[29d(B[0;1m[34m[40m/[29;136H[30m[40m             (B[0m[33m[40m/(B[0;1m[30m[40m   (B[0m[33m[40m\[165G(B[0;1m[33m[40m__[30;136H[30m[40m _   _   _  (B[0m[33m[40m/(B[0;1m[30m[40m     (B[0m[33m[40m\(B[0;1m[30m[40m  _   _  [33m[40m/[37m[40mo(B[0m[37m[40m (B[0;1m[33m[40m\[31;136H[30m[40m[ ]_[ ]_[ ](B[0m[33m[40m/(B[0;1m[30m[40m _   _ (B[0m[33m[40m\(B[0;1m[30m[40m[ ]_[ ]_[33m[40m\__/[32;136H[30m[40m|_=__-_ =_|_[ ]_[ ]_|_=-___-__|[33m[40m/[33;1H(B[0m[32m[40m__[33;73H )[82G )[33;136H(B[0;1m[30m[40m | _- =  | =_ = _    |= _=   |[36m[40m/[34;2H[37m[40mo(B[0m[32m[40m\[34;73H([80G )([34;136H(B[0;1m[30m[40m |= -[]  |- = (B[0m[32m[40m )(B[0;1m[30m[40m=    |_-=_[] [34m[40m<[37m[40m'(B[0m[32m[40m)[35;1H__/[37m[40m    [32m[40m )[37m[40m   [32m[40m )[35;46H )[35;73H )[37m[40m     [32m[40m([37m[40m [32m[40m )[37m[40m  [32m[40m )[35;131H )[37m[40m   (B[0;1m[30m[40m | =_    |= - (B[0m[32m[40m([33m[40m__(B[0;1m[30m[40m    | =_ =  |[36m[40m\_[36;8H(B[0m[32m[40m([37m[40m    [32m[40m([36;46H([36;73H([80G )([37m[40m [32m[40m )([36;131H([37m[40m  [32m[40m )(B[0;1m[30m[40m |=  []- |-  (B[0m[33m[40m/[32m[40m )[33m[40m|\(B[0;1m[30m[40m   |=_ =[] |(B[0m[37m[40m (B[0;1m[36m[40m\[37;8H(B[0m[32m[40m )[37m[40m   [32m[40m )[37;46H )[37;73H )[37m[40m     [32m[40m([37m[40m [32m[40m )([37m[40m [32m[40m )[37;131H )[37m[40m [32m[40m([37m[40m (B[0;1m[30m[40m |- =_   | =(B[0m[33m[40m|(B[0;1m[30m[40m (B[0m[32m[40m((B[0;1m[30m[40m (B[0m[33m[40m|(B[0;1m[30m[40m (B[0m[33m[40m|(B[0;1m[30m[40m  |- = -  |[38;8H(B[0m[32m[40m([37m[40m    [32m[40m([38;46H([38;73H([80G )([37m[40m [32m[40m )([38;131H([37m[40m  [32m[40m )(B[0;1m[30m[40m |_______|__(B[0m[33m[40m|_[32m[40m )[33m[40m|_|(B[0;1m[30m[40m__|_______|[C(B[m[39;49m[37m[40m[1;5r[1;1HM[1;38r[1;136H(B[0;1m[32m[40m.(B[0m[37m[40m    (B[0;1m[32m[40m||[14;165H(B[0m[34m[40m,.[15;164H(B[0;1m[33m[40m/(B[0m[37m[40m[K[16d(B[0;1m[34m[40m/(B[0m[37m[40m (B[0;1m[34m[40m\[36m[40m.(B[0m[37m[40m[K[17;162H(B[0;1m[31m[40m<[37m[40m'(B[0m[36m[40m)(B[0;1m[34m[40m_[32m[40m=<[18;1H[36m[40m,.[163G[34m[40m\_/(B[0m[34m[40m'[35m[40m\[19;2H(B[0;1m[36m[40m::[37m[40mo[164G[31m[40m\(B[0m[37m[40m  (B[0;1m[31m[40m.[20;3H[36m[40m::(B[0m[35m[40m<[164G[31m[40m,,(B[0;1m[31m[40m//[21;1H(B[0m[31m[40m/(B[0;1m[36m[40m``[162G[37m[40mo(B[0m[31m[40m:::::[22;161H>::::::[23;163H''(B[0;1m[32m[40m\\[24d(B[0m[31m[40m\[164G[32m[40m`'(B[0;1m[34m[40m\[25d(B[0m[37m[40m (B[0;1m[34m[40m>[26d(B[0m[31m[40m/(B[0;1m[33m[40m,[27d(B[0m[37m[40m (B[0;1m[34m[40m\[33m[40m:[37m[40mo[28d(B[0m[35m[40m((B[0;1m[37m[40m'[32m[40m>[33m[40m:(B[0m[35m[40m<[29d(B[0;1m[34m[40m_/[33m[40m`[29;154H(B[0m[37m[40m[2P[30d[32m[40m/[162G(B[0;1m[33m[40m/[37m[40mo(B[0m[37m[40m (B[0;1m[33m[40m\[36m[40m/(B[0m[37m[40m[K[31;162H(B[0;1m[33m[40m\__/[36m[40m\(B[0m[37m[40m[K[33d  [32m[40m__[34d[35m[40m\[32m[40m/[37m[40m (B[0;1m[37m[40mo(B[0m[32m[40m\[35d[35m[40m/[32m[40m\__/[38;167H(B[m[39;49m[37m[40m[1;5r[1;1HM[1;38r[1;141H(B[0;1m[32m[40m||[14;164H(B[0m[34m[40m,..[32m[40m/[15;162H(B[0;1m[33m[40m/(B[0m[34m[40m/[37m[40m  (B[0;1m[36m[40m.[16;161H[34m[40m/(B[0m[37m[40m (B[0;1m[34m[40m\[37m[40m'(B[0m[37m[40m  [36m[40m)[17;1H[31m[40m.(B[0;1m[36m[40m.(B[0m[37m[40m[2P[18d[31m[40m\\(B[0;1m[36m[40m,,[161G[34m[40m\_/(B[0m[34m[40m`'[35m[40m\[34m[40m'[19;4H(B[0;1m[36m[40m::[37m[40mo[162G[31m[40m\(B[0m[37m[40m  (B[0;1m[31m[40m.:/[20;5H[36m[40m::(B[0m[35m[40m<[162G[31m[40m,,(B[0;1m[31m[40m///(B[0m[31m[40m;[21;2H//(B[0;1m[36m[40m``[160G[37m[40mo(B[0m[31m[40m::[22;159H>::[23d''(B[0;1m[32m[40m\\[24;162H(B[0m[32m[40m`'(B[0;1m[34m[40m\(B[0m[32m[40m'"[26;2H(B[0;1m[32m[40m\[33m[40m,,[27d[34m[40m/(B[0m[37m[40m (B[0;1m[34m[40m\[33m[40m::[37m[40mo[28d[34m[40m_(B[0m[35m[40m((B[0;1m[37m[40m'[32m[40m>[33m[40m::(B[0m[35m[40m<[29d(B[0;1m[34m[40m\_/[33m[40m``[29;154H(B[0m[37m[40m[1P[30d [32m[40m/[161G(B[0;1m[33m[40m/[37m[40mo(B[0m[37m[40m (B[0;1m[33m[40m\[36m[40m/(B[0m[37m[40m[K[31;161H(B[0;1m[33m[40m\__/[36m[40m\[30m[40m][32d[33m[40m/(B[0m[37m[40m[K[33;3H  [32m[40m__[165G(B[0;1m[36m[40m/(B[0m[37m[40m (B[0;1m[36m[40m\[34;1H(B[0m[37m[40m  [35m[40m\[32m[40m/[37m[40m (B[0;1m[37m[40mo(B[0m[32m[40m\[164G(B[0;1m[34m[40m<[37m[40m'(B[0m[32m[40m)(B[0;1m[36m[40m_[35;1H(B[0m[31m[40m>[37m[40m [35m[40m/[32m[40m\__/[165G(B[0;1m[36m[40m\_/[36;166H\(B[0m[37m[40m[K[38d(B[m[39;49m[37m[40m[1;5r[1;1HM[1;38r[1;142H(B[0;1m[32m[40mo[6;136H `--' [13;167H(B[0m[32m[40m/[14;163H[34m[40m,..(B[0;1m[36m[40m.(B[0m[34m[40m.[15;160H(B[0;1m[33m[40m/(B[0m[37m[40m [34m[40m/[37m[40m[K[16d (B[0;1m[36m[40m.[16;159H[34m[40m/(B[0m[37m[40m (B[0;1m[34m[40m\[C[37m[40m'(B[0m[37m[40m  [36m[40m)[37m[40m[K[17d[31m[40m\:.[17;158H(B[0;1m[31m[40m<[37m[40m'(B[0m[36m[40m)(B[0;1m[34m[40m_[32m[40m=<(B[0m[35m[40m\[37m[40m[K[18d(B[0;1m[36m[40m;(B[0m[31m[40m\\\(B[0;1m[36m[40m,,[18;159H[34m[40m\_/(B[0m[37m[40m [34m[40m`'[35m[40m\[34m[40m'"[19;6H(B[0;1m[36m[40m::[37m[40mo(B[0m[37m[40m[2P[20d(B[0;1m[36m[40m::(B[0m[35m[40m<[160G[31m[40m,,(B[0;1m[31m[40m///(B[0m[31m[40m;,[37m[40m[K[21;4H[31m[40m//(B[0;1m[36m[40m``[21;158H[37m[40mo(B[0m[31m[40m:::::::;;[22;157H>::[166G;;[23;1H,[23;159H''(B[0;1m[32m[40m\\\\\(B[0m[31m[40m''[24;1H[37m[40m [31m[40m\[160G[32m[40m`'(B[0;1m[34m[40m\(B[0m[32m[40m'"[25d(B[0;1m[37m[40m'(B[0m[37m[40m (B[0;1m[34m[40m>[26d(B[0m[37m[40m [31m[40m/(B[0;1m[32m[40m\[31m[40m\[33m[40m,,[27d(B[0m[31m[40m'(B[0;1m[34m[40m/(B[0m[37m[40m (B[0;1m[34m[40m\[33m[40m:::[36m[40m.[28d(B[0m[32m[40m=(B[0;1m[34m[40m_(B[0m[35m[40m((B[0;1m[37m[40m'[32m[40m>[33m[40m:::(B[0m[35m[40m<[29d(B[0;1m[34m[40m/\_//[33m[40m``[29;154H(B[0m[37m[40m[2P[30d  [32m[40m/[30;159H(B[0;1m[33m[40m/[37m[40mo(B[0m[37m[40m (B[0;1m[33m[40m\[36m[40m/[30m[40m _[31;159H[33m[40m\__/[36m[40m\[30m[40m[ [33;5H(B[0m[37m[40m  [32m[40m__[33;73H([37m[40m [82G[32m[40m([37m[40m [34d(B[0;1m[34m[40m\(B[0m[37m[40m   [35m[40m\[32m[40m/[37m[40m (B[0;1m[37m[40mo(B[0m[32m[40m\[34;73H )[37m[40m     [32m[40m([37m[40m [32m[40m )[34;150H((B[0;1m[30m[40m [35d(B[0m[37m[40m [31m[40m>[37m[40m  [35m[40m/[32m[40m\__/[37m[40m   [32m[40m([37m[40m [35;46H[32m[40m([37m[40m [35;73H[32m[40m([37m[40m      [32m[40m )([37m[40m   [32m[40m([37m[40m [35;131H[32m[40m([37m[40m [35;150H[32m[40m )[36d(B[0;1m[34m[40m/[8G(B[0m[32m[40m )[37m[40m   [32m[40m )[36;46H )[36;73H )[37m[40m     [32m[40m([37m[40m [32m[40m )([37m[40m [32m[40m )[36;131H )[37m[40m [32m[40m([37m[40m [36;150H[32m[40m((B[0;1m[30m[40m [37;8H(B[0m[32m[40m([37m[40m    [32m[40m([37m[40m [37;46H[32m[40m([37m[40m [37;73H[32m[40m([37m[40m      [32m[40m )([37m[40m [32m[40m )([37m[40m [37;131H[32m[40m([37m[40m  [32m[40m )[37;150H )[38;8H )[37m[40m   [32m[40m )[38;46H )[38;73H )[37m[40m     [32m[40m([37m[40m [32m[40m )([37m[40m [32m[40m )[38;131H )[37m[40m [32m[40m([37m[40m [38;150H[32m[40m([33m[40m_[167G(B[m[39;49m[37m[40m[1;5r[1;1HM[1;38r[1;142H[37m[40m|[6;136H(B[0;1m[32m[40m\\__//[7;136H [13;166H[36m[40m.(B[0m[37m[40m[K[14;162H[34m[40m,..[32m[40m/[34m[40m.[15;2H(B[0;1m[36m[40m.[15;158H[33m[40m/[C(B[0m[37m[40m [34m[40m/[37m[40m[K[16;156H[1K (B[0;1m[34m[40m/(B[0m[37m[40m (B[0;1m[34m[40m\(B[0m[36m[40m<[37m[40m (B[0;1m[37m[40m'(B[0m[37m[40m  [36m[40m)[37m[40m[K[17d  [31m[40m\:.[17;156H(B[0;1m[31m[40m<[37m[40m'(B[0m[36m[40m)(B[0;1m[34m[40m_[32m[40m=<(B[0m[37m[40m [35m[40m\[37m[40m[K[18d (B[0;1m[36m[40m,;(B[0m[31m[40m\\\(B[0;1m[36m[40m,,[18;157H[34m[40m\_/(B[0m[37m[40m  [34m[40m`'[35m[40m\[34m[40m'"'[19;1H(B[0;1m[36m[40m;;:::::::[37m[40mo[19;158H[31m[40m\(B[0m[37m[40m  (B[0;1m[31m[40m.:/[36m[40m.(B[0m[37m[40m[K[20d(B[0;1m[36m[40m;;[9G::(B[0m[35m[40m<[37m[40m[2P[21d(B[0;1m[36m[40m``(B[0m[31m[40m/////(B[0;1m[36m[40m``[21;156H[37m[40mo(B[0m[31m[40m:::::::;;(B[0;1m[33m[40m//[22;155H(B[0m[31m[40m>::[164G;;(B[0;1m[33m[40m\\[23;1H(B[0m[31m[40m.,[23;157H''(B[0;1m[32m[40m\\\\\(B[0m[31m[40m''[37m[40m (B[0;1m[33m[40m'[24;2H(B[0m[37m[40m [31m[40m\[37m[40m[2P[25d (B[0;1m[37m[40m'(B[0m[37m[40m (B[0;1m[34m[40m>[31m[40m.[26d[32m[40m/(B[0m[37m[40m [31m[40m/(B[0;1m[32m[40m\[31m[40m\\[33m[40m,[36m[40m.[27;2H(B[0m[31m[40m'(B[0;1m[34m[40m/(B[0m[37m[40m (B[0;1m[34m[40m\[33m[40m::::[37m[40mo[28d(B[0m[32m[40m>=(B[0;1m[34m[40m_(B[0m[35m[40m((B[0;1m[37m[40m'[32m[40m>[33m[40m::::(B[0m[35m[40m<[29d(B[0;1m[33m[40m``[34m[40m\_///[33m[40m``[29;154H(B[0m[37m[40m[1P[30;3H [32m[40m/[30;158H(B[0;1m[33m[40m/[37m[40mo(B[0m[37m[40m (B[0;1m[33m[40m\[36m[40m/[30m[40m [31;158H[33m[40m\__/[36m[40m\[30m[40m_[32d_[33m[40m/[30m[40m|[33;7H(B[0m[37m[40m  [32m[40m__[162G(B[0;1m[30m[40m  [36m[40m/(B[0m[37m[40m (B[0;1m[36m[40m\(B[0m[37m[40m[K[34;5H  [35m[40m\[32m[40m/[37m[40m (B[0;1m[37m[40mo(B[0m[32m[40m\[163G(B[0;1m[34m[40m<[37m[40m'(B[0m[32m[40m)(B[0;1m[36m[40m_[31m[40m=[35;5H(B[0m[37m[40m  [35m[40m/[32m[40m\__/[163G(B[0;1m[30m[40m [36m[40m\_/(B[0m[37m[40m[K[36d(B[0;1m[36m[40m\(B[0m[37m[40m[K[38d (B[m[39;49m[37m[40m[10;14r[14;1H
+[1;38r[1;5r[1;1HM[1;38r[1;142H[37m[40m|[6;135H(B[0;1m[32m[40m/ \   ||[7;136H\[8d [13;162H(B[0m[37m[40m   [32m[40m/[37m[40m[K[14d (B[0;1m[36m[40m.[161G(B[0m[34m[40m,..[32m[40m/[34m[40m...[15;155H[37m[40m[1K (B[0;1m[33m[40m/(B[0m[37m[40m   [34m[40m/[37m[40m[K[16;155H(B[0;1m[34m[40m/(B[0m[37m[40m (B[0;1m[34m[40m\(B[0m[37m[40m [1P[17;3H  [31m[40m\:.[17;154H(B[0;1m[31m[40m<[37m[40m'(B[0m[36m[40m)(B[0;1m[34m[40m_[32m[40m=<(B[0m[34m[40m\[37m[40m [35m[40m\[37m[40m[K[18d   (B[0;1m[36m[40m,;(B[0m[31m[40m\\\(B[0;1m[36m[40m,,[18;155H[34m[40m\_/(B[0m[37m[40m   [34m[40m`'[35m[40m\[34m[40m'"'"[19;1H[31m[40m\\(B[0;1m[36m[40m;;:::::::[37m[40mo[19;156H[31m[40m\(B[0m[37m[40m  (B[0;1m[31m[40m.:/(B[0m[37m[40m[K[20d[31m[40m//(B[0;1m[36m[40m;;[11G::(B[0m[35m[40m<[20;156H[31m[40m,,(B[0;1m[31m[40m///(B[0m[31m[40m;,[37m[40m   (B[0;1m[33m[40m,;[21;1H(B[0m[31m[40m`[37m[40m (B[0;1m[36m[40m``(B[0m[31m[40m/////(B[0;1m[36m[40m``[21;154H[37m[40mo(B[0m[31m[40m:::::::;;(B[0;1m[33m[40m///(B[0m[37m[40m[K[22;153H[31m[40m>::[162G;;(B[0;1m[33m[40m\\\(B[0m[33m[40m`[23;155H[31m[40m''(B[0;1m[32m[40m\\\\\(B[0m[31m[40m''[37m[40m (B[0;1m[33m[40m';\[24;4H(B[0m[37m[40m[2P[25;5H (B[0;1m[31m[40m\:[36m[40m.[26;4H(B[0m[37m[40m (B[0;1m[33m[40m,[32m[40m\[31m[40m\\\[33m[40m,,[27;3H[32m[40m\[33m[40m;[34m[40m/(B[0m[37m[40m (B[0;1m[34m[40m\[33m[40m:::::[37m[40mo[28d[32m[40m//(B[0m[32m[40m>=(B[0;1m[34m[40m_(B[0m[35m[40m((B[0;1m[37m[40m'[32m[40m>[33m[40m:::::(B[0m[35m[40m<[29d(B[0;1m[32m[40m;`(B[0m[37m[40m (B[0;1m[33m[40m`[34m[40m\_////[33m[40m``[29;154H(B[0m[37m[40m   (B[0;1m[33m[40m__(B[0m[37m[40m[K[30;4H  [32m[40m/[30;156H(B[0;1m[33m[40m/[37m[40mo(B[0m[37m[40m (B[0;1m[33m[40m\[36m[40m/[30m[40m_ [31;156H[33m[40m\__/[36m[40m\[30m[40m ][33;9H(B[0m[37m[40m  [32m[40m__[34;7H[37m[40m  [35m[40m\[32m[40m/[37m[40m (B[0;1m[37m[40mo(B[0m[32m[40m\[35;7H[37m[40m [32m[40m([35m[40m/[32m[40m\__/[38;167H(B[m[39;49m[37m[40m[10;14r[14;1H
+[1;38r[1;5r[1;1HM[1;38r[1;142H[37m[40m|[6;135H[36m[40m~(B[0;1m[32m[40m.(B[0m[36m[40m~~~~[7;136H(B[0;1m[32m[40m [8d\[12;165H(B[0m[37m[40m [13;161H   [32m[40m/[37m[40m[K[14;160H[34m[40m,..[32m[40m/[34m[40m...[15;155H(B[0;1m[33m[40m/(B[0m[37m[40m   [34m[40m/[37m[40m [167G[34m[40m'[16;1H[37m[40m[1P[17;5H  [31m[40m\:.[37m[40m[1P[18d[31m[40m;,[37m[40m   (B[0;1m[36m[40m,;(B[0m[31m[40m\\\(B[0;1m[36m[40m,,[18;154H[34m[40m\_/(B[0m[37m[40m   [34m[40m`'[35m[40m\[34m[40m'"'"'[19;1H[37m[40m [31m[40m\\\(B[0;1m[36m[40m;;:::::::[37m[40mo[19;155H[31m[40m\.:/(B[0m[37m[40m[K[20d [31m[40m///(B[0;1m[36m[40m;;[13G::(B[0m[35m[40m<[20;153H[31m[40m,,(B[0;1m[31m[40m///(B[0m[31m[40m;,[37m[40m   (B[0;1m[33m[40m,;/[31m[40m/(B[0m[33m[40m.[21;1H[31m[40m/;`[37m[40m (B[0;1m[36m[40m``(B[0m[31m[40m/////(B[0;1m[36m[40m``[21;151H[37m[40mo(B[0m[31m[40m:::::::;;(B[0;1m[33m[40m///[37m[40m'[33m[40m)(B[0m[37m[40m[K[22;150H[31m[40m>::::::::;;(B[0;1m[33m[40m\\\(B[0m[33m[40m``\[23;2H[31m[40m.,[23;152H''(B[0;1m[32m[40m\\\\\(B[0m[31m[40m''[37m[40m (B[0;1m[33m[40m';\[32m[40m\(B[0m[37m[40m[K[24;3H [31m[40m\[37m[40m   (B[0;1m[36m[40m.(B[0m[37m[40m[2P[25d  (B[0;1m[37m[40m'(B[0m[37m[40m (B[0;1m[34m[40m>(B[0m[37m[40m  (B[0;1m[31m[40m\:.[26d(B[0m[37m[40m (B[0;1m[32m[40m/(B[0m[37m[40m [31m[40m/[37m[40m  (B[0;1m[32m[40m\[33m[40m;[31m[40m\\\[33m[40m,,[27d[32m[40m/(B[0m[31m[40m''(B[0;1m[32m[40m\\[34m[40m/(B[0m[37m[40m (B[0;1m[34m[40m\[33m[40m::::::[37m[40mo[28d(B[0m[37m[40m  (B[0;1m[32m[40m/(B[0m[32m[40m>=(B[0;1m[34m[40m_(B[0m[35m[40m((B[0;1m[37m[40m'[32m[40m>[33m[40m::::::(B[0m[35m[40m<[29d[37m[40m (B[0;1m[32m[40m/;`(B[0m[37m[40m (B[0;1m[34m[40m\_/////[33m[40m``[29;154H(B[0m[37m[40m  (B[0;1m[33m[40m__(B[0m[37m[40m[K[30;6H [32m[40m/[30;155H(B[0;1m[33m[40m/[37m[40mo(B[0m[37m[40m (B[0;1m[33m[40m\[36m[40m/[30m[40m [31;155H[33m[40m\__/[36m[40m\[30m[40m[[32;164H[33m[40m/[30m[40m_[33d[34m[40m,[33;11H(B[0m[37m[40m  [32m[40m__[162G(B[0;1m[30m[40m [36m[40m/(B[0m[37m[40m (B[0;1m[36m[40m\(B[0m[37m[40m[K[34d (B[0;1m[34m[40m\[9G(B[0m[37m[40m  [35m[40m\[32m[40m/[37m[40m (B[0;1m[37m[40mo(B[0m[32m[40m\[34;150H )[162G(B[0;1m[34m[40m<[37m[40m'(B[0m[32m[40m)(B[0;1m[36m[40m_[31m[40m=<[35;1H[37m[40m'(B[0m[37m[40m [31m[40m>[37m[40m    [32m[40m([37m[40m  [35m[40m/[32m[40m\__/[35;86H )[35;131H )[35;150H([33m[40m_[163G(B[0;1m[36m[40m\_/(B[0m[37m[40m[K[36d (B[0;1m[34m[40m/[36;86H(B[0m[32m[40m([37m[40m [36;131H[32m[40m([37m[40m [36;150H[32m[40m )[164G(B[0;1m[36m[40m\[30m[40m|[37d[34m[40m'[37;86H(B[0m[32m[40m )[37;131H )[37;150H((B[0;1m[30m[40m [38;86H(B[0m[32m[40m([37m[40m [38;131H[32m[40m([37m[40m [38;150H[32m[40m )[167G(B[m[39;49m[37m[40m[1;5r[1;1HM[1;38r[1;142H[37m[40m|[6;136H[36m[40m~[7d(B[0;1m[32m[40m.[8d [10d `--' [166G[36m[40m.[11d(B[0m[37m[40m [12d (B[0;1m[36m[40m.[13;162H(B[0m[37m[40m[1K [32m[40m/[37m[40m[K[14d[1P[15;153H(B[0;1m[33m[40m/(B[0m[37m[40m    [34m[40m/[37m[40m [166G[34m[40m'\[16;152H(B[0;1m[34m[40m/(B[0m[37m[40m (B[0;1m[34m[40m\(B[0m[37m[40m [1P[17;7H  [31m[40m\:.[17;151H(B[0;1m[31m[40m<[37m[40m'(B[0m[36m[40m)(B[0;1m[34m[40m_[32m[40m=<(B[0m[37m[40m [34m[40m\[37m[40m [35m[40m\[37m[40m      [34m[40m/[18;1H[37m[40m [31m[40m\;,[37m[40m   (B[0;1m[36m[40m,;(B[0m[31m[40m\\\(B[0;1m[36m[40m,,[18;152H[34m[40m\_/(B[0m[37m[40m [1P[19d   [31m[40m\\\(B[0;1m[36m[40m;;:::::::[37m[40mo(B[0m[37m[40m[2P[20d   [31m[40m///(B[0;1m[36m[40m;;[15G::(B[0m[35m[40m<[20;151H[31m[40m,,(B[0;1m[31m[40m///(B[0m[31m[40m;,[37m[40m   (B[0;1m[33m[40m,;/(B[0m[37m[40m [33m[40m,[21d[37m[40m  [31m[40m/;`[37m[40m (B[0;1m[36m[40m``(B[0m[31m[40m/////(B[0;1m[36m[40m``[21;149H[37m[40mo(B[0m[31m[40m:::::::;;(B[0;1m[33m[40m///(B[0m[37m[40m (B[0;1m[33m[40m<[22;148H(B[0m[31m[40m>::[157G;;(B[0;1m[33m[40m\\\[32m[40m<(B[0m[37m[40m [23d[33m[40m\[31m[40m..,[37m[40m   (B[0;1m[36m[40m.(B[0m[37m[40m[2P[24;4H [31m[40m\[37m[40m [2P[25d(B[0;1m[36m[40m((B[0m[37m[40m  (B[0;1m[37m[40m'(B[0m[37m[40m (B[0;1m[34m[40m>(B[0m[37m[40m   (B[0;1m[31m[40m\:.[26;2H(B[0m[37m[40m (B[0;1m[32m[40m/(B[0m[37m[40m [31m[40m/[37m[40m  (B[0;1m[32m[40m\[33m[40m,;[31m[40m\\\[33m[40m,,[27d(B[0m[31m[40m'(B[0;1m[32m[40m/(B[0m[31m[40m''(B[0;1m[32m[40m\\[34m[40m/(B[0m[37m[40m (B[0;1m[34m[40m\[33m[40m:::::::[37m[40mo[28;3H(B[0m[37m[40m  [32m[40m>=(B[0;1m[34m[40m_(B[0m[35m[40m((B[0;1m[37m[40m'[32m[40m>[33m[40m:::::::(B[0m[35m[40m<[29;2H[37m[40m  (B[0;1m[32m[40m/;`[34m[40m\_//////[33m[40m``[29;154H__(B[0m[37m[40m[K[30;7H [32m[40m/[30;153H(B[0;1m[33m[40m/[37m[40mo(B[0m[37m[40m (B[0;1m[33m[40m\[36m[40m/[30m[40m  [31;153H[33m[40m\__/[36m[40m\[30m[40m]_[33;13H(B[0m[37m[40m   [32m[40m__[33;73H )[82G )[34;11H[37m[40m   [35m[40m\[32m[40m/[37m[40m (B[0;1m[37m[40mo(B[0m[32m[40m\[34;73H([37m[40m      [32m[40m )([37m[40m [35;8H[32m[40m )[37m[40m   [32m[40m [35m[40m/[32m[40m\__/[35;46H )[35;73H )[37m[40m     [32m[40m([37m[40m [32m[40m )[36;8H([37m[40m    [32m[40m([37m[40m [36;46H[32m[40m([37m[40m [36;73H[32m[40m([37m[40m      [32m[40m )([37m[40m [32m[40m )[36;134H )[37;8H )[37m[40m   [32m[40m )[37;46H )[37;73H )[37m[40m     [32m[40m([37m[40m [32m[40m )([37m[40m [37;134H[32m[40m([37m[40m [38;8H[32m[40m([37m[40m    [32m[40m([37m[40m [38;46H[32m[40m([37m[40m [38;73H[32m[40m([37m[40m      [32m[40m )([37m[40m [32m[40m )[38;134H )[167G(B[m[39;49m[37m[40m[10;13r[10;1HM[1;38r[5;142H[37m[40m|[6d[36m[40m~(B[0;1m[32m[40mo[7;136H(B[0m[36m[40m^[8d(B[0;1m[32m[40m.[10d\\__//[11;2H[36m[40m.[11;142H(B[0m[37m[40m[K[13;161H[1K [32m[40m/[14d[37m[40m[1P[15;151H(B[0;1m[33m[40m/(B[0m[37m[40m [1P[16;150H(B[0;1m[34m[40m/(B[0m[37m[40m (B[0;1m[34m[40m\(B[0m[37m[40m   [36m[40m<[37m[40m (B[0;1m[37m[40m'(B[0m[37m[40m  [36m[40m)[37m[40m     (B[0;1m[31m[40m=[17;9H(B[0m[37m[40m  [31m[40m\:.[17;149H(B[0;1m[31m[40m<[37m[40m'(B[0m[36m[40m)(B[0;1m[34m[40m_[32m[40m=<(B[0m[37m[40m [1P[18d   [31m[40m\;,[37m[40m   (B[0;1m[36m[40m,;(B[0m[31m[40m\\\(B[0;1m[36m[40m,,[18;150H[34m[40m\_/(B[0m[37m[40m [1P[19;4H  [31m[40m\\\(B[0;1m[36m[40m;;:::::::[37m[40mo(B[0m[37m[40m[2P[20;4H  [31m[40m///(B[0;1m[36m[40m;;[17G::(B[0m[35m[40m<[20;149H[31m[40m,,(B[0;1m[31m[40m///(B[0m[31m[40m;,[37m[40m   (B[0;1m[33m[40m,;/(B[0m[37m[40m  [33m[40m,(B[0;1m[31m[40m/(B[0m[33m[40m.[21;3H[37m[40m  [31m[40m/;`[37m[40m (B[0;1m[36m[40m``(B[0m[31m[40m/////(B[0;1m[36m[40m``[21;147H[37m[40mo(B[0m[31m[40m:::::::;;(B[0;1m[33m[40m///(B[0m[37m[40m (B[0;1m[32m[40m/[33m[40m<[37m[40m'[33m[40m)(B[0m[37m[40m[K[22;8H(B[0;1m[36m[40m.[22;146H(B[0m[31m[40m>::[155G;;(B[0;1m[33m[40m\\\[32m[40m<(B[0m[37m[40m  [33m[40m``\`[23;7H[37m[40m[2P[24d[2P[25;7H     (B[0;1m[31m[40m\:.[26;6H[32m[40m;,(B[0m[37m[40m (B[0;1m[32m[40m\(B[0m[37m[40m (B[0;1m[33m[40m,;[31m[40m\\\[33m[40m,,[27;5H(B[0m[37m[40m  (B[0;1m[32m[40m\[34m[40m/(B[0m[37m[40m (B[0;1m[34m[40m\[33m[40m;:::::::[37m[40mo[28;5H(B[0m[37m[40m [32m[40m>=(B[0;1m[34m[40m_(B[0m[35m[40m((B[0;1m[37m[40m'[32m[40m>[18G[33m[40m::(B[0m[35m[40m<[29;4H[37m[40m  (B[0;1m[32m[40m/;[34m[40m\_/[33m[40m`[34m[40m/////[33m[40m``[29;153H__(B[0m[37m[40m[K[30;8H [32m[40m/[30;152H(B[0;1m[33m[40m/[37m[40mo(B[0m[37m[40m (B[0;1m[33m[40m\[36m[40m/[30m[40m_[31;152H[33m[40m\__/[36m[40m\[30m[40m [33;16H(B[0m[37m[40m  [32m[40m__[34;14H[37m[40m  [35m[40m\[32m[40m/[37m[40m (B[0;1m[37m[40mo(B[0m[32m[40m\[35;14H)[37m[40m [35m[40m/[32m[40m\__/[38;167H(B[m[39;49m[37m[40m[10;13r[10;1HM[1;38r[6;142H[37m[40m|[8;136H[36m[40m^[10;2H(B[0;1m[36m[40m.[10;135H[32m[40m/ \   ||[12;135H(B[0m[37m[40m[1K[13;161H[32m[40m/[14;157H[34m[40m,..[32m[40m/[34m[40m...(B[0;1m[36m[40m.[15;149H[33m[40m/(B[0m[37m[40m [1P[16;148H(B[0;1m[34m[40m/(B[0m[37m[40m (B[0;1m[34m[40m\(B[0m[37m[40m    [36m[40m<[37m[40m (B[0;1m[37m[40m'(B[0m[37m[40m  [36m[40m)[37m[40m     (B[0;1m[31m[40m=<[17;11H(B[0m[37m[40m  [31m[40m\:.[17;147H(B[0;1m[31m[40m<[37m[40m'(B[0m[36m[40m)(B[0;1m[34m[40m_[32m[40m=<(B[0m[37m[40m [1P[18;4H  [31m[40m\;,[37m[40m   (B[0;1m[36m[40m,;(B[0m[31m[40m\\\(B[0;1m[36m[40m,,[18;148H[34m[40m\_/(B[0m[37m[40m [1P[19;6H  [31m[40m\\\(B[0;1m[36m[40m;;:::::::[37m[40mo(B[0m[37m[40m[2P[20;6H  [31m[40m///(B[0;1m[36m[40m;;[19G::(B[0m[35m[40m<[20;147H[31m[40m,,(B[0;1m[31m[40m///(B[0m[31m[40m;,[37m[40m   (B[0;1m[33m[40m,;/(B[0m[37m[40m  [21;5H  [31m[40m/(B[0;1m[36m[40m.(B[0m[31m[40m`[37m[40m (B[0;1m[36m[40m``(B[0m[31m[40m/////(B[0;1m[36m[40m``[21;145H[37m[40mo(B[0m[31m[40m:::::::;;(B[0;1m[33m[40m///(B[0m[37m[40m (B[0;1m[32m[40m/(B[0m[37m[40m  [22d[33m[40m\[8G[37m[40m [22;144H[31m[40m>::[153G;;(B[0;1m[33m[40m\\\[32m[40m<(B[0m[37m[40m  [23d[31m[40m.[33m[40m\[31m[40m..,[37m[40m[2P[24d [31m[40m\[37m[40m[2P[25d (B[0;1m[36m[40m((B[0m[37m[40m  (B[0;1m[37m[40m'(B[0m[37m[40m (B[0;1m[34m[40m>(B[0m[37m[40m      (B[0;1m[31m[40m\:.[26;3H(B[0m[37m[40m (B[0;1m[32m[40m/(B[0m[37m[40m [31m[40m/(B[0;1m[32m[40m\;,\(B[0m[37m[40m  (B[0;1m[33m[40m,;[31m[40m\\\[33m[40m,,[27d(B[0m[31m[40m"'(B[0;1m[32m[40m/(B[0m[31m[40m''[37m[40m   (B[0;1m[34m[40m/(B[0m[37m[40m (B[0;1m[34m[40m\[33m[40m;;:::::::[37m[40mo[28;6H(B[0m[37m[40m [32m[40m>=(B[0;1m[34m[40m_(B[0m[35m[40m((B[0;1m[37m[40m'[32m[40m>[33m[40m;[20G::(B[0m[35m[40m<[29;6H[37m[40m  (B[0;1m[32m[40m/[34m[40m\_/[33m[40m``[34m[40m/////[33m[40m``[29;151H__(B[0m[33m[40m\[37m[40m[K[30;9H [32m[40m/[30;150H(B[0;1m[33m[40m/[37m[40mo(B[0m[37m[40m (B[0;1m[33m[40m\[36m[40m/[30m[40m  [31;150H[33m[40m\__/[36m[40m\(B[0m[33m[40m\(B[0;1m[30m[40m[[32;163H[33m[40m/[30m[40m_[33d[34m[40m.,[33;18H(B[0m[37m[40m  [32m[40m__[162G(B[0;1m[36m[40m/(B[0m[37m[40m (B[0;1m[36m[40m\[30m[40m|[34;2H(B[0m[37m[40m (B[0;1m[34m[40m\[34;16H(B[0m[37m[40m  [35m[40m\[32m[40m/[37m[40m (B[0;1m[37m[40mo(B[0m[32m[40m\[161G[37m[40m[1P[35d (B[0;1m[37m[40m'(B[0m[37m[40m [31m[40m>[35;16H[37m[40m  [35m[40m/[32m[40m\__/[162G(B[0;1m[36m[40m\_/[30m[40m|[36d[32m[40m/(B[0m[37m[40m (B[0;1m[34m[40m/[163G[36m[40m\[30m[40m [37;2H[34m[40m'[38;167H(B[m[39;49m[37m[40m[39;49m[K[38;1H[?12l[?25h[?1049l[23;0;0t[?1l>]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m man asciiquarium
+[?2004lNo manual entry for asciiquarium
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m man asciiquarium[K[?2004l
+exit
+
+|> un-mounting some system directories from merged overlay file system
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m # [K# Finam [K[Kl [Kly wored
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m ## Finally woredked
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m ## Finally worked[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K# So the problem is /tmp/aa1 will only work if TOP_LOWER_DIR must have the previous top most lower dir in it
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m 
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m #### What about order
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m #### What about order So the problem is /tmp/aa1 will only work if TOP_LOWER_DIR must have the previous top most lower dir in it[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C Finally worked[K[1PedTOP_LOWER_DIR=/tmp/cm1 ./ovroot_uw/chroot /tmp/aa1sl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9@cm1:/tmp/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C## Finally wored[KTOP_LOWER_DIR=/tmp/cm1 ./ovroot_uw/chroot /tmp/aa1sl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9@cm1:/tmp/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1@s[1@l[C[C[C[C[C[C[C[C[C[C[1P[1P[1@c[1@m
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : /tmp/sl1:/tmp/cm1
+I> Upper dir : /tmp/aa1
+I> Work  dir : /tmp/aa1.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/tmp/sl1:/tmp/cm1:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/aa1,workdir=/tmp/aa1.work /mnt/Extended/LinuxExtRoot/ovroot
+mount: /mnt/Extended/LinuxExtRoot/ovroot: mount(2) system call failed: Stale file handle.
+       dmesg(1) may have more information after failed mount system call.
+|> 
+|> mounting some system directories on merged overlay file system
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/proc: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/sys: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev/pts: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev/shm: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/run: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+chroot: invalid user
+
+|> un-mounting some system directories from merged overlay file system
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev/shm: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev/pts: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/proc: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/sys: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/run: no mount point specified.
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+umount: /mnt/Extended/LinuxExtRoot/ovroot: not mounted.
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m sudo rm -rf aa.[K[K[K/tmp/aa1.work/
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m sudo rm -rf /tmp/aa1.work/TOP_LOWER_DIR=/tmp/sl1:/tmp/cm1 ./ovroot_uw/chroot /tmp/aa1
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : /tmp/sl1:/tmp/cm1
+I> Upper dir : /tmp/aa1
+|> Making new work dir ...
+I> Work  dir : /tmp/aa1.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/tmp/sl1:/tmp/cm1:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/aa1,workdir=/tmp/aa1.work /mnt/Extended/LinuxExtRoot/ovroot
+mount: /mnt/Extended/LinuxExtRoot/ovroot: mount(2) system call failed: Stale file handle.
+       dmesg(1) may have more information after failed mount system call.
+|> 
+|> mounting some system directories on merged overlay file system
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/proc: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/sys: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev/pts: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev/shm: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/run: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+chroot: invalid user
+
+|> un-mounting some system directories from merged overlay file system
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev/shm: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev/pts: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/proc: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/sys: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/run: no mount point specified.
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+umount: /mnt/Extended/LinuxExtRoot/ovroot: not mounted.
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m TOP_LOWER_DIR=/tmp/sl1:/tmp/cm1 ./ovroot_uw/chroot /tmp/aa1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[33Psudo rm -rf /tmp/aa1.work/TOP_LOWER_DIR=/tmp/sl1:/tmp/cm1 ./ovroot_uw/chroot /tmp/aa1[1P[1P[1P[1P[1P[1P[1P[1P[1P
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : /tmp/cm1
+I> Upper dir : /tmp/aa1
+I> Work  dir : /tmp/aa1.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/tmp/cm1:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/aa1,workdir=/tmp/aa1.work /mnt/Extended/LinuxExtRoot/ovroot
+|> overlay on /mnt/Extended/LinuxExtRoot/ovroot type overlay (rw,relatime,lowerdir=/tmp/cm1:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/aa1,workdir=/tmp/aa1.work)
+|> mounting some system directories on merged overlay file system
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m [?2004l
+exit
+
+|> un-mounting some system directories from merged overlay file system
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m TOP_LOWER_DIR=/tmp/cm1 ./ovroot_uw/chroot /tmp/aa1[9@sl1:/tmp/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[33Psudo rm -rf /tmp/aa1.work/TOP_LOWER_DIR=/tmp/sl1:/tmp/cm1 ./ovroot_uw/chroot /tmp/aa1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[38P#### What about order So the problem is /tmp/aa1 will only work if TOP_LOWER_DIR must have the previous top most lower dir in it[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C Finally worked[K[1PedTOP_LOWER_DIR=/tmp/cm1 ./ovroot_uw/chroot /tmp/aa1sl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9@cm1:/tmp/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : /tmp/cm1:/tmp/sl1
+I> Upper dir : /tmp/aa1
+I> Work  dir : /tmp/aa1.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/tmp/cm1:/tmp/sl1:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/aa1,workdir=/tmp/aa1.work /mnt/Extended/LinuxExtRoot/ovroot
+|> overlay on /mnt/Extended/LinuxExtRoot/ovroot type overlay (rw,relatime,lowerdir=/tmp/cm1:/tmp/sl1:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/aa1,workdir=/tmp/aa1.work)
+|> mounting some system directories on merged overlay file system
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m [?2004l
+exit
+
+|> un-mounting some system directories from merged overlay file system
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m 
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m ### Fu[Kinal Result [K. to [K[K[Kfor some pre[K[K[Kupperdirs to work [K, it must have the topmost [K lowerdir in the topmost lowerdir position[C[1@ [1@([1@)[1@w[1@h[1@i[1@c[1@h[1@ [1@i[1@s[1@ [1@u[1@s[1@e[1@d[1@ [1@a[1@t[1@ [1@t[1@h[1@e[1@ [1@ti) in the topmost lowerdir position [A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm) in the topmost lowerdir position[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce) in the topmost lowerdir position[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ) in the topmost lowerdir position[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co) in the topmost lowerdir position[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cf) in the topmost lowerdir position[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ) in the topmost lowerdir position[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct) in the topmost lowerdir position[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch) in the topmost lowerdir position[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci) in the topmost lowerdir position[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs) in the topmost lowerdir position[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ) in the topmost lowerdir position[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu) in the topmost lowerd[1@i[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp) in the topmost lower[1@d[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp) in the topmost lowe[1@r[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce) in the topmost low[1@e[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr) in the topmost lo[1@w[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd) in the topmost l[1@o[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci) in the topmost [1@l[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr) in the topmost[1@ [A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ) in the topmos[1@t[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc) in the topmo[1@s[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr) in the topm[1@o[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce) in the top[1@m[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca) in the to[1@p[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct) in the t[1@o[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci) in the [1@t[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co) in the[1@ [A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn) in th[1@e[A[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m #### Example [K: /tmp/aa1 will only whork [K[K[K[K[Kork if /tmp/cm1 is at h[K[K[K[Kat topmost lowerdir ()b)e)c)a)u)s)e) )i)s) )t)h)e) )t)o)p)m)o)s)t) )l)o)w)e)r)d)i)r) )[1P)[C at the time o [Kf the [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K at ti[Khe time of creation of /tmp/ aa1
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [?2004l
+exit
+
+Script done on 2022-09-01 01:09:43+05:30 [COMMAND_EXIT_CODE="0"]

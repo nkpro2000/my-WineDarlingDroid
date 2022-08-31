@@ -1,0 +1,351 @@
+Script started on 2022-09-01 01:55:50+05:30 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="167" LINES="38"]
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m ./ovroot_uw/chroot /tmp/a2
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : 
+[sudo] password for nkpro: 
+|> Making new upper dir ...
+I> Upper dir : /tmp/a2
+|> Making new work dir ...
+I> Work  dir : /tmp/a2.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/a2,workdir=/tmp/a2.work /mnt/Extended/LinuxExtRoot/ovroot
+|> overlay on /mnt/Extended/LinuxExtRoot/ovroot type overlay (rw,relatime,lowerdir=/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/a2,workdir=/tmp/a2.work)
+|> mounting some system directories on merged overlay file system
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m cd
+[?2004l]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m file a2
+[?2004la2: cannot open `a2' (No such file or directory)
+]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m touch a2
+[?2004l]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m touch a2[1Pfile[C[C[C
+[?2004la2: empty
+]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m [?2004l
+exit
+
+|> un-mounting some system directories from merged overlay file system
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m ./ovroot_uw/chroot /tmp/a2[K[Kb2
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : 
+|> Making new upper dir ...
+I> Upper dir : /tmp/b2
+|> Making new work dir ...
+I> Work  dir : /tmp/b2.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/b2,workdir=/tmp/b2.work /mnt/Extended/LinuxExtRoot/ovroot
+|> overlay on /mnt/Extended/LinuxExtRoot/ovroot type overlay (rw,relatime,lowerdir=/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/b2,workdir=/tmp/b2.work)
+|> mounting some system directories on merged overlay file system
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m cd
+[?2004l]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m fie[Kle b2
+[?2004lb2: cannot open `b2' (No such file or directory)
+]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m touch b2
+[?2004l]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m [?2004l
+exit
+
+|> un-mounting some system directories from merged overlay file system
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m ./ovroot_uw/chroot /tmp/b2[Ksudom[K mkdir /tmp/tld
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m TOP_LOWER_DIR=/tmp/tld:/tmp/a2/[K:/tmp/b2 ./ovroot_uw/chroot /tmp/ab2
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : /tmp/tld:/tmp/a2:/tmp/b2
+|> Making new upper dir ...
+I> Upper dir : /tmp/ab2
+|> Making new work dir ...
+I> Work  dir : /tmp/ab2.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/tmp/tld:/tmp/a2:/tmp/b2:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/ab2,workdir=/tmp/ab2.work /mnt/Extended/LinuxExtRoot/ovroot
+|> overlay on /mnt/Extended/LinuxExtRoot/ovroot type overlay (rw,relatime,lowerdir=/tmp/tld:/tmp/a2:/tmp/b2:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/ab2,workdir=/tmp/ab2.work)
+|> mounting some system directories on merged overlay file system
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m cd
+[?2004l]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m file ab2
+[?2004lab2: cannot open `ab2' (No such file or directory)
+]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m touch ab2
+[?2004l]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m [?2004l
+exit
+
+|> un-mounting some system directories from merged overlay file system
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m TOP_LOWER_DIR=/tmp/tld:/tmp/a2:/tmp/b2 ./ovroot_uw/chroot /tmp/ab2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo mkdir /tmp/tld[KTOP_LOWER_DIR=/tmp/tld:/tmp/a2:/tmp/b2 ./ovroot_uw/chroot /tmp/ab2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[KTOP_LOWER_DIR=/tmp/tld:/tmp/a2:/tmp/b2 ./ovroot_uw/chroot /tmp/ab2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo mkdir /tmp/tld[KTOP_LOWER_DIR=/tmp/tld:/tmp/a2:/tmp/b2 ./ovroot_uw/chroot /tmp/ab2
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : /tmp/tld:/tmp/a2:/tmp/b2
+I> Upper dir : /tmp/ab2
+I> Work  dir : /tmp/ab2.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/tmp/tld:/tmp/a2:/tmp/b2:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/ab2,workdir=/tmp/ab2.work /mnt/Extended/LinuxExtRoot/ovroot
+|> overlay on /mnt/Extended/LinuxExtRoot/ovroot type overlay (rw,relatime,lowerdir=/tmp/tld:/tmp/a2:/tmp/b2:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/ab2,workdir=/tmp/ab2.work)
+|> mounting some system directories on merged overlay file system
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m cd
+[?2004l]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m file ab2
+[?2004lab2: empty
+]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m file ab2[1P2
+[?2004la2: empty
+]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m file a2[1P2b2
+[?2004lb2: empty
+]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m file b2[K[K[K[K[K[K[K[?2004l
+exit
+
+|> un-mounting some system directories from merged overlay file system
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m 
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m 
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m TOP_LOWER_DIR=/tmp/tld:/tmp/a2:/tmp/b2 ./ovroot_uw/chroot /tmp/ab2[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : 
+I> Upper dir : /tmp/ab2
+I> Work  dir : /tmp/ab2.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/ab2,workdir=/tmp/ab2.work /mnt/Extended/LinuxExtRoot/ovroot
+mount: /mnt/Extended/LinuxExtRoot/ovroot: mount(2) system call failed: Stale file handle.
+       dmesg(1) may have more information after failed mount system call.
+|> 
+|> mounting some system directories on merged overlay file system
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/proc: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/sys: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev/pts: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev/shm: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/run: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+chroot: invalid user
+
+|> un-mounting some system directories from merged overlay file system
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev/shm: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev/pts: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/proc: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/sys: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/run: no mount point specified.
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+umount: /mnt/Extended/LinuxExtRoot/ovroot: not mounted.
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m sudo rm [K[K[K[K[K[K[K[K./ovroot_uw/chroot /tmp/ab2[39@TOP_LOWER_DIR=/tmp/tld:/tmp/a2:/tmp/b2 [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : /tmp/tld
+I> Upper dir : /tmp/ab2
+I> Work  dir : /tmp/ab2.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/tmp/tld:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/ab2,workdir=/tmp/ab2.work /mnt/Extended/LinuxExtRoot/ovroot
+|> overlay on /mnt/Extended/LinuxExtRoot/ovroot type overlay (rw,relatime,lowerdir=/tmp/tld:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/ab2,workdir=/tmp/ab2.work)
+|> mounting some system directories on merged overlay file system
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m cd
+[?2004l]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m file a2
+[?2004la2: cannot open `a2' (No such file or directory)
+]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m file a2[K[Kb2
+[?2004lb2: cannot open `b2' (No such file or directory)
+]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m file b2ab2
+[?2004lab2: empty
+]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m [?2004l
+exit
+
+|> un-mounting some system directories from merged overlay file system
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m TOP_LOWER_DIR=/tmp/tld ./ovroot_uw/chroot /tmp/ab2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m TOP_LOWER_DIR=/tmp/tld ./ovroot_uw/chroot /tmp/ab2_
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : /tmp/tld
+|> Making new upper dir ...
+I> Upper dir : /tmp/ab2_
+|> Making new work dir ...
+I> Work  dir : /tmp/ab2_.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/tmp/tld:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/ab2_,workdir=/tmp/ab2_.work /mnt/Extended/LinuxExtRoot/ovroot
+|> overlay on /mnt/Extended/LinuxExtRoot/ovroot type overlay (rw,relatime,lowerdir=/tmp/tld:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/ab2_,workdir=/tmp/ab2_.work)
+|> mounting some system directories on merged overlay file system
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m cd
+[?2004l]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m file ab2
+[?2004lab2: cannot open `ab2' (No such file or directory)
+]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m file ab2_
+[?2004lab2_: cannot open `ab2_' (No such file or directory)
+]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m touch ab2_
+[?2004l]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m [?2004l
+exit
+
+|> un-mounting some system directories from merged overlay file system
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m TOP_LOWER_DIR=/tmp/tld ./ovroot_uw/chroot /tmp/ab2_[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : 
+I> Upper dir : /tmp/ab2_
+I> Work  dir : /tmp/ab2_.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/ab2_,workdir=/tmp/ab2_.work /mnt/Extended/LinuxExtRoot/ovroot
+mount: /mnt/Extended/LinuxExtRoot/ovroot: mount(2) system call failed: Stale file handle.
+       dmesg(1) may have more information after failed mount system call.
+|> 
+|> mounting some system directories on merged overlay file system
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/proc: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/sys: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev/pts: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/dev/shm: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+mount: /mnt/Extended/LinuxExtRoot/ovroot/run: mount point does not exist.
+       dmesg(1) may have more information after failed mount system call.
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+chroot: invalid user
+
+|> un-mounting some system directories from merged overlay file system
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev/shm: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev/pts: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/dev: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/proc: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/sys: no mount point specified.
+umount: /mnt/Extended/LinuxExtRoot/ovroot/run: no mount point specified.
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+umount: /mnt/Extended/LinuxExtRoot/ovroot: not mounted.
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m ./ovroot_uw/chroot /tmp/ab2_[23@TOP_LOWER_DIR=/tmp/tld [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : /tmp/tld
+I> Upper dir : /tmp/ab2_
+I> Work  dir : /tmp/ab2_.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/tmp/tld:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/ab2_,workdir=/tmp/ab2_.work /mnt/Extended/LinuxExtRoot/ovroot
+|> overlay on /mnt/Extended/LinuxExtRoot/ovroot type overlay (rw,relatime,lowerdir=/tmp/tld:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/ab2_,workdir=/tmp/ab2_.work)
+|> mounting some system directories on merged overlay file system
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m [?2004l
+exit
+
+|> un-mounting some system directories from merged overlay file system
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m TOP_LOWER_DIR=/tmp/tld ./ovroot_uw/chroot /tmp/ab2_[K
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : /tmp/tld
+I> Upper dir : /tmp/ab2
+I> Work  dir : /tmp/ab2.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/tmp/tld:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/ab2,workdir=/tmp/ab2.work /mnt/Extended/LinuxExtRoot/ovroot
+|> overlay on /mnt/Extended/LinuxExtRoot/ovroot type overlay (rw,relatime,lowerdir=/tmp/tld:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/ab2,workdir=/tmp/ab2.work)
+|> mounting some system directories on merged overlay file system
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m [?2004l
+exit
+
+|> un-mounting some system directories from merged overlay file system
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m TOP_LOWER_DIR=/tmp/tld ./ovroot_uw/chroot /tmp/ab2[1@:[1@/[1@t[1@m[1@p[1@/[1@a[1@b[1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C_
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : /tmp/tld:/tmp/ab2
+I> Upper dir : /tmp/ab2_
+I> Work  dir : /tmp/ab2_.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/tmp/tld:/tmp/ab2:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/ab2_,workdir=/tmp/ab2_.work /mnt/Extended/LinuxExtRoot/ovroot
+|> overlay on /mnt/Extended/LinuxExtRoot/ovroot type overlay (rw,relatime,lowerdir=/tmp/tld:/tmp/ab2:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/ab2_,workdir=/tmp/ab2_.work)
+|> mounting some system directories on merged overlay file system
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m cd
+[?2004l]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m file ab2
+[?2004lab2: empty
+]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m file ab2_
+[?2004lab2_: empty
+]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m file ab2_[K[K[K2
+[?2004la2: cannot open `a2' (No such file or directory)
+]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m file a2[1P2b2
+[?2004lb2: cannot open `b2' (No such file or directory)
+]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m [?2004l
+exit
+
+|> un-mounting some system directories from merged overlay file system
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m TOP_LOWER_DIR=/tmp/tld:/tmp/ab2 ./ovroot_uw/chroot /tmp/ab2_[10P ./ovroot_uw/chroot /tmp/ab2
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : /tmp/tld
+I> Upper dir : /tmp/ab2
+I> Work  dir : /tmp/ab2.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/tmp/tld:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/ab2,workdir=/tmp/ab2.work /mnt/Extended/LinuxExtRoot/ovroot
+|> overlay on /mnt/Extended/LinuxExtRoot/ovroot type overlay (rw,relatime,lowerdir=/tmp/tld:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/ab2,workdir=/tmp/ab2.work)
+|> mounting some system directories on merged overlay file system
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m cd
+[?2004l]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m file a2 b2 ab2 ab2_
+[?2004la2:   cannot open `a2' (No such file or directory)
+b2:   cannot open `b2' (No such file or directory)
+ab2:  empty
+ab2_: cannot open `ab2_' (No such file or directory)
+]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m [?2004l
+exit
+
+|> un-mounting some system directories from merged overlay file system
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m TOP_LOWER_DIR=/tmp/tld ./ovroot_uw/chroot /tmp/ab2_
+[?2004lI> User:nkpro Home:/home/nkpro Shell:/bin/bash
+I> Lower dir     : /mnt/Extended/LinuxExtRoot:/
+I> Top Lower dir : /tmp/tld
+I> Upper dir : /tmp/ab2_
+I> Work  dir : /tmp/ab2_.work
+
+|> Overlay mounting ...
+|> mount -t overlay overlay -olowerdir=/tmp/tld:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/ab2_,workdir=/tmp/ab2_.work /mnt/Extended/LinuxExtRoot/ovroot
+|> overlay on /mnt/Extended/LinuxExtRoot/ovroot type overlay (rw,relatime,lowerdir=/tmp/tld:/mnt/Extended/LinuxExtRoot:/,upperdir=/tmp/ab2_,workdir=/tmp/ab2_.work)
+|> mounting some system directories on merged overlay file system
+
+|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running /bin/bash -i
+]0;root@len0Gv:/[?2004h[01;32m[nkpro@len0Gv[01;37m /[01;32m]$[00m cd
+[?2004l]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m file a2 b2 ab2 ab2_
+[?2004la2:   cannot open `a2' (No such file or directory)
+b2:   cannot open `b2' (No such file or directory)
+ab2:  cannot open `ab2' (No such file or directory)
+ab2_: empty
+]0;root@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m [?2004l
+exit
+
+|> un-mounting some system directories from merged overlay file system
+|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot
+]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m 
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m 
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m 
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m # Finel [K[K[Kal Solution a[Khave a t[KTopLowerDir and use it to all the new UpperDir s creation[1@([1@)[1@ [C[1@t[1@l[1@d
+[?2004l]0;nkpro@len0Gv:/mnt/Extended/LinuxExtRoot[?2004h[01;32m[nkpro@len0Gv[01;37m LinuxExtRoot[01;32m]$[00m [?2004l
+exit
+
+Script done on 2022-09-01 02:01:34+05:30 [COMMAND_EXIT_CODE="0"]

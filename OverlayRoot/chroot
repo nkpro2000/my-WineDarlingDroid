@@ -6,7 +6,7 @@ THIS_SHELL="$SHELL"
 echo "I> User:$THIS_USER Home:$THIS_HOME Shell:$THIS_SHELL"
 
 if [[ -z "$LOWER_DIR" ]]; then
-    LOWER_DIR='/:/mnt/Extended/LinuxExtRoot'
+    LOWER_DIR='/mnt/Extended/LinuxExtRoot:/'
 fi
 echo "I> Lower dir     : $LOWER_DIR"
 echo "I> Top Lower dir : $TOP_LOWER_DIR"
@@ -14,9 +14,9 @@ echo "I> Top Lower dir : $TOP_LOWER_DIR"
 if [[ -z "$1" ]]; then
     UPPER_DIR='/mnt/Extended/LinuxExtRoot/ovroot_uw/upper'
 else
-    UPPER_DIR=$(readlink -f "$1")
+    UPPER_DIR="$(readlink -f "$1")"
 fi
-MOUNT_CMD="mount -t overlay overlay -olowerdir=${LOWER_DIR}${TOP_LOWER_DIR:+:$TOP_LOWER_DIR},upperdir=${UPPER_DIR},workdir=${UPPER_DIR}.work /mnt/Extended/LinuxExtRoot/ovroot"
+MOUNT_CMD="mount -t overlay overlay -olowerdir=${TOP_LOWER_DIR:+${TOP_LOWER_DIR}:}${LOWER_DIR},upperdir=${UPPER_DIR},workdir=${UPPER_DIR}.work /mnt/Extended/LinuxExtRoot/ovroot"
 
 sudo -s -- <<EOC
 ( [[ -d "$UPPER_DIR" ]] && echo "I> Upper dir : $UPPER_DIR" ) || ( echo '|> Making new upper dir ...' && mkdir -p "$UPPER_DIR" && echo "I> Upper dir : $UPPER_DIR" )

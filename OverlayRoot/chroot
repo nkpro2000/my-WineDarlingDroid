@@ -1,0 +1,61 @@
+#!/bin/bash
+
+THIS_USER="$USER"
+THIS_HOME="$HOME"
+THIS_SHELL="$SHELL"
+echo "I> User:$THIS_USER Home:$THIS_HOME Shell:$THIS_SHELL"
+
+if [[ -z "$LOWER_DIR" ]]; then
+    LOWER_DIR='/:/mnt/Extended/LinuxExtRoot'
+fi
+echo "I> Lower dir     : $LOWER_DIR"
+echo "I> Top Lower dir : $TOP_LOWER_DIR"
+
+if [[ -z "$1" ]]; then
+    UPPER_DIR='/mnt/Extended/LinuxExtRoot/ovroot_uw/upper'
+else
+    UPPER_DIR=$(readlink -f "$1")
+fi
+MOUNT_CMD="mount -t overlay overlay -olowerdir=${LOWER_DIR}${TOP_LOWER_DIR:+:$TOP_LOWER_DIR},upperdir=${UPPER_DIR},workdir=${UPPER_DIR}.work /mnt/Extended/LinuxExtRoot/ovroot"
+
+sudo -s -- <<EOC
+( [[ -d "$UPPER_DIR" ]] && echo "I> Upper dir : $UPPER_DIR" ) || ( echo '|> Making new upper dir ...' && mkdir -p "$UPPER_DIR" && echo "I> Upper dir : $UPPER_DIR" )
+( [[ -d "${UPPER_DIR}.work" ]] && echo "I> Work  dir : ${UPPER_DIR}.work" ) || ( echo '|> Making new work dir ...' && mkdir -p "${UPPER_DIR}.work" && echo "I> Work  dir : ${UPPER_DIR}.work" )
+
+# https://github.com/ralphoutlook/notes/wiki/chroot-overlay
+echo
+echo '|> Overlay mounting ...'
+modprobe overlay
+echo "|> $MOUNT_CMD"
+eval "$MOUNT_CMD"
+echo -n '|> '
+( mount | grep /mnt/Extended/LinuxExtRoot/ovroot ) || echo
+
+echo '|> mounting some system directories on merged overlay file system'
+mount -o bind /dev /mnt/Extended/LinuxExtRoot/ovroot/dev
+mount -t proc proc /mnt/Extended/LinuxExtRoot/ovroot/proc
+mount -t sysfs sys /mnt/Extended/LinuxExtRoot/ovroot/sys
+mount -o bind /dev/pts /mnt/Extended/LinuxExtRoot/ovroot/dev/pts
+mount -o bind /dev/shm /mnt/Extended/LinuxExtRoot/ovroot/dev/shm
+mount -o bind /run /mnt/Extended/LinuxExtRoot/ovroot/run         # for resolve.conf
+
+EOC
+
+echo
+echo '|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running '"$THIS_SHELL"' -i'
+sudo HOME="$THIS_HOME" chroot --userspec=${THIS_USER}:${THIS_USER} /mnt/Extended/LinuxExtRoot/ovroot "$THIS_SHELL" -i
+
+sudo -s -- <<EOC
+echo
+echo '|> un-mounting some system directories from merged overlay file system'
+umount /mnt/Extended/LinuxExtRoot/ovroot/dev/shm
+umount /mnt/Extended/LinuxExtRoot/ovroot/dev/pts
+umount /mnt/Extended/LinuxExtRoot/ovroot/dev
+umount /mnt/Extended/LinuxExtRoot/ovroot/proc
+umount /mnt/Extended/LinuxExtRoot/ovroot/sys
+umount /mnt/Extended/LinuxExtRoot/ovroot/run
+
+echo '|> Un-mounting /mnt/Extended/LinuxExtRoot/ovroot'
+umount /mnt/Extended/LinuxExtRoot/ovroot
+
+EOC

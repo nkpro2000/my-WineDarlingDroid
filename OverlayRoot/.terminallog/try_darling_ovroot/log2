@@ -1,0 +1,35 @@
+Script started on 2022-09-01 17:51:37+05:30 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="167" LINES="38"]
+]0;nkpro@len0Gv:~[?2004h[01;32m[nkpro@len0Gv[01;37m ~[01;32m]$[00m cd /tmp
+[?2004l]0;nkpro@len0Gv:/tmp[?2004h[01;32m[nkpro@len0Gv[01;37m tmp[01;32m]$[00m ls c
+[?2004lhi
+]0;nkpro@len0Gv:/tmp[?2004h[01;32m[nkpro@len0Gv[01;37m tmp[01;32m]$[00m ls c[Kb
+[?2004lhi
+]0;nkpro@len0Gv:/tmp[?2004h[01;32m[nkpro@len0Gv[01;37m tmp[01;32m]$[00m ls b.work/
+[?2004l[0m[01;34mindex[0m  [01;34mwork[0m
+]0;nkpro@len0Gv:/tmp[?2004h[01;32m[nkpro@len0Gv[01;37m tmp[01;32m]$[00m ls b.work/[1@s[1@u[1@d[1@o[1@ [C[C[1P b.work/[1P b.work/t b.work/r b.work/e b.work/e b.work/
+[?2004l[sudo] password for nkpro: 
+[01;34mb.work/[0m
+├── [01;34mindex[0m
+└── [01;34mwork[0m
+
+2 directories, 0 files
+]0;nkpro@len0Gv:/tmp[?2004h[01;32m[nkpro@len0Gv[01;37m tmp[01;32m]$[00m sudo tree b.work/[K[K[K[K[K[K-bab b
+[?2004l[01;34mb[0m
+└── hi
+
+0 directories, 1 file
+]0;nkpro@len0Gv:/tmp[?2004h[01;32m[nkpro@len0Gv[01;37m tmp[01;32m]$[00m sudo tree -a b[Kc
+[?2004l[01;34mc[0m
+└── hi
+
+0 directories, 1 file
+]0;nkpro@len0Gv:/tmp[?2004h[01;32m[nkpro@len0Gv[01;37m tmp[01;32m]$[00m sudo tree -a c[C[Ka
+[?2004l[01;34ma[0m
+
+0 directories, 0 files
+]0;nkpro@len0Gv:/tmp[?2004h[01;32m[nkpro@len0Gv[01;37m tmp[01;32m]$[00m # So Ansfer [K[K[K[Ker for darling shell not working is 
+[?2004l]0;nkpro@len0Gv:/tmp[?2004h[01;32m[nkpro@len0Gv[01;37m tmp[01;32m]$[00m # It needs overlay but overlay not wori[Kking instide another overlay chroot
+[?2004l]0;nkpro@len0Gv:/tmp[?2004h[01;32m[nkpro@len0Gv[01;37m tmp[01;32m]$[00m [?2004l
+exit
+
+Script done on 2022-09-01 17:53:03+05:30 [COMMAND_EXIT_CODE="0"]

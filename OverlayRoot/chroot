@@ -5,6 +5,13 @@ THIS_HOME="$HOME"
 THIS_SHELL="$SHELL"
 echo "I> User:$THIS_USER Home:$THIS_HOME Shell:$THIS_SHELL"
 
+if [[ -n "$2" ]]; then
+    TOP_LOWER_DIR="$2"
+fi
+if [[ -n "$3" ]]; then
+    LOWER_DIR="$3"
+fi
+
 if [[ -z "$LOWER_DIR" ]]; then
     LOWER_DIR='/mnt/Extended/LinuxExtRoot:/'
 fi

@@ -45,16 +45,18 @@ mount -t sysfs sys /mnt/Extended/LinuxExtRoot/ovroot/sys
 mount -o bind /dev/pts /mnt/Extended/LinuxExtRoot/ovroot/dev/pts
 mount -o bind /dev/shm /mnt/Extended/LinuxExtRoot/ovroot/dev/shm
 mount -o bind /run /mnt/Extended/LinuxExtRoot/ovroot/run         # for resolve.conf
+mount -t tmpfs tmpfs /mnt/Extended/LinuxExtRoot/ovroot/tmp
 
 EOC
 
 echo
 echo '|> Changing root to /mnt/Extended/LinuxExtRoot/ovroot and Running '"$THIS_SHELL"' -i'
-sudo HOME="$THIS_HOME" chroot --userspec=${THIS_USER}:${THIS_USER} /mnt/Extended/LinuxExtRoot/ovroot "$THIS_SHELL" -i
+sudo USER="$THIS_USER" HOME="$THIS_HOME" chroot --userspec=${THIS_USER}:${THIS_USER} /mnt/Extended/LinuxExtRoot/ovroot "$THIS_SHELL" -i
 
 sudo -s -- <<EOC
 echo
 echo '|> un-mounting some system directories from merged overlay file system'
+umount /mnt/Extended/LinuxExtRoot/ovroot/tmp
 umount /mnt/Extended/LinuxExtRoot/ovroot/dev/shm
 umount /mnt/Extended/LinuxExtRoot/ovroot/dev/pts
 umount /mnt/Extended/LinuxExtRoot/ovroot/dev
